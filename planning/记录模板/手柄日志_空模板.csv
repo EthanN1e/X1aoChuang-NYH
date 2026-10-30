@@ -1,0 +1,1 @@
+﻿run_id,data_origin,firmware_version,clock_domain,t_ms,sample_seq,imu_valid,imu_error_code,sample_age_ms,roll_deg,yaw_deg,cmd_a_deg,cmd_b_deg,tx_result,ui_duration_us,fixture_id,reference_angle_deg,reference_uncertainty_deg,supply_v,note

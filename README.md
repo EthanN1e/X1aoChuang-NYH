@@ -61,7 +61,14 @@
 - [完整协作资料包](docs/project-materials.zip)：立项书、准备清单、DeepSeek 任务及记录模板。
 - [开源项目演示视频](https://www.bilibili.com/video/BV1of8y6vEQ5/)：原始开源项目的公开演示，仅作为背景参考。
 
-本仓库当前以项目介绍和协作资料为主。原开源程序与结构模型的许可、版本和再分发条件需要核对后再整理进仓库。
+完整资料现已整理为：
+
+- [原始云台项目](original-project/)：STM32 两端工程、3D 模型、Gerber 和原物料清单。
+- [完整原始资料归档](original-project/full-original.zip)：包含原始工程和构建产物，下载后解压使用。
+- [显示项目参考](reference-display/)：ESP32-C3 显示程序与电路图，公开版本已清除 Wi-Fi 信息。
+- [立项与协作文件](planning/)：立项书、准备清单、任务说明和测试记录模板。
+
+原始资料及其第三方组件的许可证仍需向原作者核实；保留原有版权声明。
 
 ## 欢迎加入
 
