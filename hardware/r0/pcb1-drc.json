@@ -1,0 +1,36 @@
+{
+  "id": "req_393",
+  "type": "response",
+  "version": "v1",
+  "windowId": "d40801f2-4811-4837-a047-31ec1aff72b5",
+  "createdAt": "2026-11-03T05:21:22.989932Z",
+  "ok": true,
+  "result": {
+    "passed": true,
+    "violations": []
+  },
+  "context": {
+    "projectUuid": "250ba2ac0c494418a73f6dcc8a00d519",
+    "projectName": "手控云台集成PCB-R0",
+    "documentUuid": "8db52a7f25120d5b",
+    "documentType": "pcb",
+    "tabId": "8db52a7f25120d5b@250ba2ac0c494418a73f6dcc8a00d519",
+    "pageVisibility": "visible"
+  },
+  "mutationContext": {
+    "projectUuid": "250ba2ac0c494418a73f6dcc8a00d519",
+    "projectName": "手控云台集成PCB-R0",
+    "documentUuid": "8db52a7f25120d5b",
+    "documentType": "pcb",
+    "tabId": "8db52a7f25120d5b@250ba2ac0c494418a73f6dcc8a00d519",
+    "pageVisibility": "visible"
+  },
+  "mutationContextAvailable": true,
+  "seq": 2160,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_1260",
+    "req_1264",
+    "req_1377"
+  ]
+}
