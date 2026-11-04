@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="410" viewBox="0 0 1040 410" role="img" aria-labelledby="title desc">
+<title id="title">手柄与云台系统结构</title><desc id="desc">手柄 MPU6050 向 STM32 提供姿态，经 nRF24L01 通信传到云台 STM32 并驱动两轴舵机。ST7735 显示为待移植设计。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#4d8492" stroke-width="1.5"/></marker></defs>
+<rect width="1040" height="410" rx="20" fill="#f2f6f8"/>
+<g font-family="system-ui, sans-serif" fill="#183444"><text x="40" y="46" font-size="24" font-weight="700">手控双轴云台</text><text x="40" y="74" font-size="15" fill="#5f7480">两端控制链路与显示接入规划</text>
+<rect x="30" y="102" width="460" height="220" rx="14" fill="#fff" stroke="#c9dbe0"/><rect x="550" y="102" width="460" height="220" rx="14" fill="#fff" stroke="#c9dbe0"/>
+<text x="52" y="133" font-size="17" font-weight="700">手柄端</text><text x="572" y="133" font-size="17" font-weight="700">云台端</text>
+<g fill="#e9f3f4" stroke="#4d8492"><rect x="52" y="162" width="150" height="66" rx="8"/><rect x="290" y="162" width="170" height="66" rx="8"/><rect x="578" y="162" width="170" height="66" rx="8"/><rect x="836" y="162" width="150" height="66" rx="8"/></g>
+<g text-anchor="middle" font-size="17"><text x="127" y="190">MPU6050</text><text x="127" y="213" font-size="13">姿态输入</text><text x="375" y="190">STM32F103</text><text x="375" y="213" font-size="13">采样与指令</text><text x="663" y="190">STM32F103</text><text x="663" y="213" font-size="13">接收与执行</text><text x="911" y="190">两轴舵机</text><text x="911" y="213" font-size="13">机械输出</text></g>
+<g stroke="#4d8492" stroke-width="2" fill="none" marker-end="url(#arrow)"><path d="M204 195H280"/><path d="M462 195H568"/><path d="M750 195H826"/></g>
+<text x="519" y="154" text-anchor="middle" font-size="13">nRF24L01</text>
+<rect x="289" y="253" width="172" height="46" rx="8" fill="#faf4e7" stroke="#ab8745" stroke-dasharray="5 4"/><path d="M375 228V251" stroke="#ab8745" stroke-dasharray="4 3"/>
+<text x="375" y="281" text-anchor="middle" font-size="14">ST7735 待移植</text>
+<text x="40" y="359" font-size="16">R0 PCB 已完成 DRC 检查</text><text x="40" y="386" font-size="14" fill="#5f7480">装配、显示移植与整机性能待实测。当前链路没有云台实际角度遥测。</text></g></svg>
