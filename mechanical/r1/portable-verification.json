@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "source_directory_unavailable_during_test": true,
+  "components": [
+    {
+      "name": "R1-Original-Shell01-1",
+      "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\work\\portable-review\\R1-Original-Shell01.SLDPRT",
+      "loaded": true
+    },
+    {
+      "name": "R1-Original-Shell02-1",
+      "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\work\\portable-review\\R1-Original-Shell02.SLDPRT",
+      "loaded": true
+    },
+    {
+      "name": "R1-Pod-Lid-1",
+      "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\work\\portable-review\\R1-Pod-Lid.SLDPRT",
+      "loaded": true
+    },
+    {
+      "name": "R1-Original-Shell03-1",
+      "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\work\\portable-review\\R1-Original-Shell03.SLDPRT",
+      "loaded": true
+    },
+    {
+      "name": "R1-Pod-Body-1",
+      "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\work\\portable-review\\R1-Pod-Body.SLDPRT",
+      "loaded": true
+    },
+    {
+      "name": "PCB-R0-Reference-1",
+      "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\work\\portable-review\\PCB-R0-Reference.SLDPRT",
+      "loaded": true
+    }
+  ]
+}

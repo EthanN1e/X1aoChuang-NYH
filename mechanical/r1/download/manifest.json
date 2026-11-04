@@ -1,0 +1,87 @@
+{
+  "archive": "R1-SolidWorks-Review.zip",
+  "bytes": 65985655,
+  "sha256": "c58c239c28a946f100e8349cc635053d5dfab38829727cca53135451c7712cb9",
+  "parts": [
+    {
+      "name": "R1-SolidWorks-Review.zip.001",
+      "bytes": 4194304,
+      "sha256": "e105c47435de8d3452b52756fa6cee76debeaaaeaaf871e42d8499661e55200a"
+    },
+    {
+      "name": "R1-SolidWorks-Review.zip.002",
+      "bytes": 4194304,
+      "sha256": "4dfce75e072ad898ab1d18d7a54483a1420067345a5134691d8587f899606462"
+    },
+    {
+      "name": "R1-SolidWorks-Review.zip.003",
+      "bytes": 4194304,
+      "sha256": "57884f3ed1ece265a05ca41112bd2399bd2123ba0de9888cd0efe489f895133b"
+    },
+    {
+      "name": "R1-SolidWorks-Review.zip.004",
+      "bytes": 4194304,
+      "sha256": "fdeb275aabccf00744b2a1dd9ec8ecd9e6016949c0c055ce87aa8321d9c126f3"
+    },
+    {
+      "name": "R1-SolidWorks-Review.zip.005",
+      "bytes": 4194304,
+      "sha256": "f6ebeedc97c0a3603ed0bf7dd23a84e05b9dc341a9fc30f10a7cd3d29ce61e4a"
+    },
+    {
+      "name": "R1-SolidWorks-Review.zip.006",
+      "bytes": 4194304,
+      "sha256": "55f4604ef4228ec6fd30fc09521458f37a3b242ea5a906327131d34b834725f4"
+    },
+    {
+      "name": "R1-SolidWorks-Review.zip.007",
+      "bytes": 4194304,
+      "sha256": "c1ecc6f48f9cfc90e9351656b71211f7bbe80a4a6f989feeadade4763e0f2bd3"
+    },
+    {
+      "name": "R1-SolidWorks-Review.zip.008",
+      "bytes": 4194304,
+      "sha256": "2f87c13e1ae8879df8cbb4f9e869748cefedf2e6c25c1d93bed0e9228f6a566d"
+    },
+    {
+      "name": "R1-SolidWorks-Review.zip.009",
+      "bytes": 4194304,
+      "sha256": "4695a4ae3ca5af71734389b6e1cf845627909373b6c2a718161f3e419c80aede"
+    },
+    {
+      "name": "R1-SolidWorks-Review.zip.010",
+      "bytes": 4194304,
+      "sha256": "dd8a864895ab6760eeaa41734f2eeb8d4719c397f0ecef55c4fef6fbd350e79c"
+    },
+    {
+      "name": "R1-SolidWorks-Review.zip.011",
+      "bytes": 4194304,
+      "sha256": "fdf7fd98c950f397980f73a65796870e616499e5755bc4e90ecbff55452056c9"
+    },
+    {
+      "name": "R1-SolidWorks-Review.zip.012",
+      "bytes": 4194304,
+      "sha256": "e0e063de27def71b5564eb67f63fb91674371f3e116c1b2766341e6d3e34e50e"
+    },
+    {
+      "name": "R1-SolidWorks-Review.zip.013",
+      "bytes": 4194304,
+      "sha256": "052e5b7a28d8455ea4929af3db13516e1600c6c0ca0c39d0944e5972de7756a2"
+    },
+    {
+      "name": "R1-SolidWorks-Review.zip.014",
+      "bytes": 4194304,
+      "sha256": "9831b089be1c2caad054db2c947a369d82e793eaac1da84044e16ad6037386ec"
+    },
+    {
+      "name": "R1-SolidWorks-Review.zip.015",
+      "bytes": 4194304,
+      "sha256": "c53657272f304ecb376d9091100ba29dc74a3617f99acef446e6949c1566e73e"
+    },
+    {
+      "name": "R1-SolidWorks-Review.zip.016",
+      "bytes": 3071095,
+      "sha256": "12f27688a09b2dd57a5cb3e2f27469aacbf9904c673c5e124be40c3d2b0bf7c5"
+    }
+  ]
+}

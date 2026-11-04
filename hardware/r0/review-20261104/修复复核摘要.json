@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-04",
+  "client": "4.1.93",
+  "cloud_project_uuid": "755b15ec67ec43adb72566b96ed01e5e",
+  "cloud_project_name": "手控云台集成PCB-R0-DRC修复-20261104",
+  "cloud_reopen_drc": [],
+  "placements_and_rotations_preserved": 74,
+  "pad_nets_preserved": 271,
+  "trace_primitives_preserved": 640,
+  "vias_preserved": 134,
+  "full_simulation_performed": false
+}

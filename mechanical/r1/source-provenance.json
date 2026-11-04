@@ -1,0 +1,72 @@
+[
+  {
+    "repo_path": "original-project/开源模型/Pitch轴1.STL",
+    "sha256": "59a4a827caf1045a6ba9df31c87fc301b9e125c85b7a629c7d524eb99a8ba771",
+    "handoff_match": false
+  },
+  {
+    "repo_path": "original-project/开源模型/Pitch轴2.STL",
+    "sha256": "fbd36c34871155a4902d0b61ae279c00b1235ca6d7d40ba73c91a560b9afab5a",
+    "handoff_match": false
+  },
+  {
+    "repo_path": "original-project/开源模型/Yaw底座1.STL",
+    "sha256": "e037f9eea5924df9e28ef9415db9f7126743d1b560241bfec090c7d6d69150a3",
+    "handoff_match": false
+  },
+  {
+    "repo_path": "original-project/开源模型/Yaw底座2.STL",
+    "sha256": "e62b0cc03357b85fca9ddaa0191ada94302972b3fc94de4884d562a461c3730b",
+    "handoff_match": false
+  },
+  {
+    "repo_path": "original-project/开源模型/体感云台发射器打印模型.3mf",
+    "sha256": "1484b86dff3dccfae24b0aeae00915a0782f622f2a9da6c220852d176d28ab8e",
+    "handoff_match": true
+  },
+  {
+    "repo_path": "original-project/开源模型/底座1.STL",
+    "sha256": "7091880f12ae6fbd610fc09571ed972f52733c3f79cc91534dc31b6f6380e9eb",
+    "handoff_match": false
+  },
+  {
+    "repo_path": "original-project/开源模型/底座2.STL",
+    "sha256": "b1ca0e79400dc5319aacc34efc6e8e1bd6c78de19a10854b173d409176a0b68c",
+    "handoff_match": false
+  },
+  {
+    "repo_path": "original-project/开源模型/底座3.STL",
+    "sha256": "ff8ac6eeb211558432ad01a270ffbab40b61c5997cbc0616bb314a1aa61c3570",
+    "handoff_match": false
+  },
+  {
+    "repo_path": "original-project/开源模型/底座4.STL",
+    "sha256": "9f0599303cc9ef9b1bca5741d549ec4950a383bc60ef2fe250d2565c1108b4c9",
+    "handoff_match": false
+  },
+  {
+    "repo_path": "original-project/开源模型/枪体壳1.STL",
+    "sha256": "0e5b9e5cee45debfb4952813b7fbebc46e77a0c617f0005b0dd1a7fc2e36cc91",
+    "handoff_match": true
+  },
+  {
+    "repo_path": "original-project/开源模型/枪体壳2.STL",
+    "sha256": "c65daccb3a8076bafa118ff4e7981e8faa57908939a3a43256aa124f3df406d2",
+    "handoff_match": true
+  },
+  {
+    "repo_path": "original-project/开源模型/枪体壳3.STL",
+    "sha256": "1a711f6065fb7fed38bc7f41eafbb47d7c381ed2ba1778cb27d8d165c6758ab6",
+    "handoff_match": true
+  },
+  {
+    "repo_path": "original-project/开源模型/水单仓1.STL",
+    "sha256": "8b2259e10aa082b91cfe8270e1e1ab9d0a0e7f8005bbf3f25db66a6c27d0ccef",
+    "handoff_match": false
+  },
+  {
+    "repo_path": "original-project/开源模型/水单仓2.STL",
+    "sha256": "ea2401d483f34c322e79887cf36e3bf2e5a256580dd35ac7019b8f82fe5efba6",
+    "handoff_match": false
+  }
+]
