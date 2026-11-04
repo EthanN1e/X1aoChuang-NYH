@@ -1,0 +1,106 @@
+{
+  "plan_version": 1,
+  "source_brief": "整合原壳网格、R0真实带器件PCB、参数化局部扩展电子舱与可拆盖，输出装配、STEP、试装STL和复核证据。当前为机械审阅候选。",
+  "part_family": "enclosure",
+  "parameters": {
+    "board_mm": [
+      56,
+      80,
+      1.69369
+    ],
+    "outer_mm": [
+      64.6,
+      88.6,
+      24
+    ],
+    "inner_mm": [
+      60.6,
+      84.6,
+      20
+    ],
+    "wall_mm": 2,
+    "bottom_mm": 2,
+    "lid_mm": 2,
+    "board_bottom_z_mm": 4,
+    "origin_world_mm": [
+      32.5,
+      28,
+      178.7
+    ]
+  },
+  "features": [
+    {
+      "name": "Base",
+      "type": "extrusion",
+      "params": {
+        "thickness_mm": 2
+      },
+      "required": true
+    },
+    {
+      "name": "Walls",
+      "type": "ring_extrusion",
+      "params": {
+        "height_mm": 20
+      },
+      "required": true
+    },
+    {
+      "name": "Lid",
+      "type": "extrusion",
+      "params": {
+        "thickness_mm": 2
+      },
+      "required": true
+    }
+  ],
+  "operation_sequence": [
+    "source-check",
+    "pcb-solid-reference",
+    "base",
+    "walls",
+    "lid",
+    "assembly",
+    "save-reopen",
+    "review",
+    "exports"
+  ],
+  "assumptions": [
+    "外壳和盖为试装审阅候选；未定打印材料及制造公差。",
+    "新舱位于原壳侧面；底面距原壳最大X边0.5mm。连接件待原壁厚和实物负载确认。",
+    "电池、屏幕、旋钮、无线模块及带线插头的外包尺寸未知，不能完成最终开孔与干涉放行。",
+    "临时审阅装配保留全部EDA候选器件，不等同手柄端63件装配配置。"
+  ],
+  "risk_register": [
+    {
+      "risk": "真实J4无线模块缺失3D模型",
+      "mitigation": "保留未验证项；不能用针座高度放行RF舱。"
+    },
+    {
+      "risk": "PCB夹持点及旧壳连接点未验证",
+      "mitigation": "本版不在PCB新增孔，不认定托架固定已完成。"
+    }
+  ],
+  "review_plan": {
+    "expected_outputs": [
+      "R1-Integration-OPEN.SLDASM",
+      "R1-Integration-CLOSED.SLDASM",
+      "R1-Pod-Body.SLDPRT",
+      "R1-Pod-Lid.SLDPRT",
+      "PCB-R0-Reference.SLDPRT"
+    ],
+    "views": [
+      "isometric",
+      "front",
+      "top",
+      "right"
+    ],
+    "checks": [
+      "fully-defined editable sketches",
+      "actual body bounds",
+      "component transform readback",
+      "saved native assembly references",
+      "native interference report with limitations"
+    ]
+  }
+}

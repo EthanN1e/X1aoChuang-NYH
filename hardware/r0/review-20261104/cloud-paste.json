@@ -1,0 +1,20 @@
+{
+  "unsupported": [],
+  "shape_count": 222,
+  "chips": {
+    "U1": {
+      "pads_without_paste_within_0_04mm": []
+    },
+    "U2": {
+      "pads_without_paste_within_0_04mm": [
+        "25"
+      ]
+    },
+    "U3": {
+      "pads_without_paste_within_0_04mm": []
+    },
+    "U4": {
+      "pads_without_paste_within_0_04mm": []
+    }
+  }
+}

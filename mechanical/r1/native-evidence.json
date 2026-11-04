@@ -1,0 +1,435 @@
+{
+  "sw_version": "33.5.0",
+  "pcb_reference_body_count": 245,
+  "parts": {
+    "R1-Pod-Body": {
+      "boxes_mm": [
+        [
+          -32.3,
+          -44.3,
+          -2.0,
+          32.3,
+          44.3,
+          20.0
+        ]
+      ],
+      "sketches": {
+        "status": "pass",
+        "sketches": [
+          {
+            "status": "pass",
+            "constrained_status": 3,
+            "dimension_count": 4,
+            "relation_count": 11,
+            "fix_count": 0,
+            "dimension_names": [
+              "D1@Sketch1",
+              "D2@Sketch1",
+              "D3@Sketch1",
+              "D4@Sketch1"
+            ],
+            "errors": [],
+            "name": "Sketch1",
+            "consumed_by": [
+              "Base_2mm"
+            ],
+            "dangling": false
+          },
+          {
+            "status": "pass",
+            "constrained_status": 3,
+            "dimension_count": 1,
+            "relation_count": 44,
+            "fix_count": 0,
+            "dimension_names": [
+              "D1@Sketch2"
+            ],
+            "errors": [],
+            "name": "Sketch2",
+            "consumed_by": [
+              "Walls_2mm_Height20"
+            ],
+            "dangling": false
+          }
+        ]
+      },
+      "reopened": {
+        "boxes_mm": [
+          [
+            -32.3,
+            -44.3,
+            -2.0,
+            32.3,
+            44.3,
+            20.0
+          ]
+        ],
+        "sketches": {
+          "status": "pass",
+          "sketches": [
+            {
+              "status": "pass",
+              "constrained_status": 3,
+              "dimension_count": 4,
+              "relation_count": 11,
+              "fix_count": 0,
+              "dimension_names": [
+                "D1@Sketch1",
+                "D2@Sketch1",
+                "D3@Sketch1",
+                "D4@Sketch1"
+              ],
+              "errors": [],
+              "name": "Sketch1",
+              "consumed_by": [
+                "Base_2mm"
+              ],
+              "dangling": false
+            },
+            {
+              "status": "pass",
+              "constrained_status": 3,
+              "dimension_count": 1,
+              "relation_count": 44,
+              "fix_count": 0,
+              "dimension_names": [
+                "D1@Sketch2"
+              ],
+              "errors": [],
+              "name": "Sketch2",
+              "consumed_by": [
+                "Walls_2mm_Height20"
+              ],
+              "dangling": false
+            }
+          ]
+        }
+      }
+    },
+    "R1-Pod-Lid": {
+      "boxes_mm": [
+        [
+          -32.3,
+          -44.3,
+          0.0,
+          32.3,
+          44.3,
+          2.0
+        ]
+      ],
+      "sketches": {
+        "status": "pass",
+        "sketches": [
+          {
+            "status": "pass",
+            "constrained_status": 3,
+            "dimension_count": 4,
+            "relation_count": 11,
+            "fix_count": 0,
+            "dimension_names": [
+              "D1@Sketch1",
+              "D2@Sketch1",
+              "D3@Sketch1",
+              "D4@Sketch1"
+            ],
+            "errors": [],
+            "name": "Sketch1",
+            "consumed_by": [
+              "Cover_2mm"
+            ],
+            "dangling": false
+          }
+        ]
+      },
+      "reopened": {
+        "boxes_mm": [
+          [
+            -32.3,
+            -44.3,
+            0.0,
+            32.3,
+            44.3,
+            2.0
+          ]
+        ],
+        "sketches": {
+          "status": "pass",
+          "sketches": [
+            {
+              "status": "pass",
+              "constrained_status": 3,
+              "dimension_count": 4,
+              "relation_count": 11,
+              "fix_count": 0,
+              "dimension_names": [
+                "D1@Sketch1",
+                "D2@Sketch1",
+                "D3@Sketch1",
+                "D4@Sketch1"
+              ],
+              "errors": [],
+              "name": "Sketch1",
+              "consumed_by": [
+                "Cover_2mm"
+              ],
+              "dangling": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "assemblies": {
+    "OPEN": {
+      "components": [
+        {
+          "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\outputs\\R1-机械整合审阅\\R1-Original-Shell01.SLDPRT",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\outputs\\R1-机械整合审阅\\R1-Original-Shell02.SLDPRT",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\outputs\\R1-机械整合审阅\\R1-Original-Shell03.SLDPRT",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\outputs\\R1-机械整合审阅\\R1-Pod-Body.SLDPRT",
+          "transform": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0325,
+            0.028,
+            0.1787,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\outputs\\R1-机械整合审阅\\PCB-R0-Reference.SLDPRT",
+          "transform": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.036500000000000005,
+            0.0,
+            0.21869999999999998,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fixed": true
+        }
+      ],
+      "interference": {
+        "status": "pass",
+        "interference_count": 0,
+        "items": [],
+        "severity": "none",
+        "manual_review_required": true,
+        "options": {
+          "treat_subassemblies_as_components": false,
+          "treat_coincidence_as_interference": false,
+          "ignore_hidden_bodies": false,
+          "show_ignored_interferences": true,
+          "include_multibody_part_interferences": false
+        },
+        "errors": [],
+        "max_volume_mm3": null
+      },
+      "review": {
+        "status": "pass",
+        "score": 100,
+        "issues": [],
+        "recommendations": [],
+        "manual_review_required": true,
+        "manual_review_reason": "规则评分只能发现明显失败，最终几何是否符合用户意图仍需查看预览图或截图。"
+      },
+      "reopened_components": [
+        {
+          "name": "R1-Original-Shell02-1",
+          "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\outputs\\R1-机械整合审阅\\R1-Original-Shell02.SLDPRT",
+          "loaded": true
+        },
+        {
+          "name": "R1-Original-Shell01-1",
+          "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\outputs\\R1-机械整合审阅\\R1-Original-Shell01.SLDPRT",
+          "loaded": true
+        },
+        {
+          "name": "PCB-R0-Reference-1",
+          "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\outputs\\R1-机械整合审阅\\PCB-R0-Reference.SLDPRT",
+          "loaded": true
+        },
+        {
+          "name": "R1-Original-Shell03-1",
+          "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\outputs\\R1-机械整合审阅\\R1-Original-Shell03.SLDPRT",
+          "loaded": true
+        },
+        {
+          "name": "R1-Pod-Body-1",
+          "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\outputs\\R1-机械整合审阅\\R1-Pod-Body.SLDPRT",
+          "loaded": true
+        }
+      ],
+      "step_export": {
+        "api_return": true,
+        "file_exists": false,
+        "bytes": 0
+      }
+    },
+    "CLOSED": {
+      "interference": {
+        "status": "pass",
+        "interference_count": 0,
+        "items": [],
+        "severity": "none",
+        "manual_review_required": true,
+        "options": {
+          "treat_subassemblies_as_components": false,
+          "treat_coincidence_as_interference": false,
+          "ignore_hidden_bodies": false,
+          "show_ignored_interferences": true,
+          "include_multibody_part_interferences": false
+        },
+        "errors": [],
+        "max_volume_mm3": null
+      },
+      "lid_transform": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0525,
+        0.028,
+        0.1787,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review": {
+        "status": "pass",
+        "score": 100,
+        "issues": [],
+        "recommendations": [],
+        "manual_review_required": true,
+        "manual_review_reason": "规则评分只能发现明显失败，最终几何是否符合用户意图仍需查看预览图或截图。"
+      },
+      "step_export": {
+        "api_return": true,
+        "file_exists": false,
+        "bytes": 0
+      },
+      "reopened_components": [
+        {
+          "name": "R1-Original-Shell03-1",
+          "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\outputs\\R1-机械整合审阅\\R1-Original-Shell03.SLDPRT",
+          "loaded": true
+        },
+        {
+          "name": "R1-Pod-Lid-1",
+          "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\outputs\\R1-机械整合审阅\\R1-Pod-Lid.SLDPRT",
+          "loaded": true
+        },
+        {
+          "name": "PCB-R0-Reference-1",
+          "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\outputs\\R1-机械整合审阅\\PCB-R0-Reference.SLDPRT",
+          "loaded": true
+        },
+        {
+          "name": "R1-Original-Shell01-1",
+          "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\outputs\\R1-机械整合审阅\\R1-Original-Shell01.SLDPRT",
+          "loaded": true
+        },
+        {
+          "name": "R1-Original-Shell02-1",
+          "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\outputs\\R1-机械整合审阅\\R1-Original-Shell02.SLDPRT",
+          "loaded": true
+        },
+        {
+          "name": "R1-Pod-Body-1",
+          "path": "C:\\Users\\32561\\Documents\\Codex\\2026-11-03\\x20-solidwork-3\\outputs\\R1-机械整合审阅\\R1-Pod-Body.SLDPRT",
+          "loaded": true
+        }
+      ]
+    }
+  }
+}
