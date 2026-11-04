@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="570" viewBox="0 0 1120 570" role="img" aria-labelledby="title desc">
+<title id="title">体感手控 · 双轴云台</title><desc id="desc">设计阶段结项总结｜R0 PCB 检查完成，整机验收仍待推进。姿态输入；无线指令；两轴机械输出；独立测量验证</desc>
+<rect width="1120" height="570" rx="24" fill="#f2f6fa"/>
+<rect width="1120" height="142" rx="24" fill="#10283f"/>
+<rect y="100" width="1120" height="42" fill="#10283f"/>
+<g font-family="PingFang SC,Microsoft YaHei,Arial,sans-serif">
+<text x="42" y="62" font-size="31" font-weight="700" fill="white">体感手控 · 双轴云台</text>
+<text x="42" y="105" font-size="17" fill="#bad5e4">设计阶段结项总结｜R0 PCB 检查完成，整机验收仍待推进</text>
+<rect x="36" y="166" width="340" height="194" rx="16" fill="white"/>
+<g transform="translate(58,188)" stroke="#087f8c" stroke-width="2.5" fill="none"><rect x="5" y="9" width="30" height="24" rx="5"/><path d="M20 3v6M9 33v5M31 33v5"/><circle cx="14" cy="20" r="2"/><circle cx="26" cy="20" r="2"/></g>
+<text x="114" y="215" fill="#10283f" font-size="22" font-weight="600">手柄输入</text>
+<text x="58" y="269" fill="#4b5e70" font-size="17">MPU6050 姿态采集</text>
+<text x="58" y="299" fill="#4b5e70" font-size="17">STM32 控制与无线发送</text>
+<text x="58" y="329" fill="#4b5e70" font-size="17">彩屏交互为待移植方案</text>
+<rect x="390" y="166" width="340" height="194" rx="16" fill="white"/>
+<g transform="translate(412,188)" stroke="#087f8c" stroke-width="2.5" fill="none"><circle cx="20" cy="20" r="16"/><path d="M20 9v12l8 5"/></g>
+<text x="468" y="215" fill="#10283f" font-size="22" font-weight="600">云台输出</text>
+<text x="412" y="269" fill="#4b5e70" font-size="17">nRF24L01 无线接收</text>
+<text x="412" y="299" fill="#4b5e70" font-size="17">STM32 与两轴舵机</text>
+<text x="412" y="329" fill="#4b5e70" font-size="17">实际角度回传尚未接入</text>
+<rect x="744" y="166" width="340" height="194" rx="16" fill="white"/>
+<g transform="translate(766,188)" stroke="#087f8c" stroke-width="2.5" fill="none"><path d="M5 30l10-10 9 5 11-17M26 8h9v9"/><path d="M5 5v32h32"/></g>
+<text x="822" y="215" fill="#10283f" font-size="22" font-weight="600">阶段成果</text>
+<text x="766" y="269" fill="#4b5e70" font-size="17">四层 R0 集成 PCB</text>
+<text x="766" y="299" fill="#4b5e70" font-size="17">原生 DRC 记录为 0 项违规</text>
+<text x="766" y="329" fill="#4b5e70" font-size="17">装配 / 固件适配 / 实测待完成</text>
+<rect x="36" y="390" width="238" height="62" rx="12" fill="#dceef0"/>
+<text x="155" y="429" text-anchor="middle" fill="#12616c" font-size="18" font-weight="600">姿态输入</text>
+<path d="M281 421h17m-5-5 5 5-5 5" stroke="#7b94a4" stroke-width="2" fill="none"/>
+<rect x="306" y="390" width="238" height="62" rx="12" fill="#dceef0"/>
+<text x="425" y="429" text-anchor="middle" fill="#12616c" font-size="18" font-weight="600">无线指令</text>
+<path d="M551 421h17m-5-5 5 5-5 5" stroke="#7b94a4" stroke-width="2" fill="none"/>
+<rect x="576" y="390" width="238" height="62" rx="12" fill="#dceef0"/>
+<text x="695" y="429" text-anchor="middle" fill="#12616c" font-size="18" font-weight="600">两轴机械输出</text>
+<path d="M821 421h17m-5-5 5 5-5 5" stroke="#7b94a4" stroke-width="2" fill="none"/>
+<rect x="846" y="390" width="238" height="62" rx="12" fill="#dceef0"/>
+<text x="965" y="429" text-anchor="middle" fill="#12616c" font-size="18" font-weight="600">独立测量验证</text>
+<text x="42" y="509" fill="#526677" font-size="16">DRC 证明设计规则检查通过，实际动作、稳定性及响应性能仍需台架验证。</text>
+<text x="42" y="542" fill="#8293a0" font-size="13">PROJECT REVIEW  /  2026.11.04  /  图示为技术结构与阶段说明</text></g></svg>
