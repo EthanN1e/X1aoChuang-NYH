@@ -1,0 +1,40 @@
+{
+  "verified_at": "2026-11-05",
+  "scope": "R4 delivery artifacts as of design commit f247c6f48cc5b0e602e83f207ec6c90f9e0bfa1c; later commits may change documentation only",
+  "design_commit": "f247c6f48cc5b0e602e83f207ec6c90f9e0bfa1c",
+  "remote_git_blob_checks": {
+    "files": 43,
+    "mismatches": 0,
+    "status": "pass"
+  },
+  "archive": {
+    "file": "R4-SolidWorks.zip",
+    "sha256": "b71e1402cee0eb16fa37d98fc4c77ec17e73ffc6ac886ba2d114344db98f843b",
+    "bytes": 19128494,
+    "parts": 5,
+    "zip_crc": "pass",
+    "files": 47,
+    "native_files": [
+      "R4-Base1.SLDPRT",
+      "R4-Base2.SLDPRT",
+      "R4-Base3.SLDPRT",
+      "R4-Base4.SLDPRT",
+      "R4-Battery-Cradle-TRIAL.SLDPRT",
+      "R4-Battery76x36x18-TEMP.SLDPRT",
+      "R4-Open-Review.SLDASM",
+      "R4-Original-Layout.SLDASM",
+      "R4-PCB-OBJ.SLDPRT",
+      "R4-PCB-Support-TRIAL.SLDPRT",
+      "Drawings/PCB-Support-R4-DRAFT.SLDDRW",
+      "Drawings/Battery-Cradle-R4-DRAFT.SLDDRW"
+    ],
+    "restore_script_execution": "pass",
+    "restored_zip_crc": "pass"
+  },
+  "manufacturing_release": false,
+  "validation_limits": [
+    "PCB is graphics reference and excluded from native solid interference",
+    "Actual connectors, complete harness, retention and print fit need physical verification",
+    "No fresh ERC/DRC/electrical simulation in this mechanical update"
+  ]
+}
