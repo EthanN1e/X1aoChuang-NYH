@@ -489,86 +489,374 @@
   "reopen_checks": {
     "R4-Original-Layout.SLDASM": [
       {
-        "name": "R4-Base1-1",
-        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base1.SLDPRT",
-        "suppressed": false
-      },
-      {
         "name": "R4-PCB-OBJ-1",
         "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-PCB-OBJ.SLDPRT",
-        "suppressed": false
-      },
-      {
-        "name": "R4-Base4-1",
-        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base4.SLDPRT",
-        "suppressed": false
-      },
-      {
-        "name": "R4-Base2-1",
-        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base2.SLDPRT",
-        "suppressed": false
-      },
-      {
-        "name": "R4-PCB-Support-TRIAL-1",
-        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-PCB-Support-TRIAL.SLDPRT",
-        "suppressed": true
+        "suppressed": false,
+        "transform": [
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.12660254,
+          0.0138,
+          -0.042,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
       },
       {
         "name": "R4-Base3-1",
         "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base3.SLDPRT",
-        "suppressed": false
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0010000000000000009,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
       },
       {
-        "name": "R4-Battery76x36x18-TEMP-1",
-        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Battery76x36x18-TEMP.SLDPRT",
-        "suppressed": false
+        "name": "R4-Base4-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base4.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-Base1-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base1.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-Base2-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base2.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
       },
       {
         "name": "R4-Battery-Cradle-TRIAL-1",
         "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Battery-Cradle-TRIAL.SLDPRT",
-        "suppressed": true
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.08660254,
+          0.105,
+          -0.0465,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-PCB-Support-TRIAL-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-PCB-Support-TRIAL.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.08660254,
+          0.0418,
+          -0.0401853,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-Battery76x36x18-TEMP-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Battery76x36x18-TEMP.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.08660254,
+          0.105,
+          -0.028499999999999998,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
       }
     ],
     "R4-Open-Review.SLDASM": [
       {
-        "name": "R4-Base1-1",
-        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base1.SLDPRT",
-        "suppressed": false
-      },
-      {
         "name": "R4-Base4-1",
         "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base4.SLDPRT",
-        "suppressed": true
+        "suppressed": true,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
       },
       {
-        "name": "R4-Battery-Cradle-TRIAL-1",
-        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Battery-Cradle-TRIAL.SLDPRT",
-        "suppressed": true
-      },
-      {
-        "name": "R4-PCB-Support-TRIAL-1",
-        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-PCB-Support-TRIAL.SLDPRT",
-        "suppressed": true
-      },
-      {
-        "name": "R4-Base3-1",
-        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base3.SLDPRT",
-        "suppressed": true
+        "name": "R4-Base1-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base1.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
       },
       {
         "name": "R4-Base2-1",
         "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base2.SLDPRT",
-        "suppressed": true
+        "suppressed": true,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
       },
       {
-        "name": "R4-PCB-OBJ-1",
-        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-PCB-OBJ.SLDPRT",
-        "suppressed": false
+        "name": "R4-Base3-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base3.SLDPRT",
+        "suppressed": true,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0010000000000000009,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
       },
       {
         "name": "R4-Battery76x36x18-TEMP-1",
         "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Battery76x36x18-TEMP.SLDPRT",
-        "suppressed": false
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.08660254,
+          0.105,
+          -0.028499999999999998,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-PCB-Support-TRIAL-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-PCB-Support-TRIAL.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.08660254,
+          0.0418,
+          -0.0401853,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-PCB-OBJ-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-PCB-OBJ.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.12660254,
+          0.0138,
+          -0.042,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-Battery-Cradle-TRIAL-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Battery-Cradle-TRIAL.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.08660254,
+          0.105,
+          -0.0465,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
       }
     ]
   }

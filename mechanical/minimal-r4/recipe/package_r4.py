@@ -71,7 +71,7 @@ for stem in ['PCB-Support-R4-DRAFT','Battery-Cradle-R4-DRAFT']:
  for ext in ['.SLDDRW','.pdf','-final-review.json']:draws.append('Drawings/'+stem+ext)
 native += [x for x in draws if x.endswith('.SLDDRW')]
 public += [x for x in draws if not x.endswith('.SLDDRW')]
-scripts=['local_mesh_r4.py','build_r4.py','r4_refine.py','r4_drawings_adapter.py','r4_final_native.py','r4_drawing_scale_review.py','r4_document.py','package_r4.py']
+scripts=['local_mesh_r4.py','build_r4.py','r4_refine.py','r4_reassemble.py','r4_drawings_adapter.py','r4_final_native.py','r4_drawing_scale_review.py','r4_document.py','package_r4.py']
 for name in scripts:
  p=out/'recipe'/name;p.parent.mkdir(exist_ok=True);shutil.copy2(Path('work')/name,p);public.append('recipe/'+name)
 for name in public:
