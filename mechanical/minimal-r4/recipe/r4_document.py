@@ -20,8 +20,8 @@ assert all(c['exact_coordinate_topology_checks_passed'] for c in checks.values()
 local=json.loads((out/'local-change-evidence.json').read_text())
 e=json.loads((out/'native-evidence.json').read_text(encoding='utf8'))
 plan={'plan_version':4,'source_brief':'按用户要求保留原设计，仅在固定底座原有两仓布置PCB和76x36x18电池；三处局部减料及独立承托、限位框，未新增底舱。','part_family':'assembly',
- 'parameters':{'units':'mm','battery_user_nominal':[76,36,18],'battery_lead_envelope':'unknown','pcb_model':'hardware/r0/review-20261105/pcb-assembly-obj.zip','base1_source_sha256':local['source_sha256'],'base1_cuts_source_xyz_mm':local['cuts_mm'],'pcb_support_outer':[80,56,12.7],'pcb_support_opening':[78.8,54.8],'pcb_support_lip_thickness':2,'pcb_support_pad_diameter':3.4,'pcb_support_pad_centers':[[-38,-26],[-38,26],[38,-26],[38,26]],'battery_frame_outer':[79,39,18.8],'battery_frame_opening':[77,37],'battery_frame_notch_sketch':[8,3],'battery_frame_blind_cut_depth':3,'battery_frame_notch_centers':[[0,-19],[0,19]],'source_cover3_offset_y':1},
- 'features':[{'name':'原底座1三处局部清让','type':'bounded_mesh_boolean_imported_solid','params':{'cuts_mm':local['cuts_mm']},'required':True,'fallback':'原件不覆盖；保留布尔参数和源hash，不宣称恢复原参数树'}, {'name':'PCB独立承托框','type':'native_boss_cut_support_pads','params':{'outer':[80,56],'inner':[78.8,54.8],'height':12.7},'required':True},{'name':'电池连续限位框','type':'native_boss_cut_blind_notches','params':{'outer':[79,39,18.8],'inner':[77,37],'blind_cut_depth':3},'required':True}],
+ 'parameters':{'units':'mm','battery_user_nominal':[76,36,18],'battery_lead_envelope':'unknown','pcb_model':'hardware/r0/review-20261105/pcb-assembly-obj.zip','base1_source_sha256':local['source_sha256'],'base1_cuts_source_xyz_mm':local['cuts_mm'],'pcb_support_outer':[80,56,12.7],'pcb_support_opening':[78.8,54.8],'pcb_support_lip_thickness':2,'pcb_support_pad_diameter':3.4,'pcb_support_pad_centers':[[-38,-26],[-38,26],[38,-26],[38,26]],'battery_frame_outer':[79,39,18.8],'battery_frame_opening':[77,37],'battery_frame_notch_sketch':[8,3],'battery_frame_blind_cut_depth':6,'battery_frame_notch_centers':[[0,-19],[0,19]],'source_cover3_offset_y':1},
+ 'features':[{'name':'原底座1三处局部清让','type':'bounded_mesh_boolean_imported_solid','params':{'cuts_mm':local['cuts_mm']},'required':True,'fallback':'原件不覆盖；保留布尔参数和源hash，不宣称恢复原参数树'}, {'name':'PCB独立承托框','type':'native_boss_cut_support_pads','params':{'outer':[80,56],'inner':[78.8,54.8],'height':12.7},'required':True},{'name':'电池连续限位框','type':'native_boss_cut_blind_notches','params':{'outer':[79,39,18.8],'inner':[77,37],'blind_cut_depth':6},'required':True}],
  'operation_sequence':['verify_original_hash','local_mesh_boolean_and_solid_import','new_part','base_plate','pockets','slots','custom_properties','save_export_review','assemble_original_layout_and_reopen'],
  'assumptions':['打印工艺及材料待定；薄承托边为试装候选，不套用CNC默认壁厚。','电池尺寸为用户提供的裸外形，不含接头、出线或鼓胀余量。','原底座3向源Y外移1mm是装配候选，紧固件啮合长度待实测。','底座1来源为STL，局部修改件保留为导入实体；新增框为原生参数件。','PCB边缘支承和防抬起锁固未实物验证。'],
  'risk_register':[{'risk':'PCB边缘净空和焊脚/插座未进行精确实体求交','mitigation':'基于最新EDA OBJ包络初筛；用本版承托框试装，确认焊点、器件、插头后再定锁固。'},{'risk':'电池引线及完整线束尺寸未知','mitigation':'仅给出候选孔槽，按实际插头、护线件、线径和弯曲半径复核；避免裸线摩擦孔边。'},{'risk':'材料、薄壁强度及抗振未验证','mitigation':'新增框为TRIAL；先打印局部/分件试装。'},{'risk':'PCB和电池尚无验证后的防抬起约束','mitigation':'安装前需配合绝缘衬垫及盖内限位，实物确认可靠保持再制造放行。'}],
@@ -64,7 +64,7 @@ for i,(title,a,b) in enumerate(rows):
  text(46,y,title,13);text(250,y,a,11);text(250,y-24,b,11)
 text(34,199,'原底座1外包络保持 173.205078×27.600000×150；局部减料约1949.56 mm³（3.75%）。',11)
 text(34,172,'PCB承托：外80×56，内78.8×54.8，边厚2，总高12.7；4个实心Ø3.4脚位于(±38,±26)。',11)
-text(34,145,'电池框：外79×39×18.8，内77×37；两处8×3草图缺口，盲切3，框体保持连通。',11)
+text(34,145,'电池框：外79×39×18.8，内77×37；两处8×3草图缺口，盲切6，框体保持连通。',11)
 text(34,118,'底座2/4几何不改；底座3几何不改，装配中沿源Y外移1。需核对螺钉长度及盖内限位。',11)
 text(34,80,'本页为修改定位表，不是完整关联尺寸的制造图。原件为网格，局部改件是导入实体。',10,'#9a4c21')
 text(34,58,'参考：原视频 BV1of8y6vEQ5（约70～85秒装配），原开源模型；未附视频画面。',10)

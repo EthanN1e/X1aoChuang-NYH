@@ -859,5 +859,23 @@
         ]
       }
     ]
+  },
+  "wire_relief": {
+    "blind_cut_depth_mm": 6,
+    "channel_source_Y_mm": [
+      32,
+      44
+    ],
+    "notch_source_Y_mm": [
+      40.5,
+      46.5
+    ],
+    "depth_overlap_mm": 3.5,
+    "not_established": [
+      "actual wire bundle size",
+      "plug insertion envelope",
+      "bend radius",
+      "strain relief"
+    ]
   }
 }

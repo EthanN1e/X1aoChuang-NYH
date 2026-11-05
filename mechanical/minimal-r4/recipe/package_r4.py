@@ -30,7 +30,7 @@ readme='''# R4 原底座双仓内整合：76×36×18 电池 + 最新 PCB
 |---|---|
 | PCB承托框 | 外80×56、内78.8×54.8、边厚2、总高12.7；四个实心Ø3.4脚中心(±38,±26)，不是安装孔 |
 | PCB承托装配 | 源原点(86.60254,40.1853,41.8)，局部x→源X、局部y→源Z、局部z→源-Y |
-| 电池限位框 | 外79×39×18.8、内77×37；两个8×3草图缺口在(0,±19)，盲切深3，非贯穿整高 |
+| 电池限位框 | 外79×39×18.8、内77×37；两个8×3草图缺口在(0,±19)，盲切深6，非贯穿整高 |
 | 电池框装配 | 源原点(86.60254,46.5,105)，轴向同承托框 |
 | 电池名义盒 | 76×36×18；源X48.60254～124.60254、Y28.5～46.5、Z87～123；不含出线/接头 |
 | PCB参照 | 最新EDA实际OBJ，本地X→源Z、本地Y→源X、本地Z→源Y，原点(126.60254,42,13.8) |
@@ -71,7 +71,7 @@ for stem in ['PCB-Support-R4-DRAFT','Battery-Cradle-R4-DRAFT']:
  for ext in ['.SLDDRW','.pdf','-final-review.json']:draws.append('Drawings/'+stem+ext)
 native += [x for x in draws if x.endswith('.SLDDRW')]
 public += [x for x in draws if not x.endswith('.SLDDRW')]
-scripts=['local_mesh_r4.py','build_r4.py','r4_refine.py','r4_reassemble.py','r4_drawings_adapter.py','r4_final_native.py','r4_drawing_scale_review.py','r4_document.py','package_r4.py']
+scripts=['local_mesh_r4.py','build_r4.py','r4_refine.py','r4_reassemble.py','r4_wire_relief.py','r4_drawings_adapter.py','r4_final_native.py','r4_drawing_scale_review.py','r4_document.py','package_r4.py']
 for name in scripts:
  p=out/'recipe'/name;p.parent.mkdir(exist_ok=True);shutil.copy2(Path('work')/name,p);public.append('recipe/'+name)
 for name in public:

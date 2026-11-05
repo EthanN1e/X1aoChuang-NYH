@@ -3,7 +3,7 @@
   "sheet_properties_before": [
     8.0,
     12.0,
-    2.0,
+    1.0,
     1.0,
     1.0,
     0.42,
@@ -551,18 +551,18 @@
         "text": "",
         "box": {
           "left": 0.2675486003189445,
-          "bottom": 0.15583735056257847,
+          "bottom": 0.16800610080621245,
           "right": 0.28825139968105545,
-          "top": 0.17654014992468942
+          "top": 0.1887089001683234
         },
         "box_source": "estimated",
         "box_confidence": "low",
         "box_evidence": {
           "box": {
             "left": 0.2675486003189445,
-            "bottom": 0.15583735056257847,
+            "bottom": 0.16800610080621245,
             "right": 0.28825139968105545,
-            "top": 0.17654014992468942
+            "top": 0.1887089001683234
           },
           "source": "estimated",
           "confidence": "low",
@@ -570,7 +570,7 @@
           "native_bounding_box_available": false,
           "position_m": [
             0.2779,
-            0.16618875024363394
+            0.17835750048726792
           ],
           "text_evidence": {
             "parts": [],
@@ -603,7 +603,7 @@
         },
         "is_hole_callout": false,
         "hole_callout_variables": [],
-        "value_mm": 3.0,
+        "value_mm": 6.0,
         "value_degrees": null,
         "basic": false,
         "prefix": ""
@@ -783,7 +783,7 @@
         "owner_view": "Drawing View1",
         "owner_view_type": 7,
         "note_kind": "note",
-        "text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth3, keep frame connected.",
+        "text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth6, keep frame connected.",
         "position_m": [
           0.01999999999999999,
           0.032,
@@ -1149,7 +1149,7 @@
           "evidence_source": "pdf_vector_text_bbox"
         },
         {
-          "text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth3, keep frame connected.",
+          "text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth6, keep frame connected.",
           "page": 1,
           "bbox_pt": [
             56.69292068481445,
@@ -1157,7 +1157,7 @@
             557.2617797851562,
             765.9308471679688
           ],
-          "span_text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth3, keep frame connected.",
+          "span_text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth6, keep frame connected.",
           "evidence_source": "pdf_vector_text_bbox"
         },
         {
@@ -1265,7 +1265,7 @@
               },
               {
                 "page": 1,
-                "text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth3, keep frame connected.",
+                "text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth6, keep frame connected.",
                 "bboxPt": [
                   56.69292068481445,
                   750.149169921875,
@@ -1330,12 +1330,12 @@
               },
               {
                 "page": 1,
-                "text": "3.00",
+                "text": "6.00",
                 "bboxPt": [
                   781.7621459960938,
-                  354.3096923828125,
+                  319.81561279296875,
                   797.5438232421875,
-                  387.2978820800781
+                  352.8038024902344
                 ],
                 "font": "CenturyGothic",
                 "fontSizePt": 12.359764099121094,
@@ -1958,7 +1958,7 @@
             },
             {
               "page": 1,
-              "text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth3, keep frame connected.",
+              "text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth6, keep frame connected.",
               "bboxPt": [
                 56.69292068481445,
                 750.149169921875,
@@ -2023,12 +2023,12 @@
             },
             {
               "page": 1,
-              "text": "3.00",
+              "text": "6.00",
               "bboxPt": [
                 781.7621459960938,
-                354.3096923828125,
+                319.81561279296875,
                 797.5438232421875,
-                387.2978820800781
+                352.8038024902344
               ],
               "font": "CenturyGothic",
               "fontSizePt": 12.359764099121094,
@@ -2698,18 +2698,18 @@
           "dimension_index": 7,
           "dimension_name": "D1@Cut-Extrude2@R4-Battery-Cradle-TRIAL-2@Drawing View2",
           "page": 1,
-          "text": "3.00",
+          "text": "6.00",
           "bbox_pt": [
             781.7621459960938,
-            354.3096923828125,
+            319.81561279296875,
             797.5438232421875,
-            387.2978820800781
+            352.8038024902344
           ],
           "box_m": {
             "left": 0.27578857490413705,
-            "bottom": 0.16036995453519282,
+            "bottom": 0.17253869565330865,
             "right": 0.28135600522752724,
-            "top": 0.17200745132172876
+            "top": 0.1841761924398446
           },
           "distance_to_com_position_pt": 1.905702
         },
@@ -2848,7 +2848,7 @@
               },
               {
                 "page": 1,
-                "text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth3, keep frame connected.",
+                "text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth6, keep frame connected.",
                 "bboxPt": [
                   56.69292068481445,
                   750.149169921875,
@@ -2913,12 +2913,12 @@
               },
               {
                 "page": 1,
-                "text": "3.00",
+                "text": "6.00",
                 "bboxPt": [
                   781.7621459960938,
-                  354.3096923828125,
+                  319.81561279296875,
                   797.5438232421875,
-                  387.2978820800781
+                  352.8038024902344
                 ],
                 "font": "CenturyGothic",
                 "fontSizePt": 12.359764099121094,
