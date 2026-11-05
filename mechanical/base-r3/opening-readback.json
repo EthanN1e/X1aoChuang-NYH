@@ -1,0 +1,23 @@
+{
+  "rear_window_center_y_crossings": [
+    -33.0,
+    -31.0
+  ],
+  "rear_solid_flank_y_crossings": [
+    -33.0,
+    -31.0,
+    31.0,
+    33.0
+  ],
+  "M2_hole_y_crossings": [
+    -33.0,
+    -31.0
+  ],
+  "tie_bridge_slot_y_crossings": [
+    -33.0,
+    -31.0,
+    31.0,
+    33.0
+  ],
+  "method": "STL point rays in source part coordinates; only verifies these sampled openings, not complete collision/print validation"
+}

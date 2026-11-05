@@ -1,0 +1,26 @@
+{
+  "archive": "R3-SolidWorks.zip",
+  "sha256": "601cf9b9041bc6c8d07c85d7b26dd8d171d901af2a32c4d503f467ce49419dd1",
+  "parts": [
+    {
+      "name": "R3-SolidWorks.zip.001",
+      "sha256": "50ec186bcc6b79de46bf2acca6ee16b1105260a8aec845801ff8d7ab1058decb"
+    },
+    {
+      "name": "R3-SolidWorks.zip.002",
+      "sha256": "7f6d24fe84d35cff661e5dc9e67bf85796cb0a999c740e8e0d3bc576305ae7b8"
+    },
+    {
+      "name": "R3-SolidWorks.zip.003",
+      "sha256": "f60e7bff638d9ea6f6202b7e47bb70ec7806154f10cf585fd852d9023bdd487b"
+    },
+    {
+      "name": "R3-SolidWorks.zip.004",
+      "sha256": "63ac7e656cddeab9e5df17ecc3e509786950d810745e3ca6da1df24b71a50192"
+    },
+    {
+      "name": "R3-SolidWorks.zip.005",
+      "sha256": "217a64b74c082c6beb79d668a316757df1ee69fa42bde87d58a64fdf79a3d7fb"
+    }
+  ]
+}

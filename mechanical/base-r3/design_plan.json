@@ -1,0 +1,184 @@
+{
+  "plan_version": 3,
+  "source_brief": "PCB位于固定底座1至4下部电子舱。背面可更换接口板、线孔、扎带固定桥、PCB试装承托框、圆角及支脚。",
+  "part_family": "enclosure",
+  "parameters": {
+    "outer_mm": [
+      173.20508,
+      66,
+      30
+    ],
+    "wall_mm": 2,
+    "floor_mm": 2,
+    "lid_mm": 2,
+    "post_centers_mm": [
+      [
+        -70,
+        -25
+      ],
+      [
+        -70,
+        25
+      ],
+      [
+        70,
+        -25
+      ],
+      [
+        70,
+        25
+      ]
+    ],
+    "clearance_hole_diameter_mm": 3.4,
+    "pcb_origin_world_mm": [
+      126.60254,
+      83.79538,
+      -22
+    ],
+    "overall_body_with_lid_and_feet_mm": [
+      173.20508,
+      66,
+      33
+    ],
+    "overall_depth_with_rear_panel_mm": 68,
+    "outer_radius_mm": 3,
+    "inner_radius_mm": 1,
+    "rear_panel_mm": [
+      64,
+      22,
+      2
+    ],
+    "rear_window_mm": [
+      52,
+      12
+    ],
+    "rear_M2_clearance_diameter_mm": 2.4,
+    "rear_M2_centers_panel_mm": [
+      [
+        -29,
+        -7
+      ],
+      [
+        -29,
+        7
+      ],
+      [
+        29,
+        -7
+      ],
+      [
+        29,
+        7
+      ]
+    ],
+    "pilot_wire_hole_diameter_mm": 6,
+    "pilot_wire_hole_centers_panel_mm": [
+      [
+        -12,
+        0
+      ],
+      [
+        12,
+        0
+      ]
+    ],
+    "tie_bridge_passage_mm": [
+      8,
+      2
+    ],
+    "PCB_support_frame_outer_mm": [
+      58,
+      82
+    ],
+    "PCB_support_frame_inner_mm": [
+      54.8,
+      78.8
+    ]
+  },
+  "features": [
+    {
+      "name": "floor",
+      "type": "extrusion",
+      "params": {
+        "depth_mm": 2
+      },
+      "required": true
+    },
+    {
+      "name": "walls",
+      "type": "ring",
+      "params": {
+        "height_mm": 26
+      },
+      "required": true
+    },
+    {
+      "name": "posts",
+      "type": "extrusion",
+      "params": {
+        "radius_mm": 4,
+        "height_mm": 26
+      },
+      "required": true
+    },
+    {
+      "name": "holes",
+      "type": "through_cut",
+      "params": {
+        "diameter_mm": 3.4,
+        "quantity": 4
+      },
+      "required": true
+    }
+  ],
+  "operation_sequence": [
+    "latest source",
+    "source base inspection",
+    "candidate rejection",
+    "floor walls posts",
+    "clearance holes",
+    "lid",
+    "assembly",
+    "reopen",
+    "preview"
+  ],
+  "assumptions": [
+    "原底座源坐标作为参照，实际安装关系待实物确认。",
+    "新底舱与原底座之间连接孔位待测；四孔只用于新舱与盖板，不冒充原底座孔位。",
+    "PCB承托和压条接触区须核对铜皮/焊盘后确定。",
+    "底舱为3D打印试装候选；材料、打印公差及整机载荷未定。",
+    "两个Ø6孔仅供线束试配，未核实带线插头穿孔、护线圈及最小弯曲半径。",
+    "承托框为非导电打印候选；尚未设计并验证防抬起压条。",
+    "既有底座1与4保留8处重叠，源坐标参照组合不代表最终装配关系。"
+  ],
+  "risk_register": [
+    {
+      "risk": "顶部原底座与新增舱需可靠连接",
+      "mitigation": "保留接口待实测；不放行承载和打印制造。"
+    },
+    {
+      "risk": "OBJ为网格参考，图形体不参与精确干涉",
+      "mitigation": "记录最新OBJ包络及坐标，与新增内腔计算交叉核对。"
+    }
+  ],
+  "review_plan": {
+    "expected_outputs": [
+      "R2-Base-PCB.SLDASM",
+      "R2-Electronics-Body.SLDPRT",
+      "R2-Electronics-Lid.SLDPRT"
+    ],
+    "views": [
+      "isometric",
+      "front",
+      "top",
+      "right"
+    ],
+    "checks": [
+      "fully defined sketches no Fix",
+      "reopen all references",
+      "native interference limitations",
+      "actual file exports",
+      "PCB pin envelope floor gap"
+    ]
+  }
+}

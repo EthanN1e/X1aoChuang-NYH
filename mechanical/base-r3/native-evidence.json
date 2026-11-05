@@ -1,0 +1,1207 @@
+{
+  "source_commit": "d514bc1719a29fc69db6abdebece5af03d40f287",
+  "parts": {
+    "Body": {
+      "status": "pass",
+      "sketches": [
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 4,
+          "relation_count": 11,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch1",
+            "D2@Sketch1",
+            "D3@Sketch1",
+            "D4@Sketch1"
+          ],
+          "errors": [],
+          "name": "Sketch1",
+          "consumed_by": [
+            "Floor_2mm"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 2,
+          "relation_count": 35,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch2",
+            "D2@Sketch2"
+          ],
+          "errors": [],
+          "name": "Sketch2",
+          "consumed_by": [
+            "Walls_2mm_H26"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 5,
+          "relation_count": 12,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch3",
+            "D2@Sketch3",
+            "D3@Sketch3",
+            "D4@Sketch3",
+            "D5@Sketch3"
+          ],
+          "errors": [],
+          "name": "Sketch3",
+          "consumed_by": [
+            "Boss-Extrude3"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 5,
+          "relation_count": 12,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch4",
+            "D2@Sketch4",
+            "D3@Sketch4",
+            "D4@Sketch4",
+            "D5@Sketch4"
+          ],
+          "errors": [],
+          "name": "Sketch4",
+          "consumed_by": [
+            "Cut-Extrude1"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 5,
+          "relation_count": 40,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch5",
+            "D2@Sketch5",
+            "D3@Sketch5",
+            "D4@Sketch5",
+            "D5@Sketch5"
+          ],
+          "errors": [],
+          "name": "Sketch5",
+          "consumed_by": [
+            "Boss-Extrude4"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 5,
+          "relation_count": 40,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch6",
+            "D2@Sketch6",
+            "D3@Sketch6",
+            "D4@Sketch6",
+            "D5@Sketch6"
+          ],
+          "errors": [],
+          "name": "Sketch6",
+          "consumed_by": [
+            "CableTieBridges_8x2"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 8,
+          "relation_count": 27,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch7",
+            "D2@Sketch7",
+            "D3@Sketch7",
+            "D4@Sketch7",
+            "D5@Sketch7",
+            "D6@Sketch7",
+            "D7@Sketch7",
+            "D8@Sketch7"
+          ],
+          "errors": [],
+          "name": "Sketch7",
+          "consumed_by": [
+            "RearPanel_Window52x12_M2Clearance"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 5,
+          "relation_count": 12,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch8",
+            "D2@Sketch8",
+            "D3@Sketch8",
+            "D4@Sketch8",
+            "D5@Sketch8"
+          ],
+          "errors": [],
+          "name": "Sketch8",
+          "consumed_by": [
+            "Feet_3mmBelowFloor"
+          ],
+          "dangling": false
+        }
+      ]
+    },
+    "Lid": {
+      "status": "pass",
+      "sketches": [
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 4,
+          "relation_count": 11,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch1",
+            "D2@Sketch1",
+            "D3@Sketch1",
+            "D4@Sketch1"
+          ],
+          "errors": [],
+          "name": "Sketch1",
+          "consumed_by": [
+            "Lid_2mm"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 5,
+          "relation_count": 12,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch2",
+            "D2@Sketch2",
+            "D3@Sketch2",
+            "D4@Sketch2",
+            "D5@Sketch2"
+          ],
+          "errors": [],
+          "name": "Sketch2",
+          "consumed_by": [
+            "Cut-Extrude1"
+          ],
+          "dangling": false
+        }
+      ]
+    },
+    "Panel": {
+      "status": "pass",
+      "sketches": [
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 2,
+          "relation_count": 14,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch1",
+            "D2@Sketch1"
+          ],
+          "errors": [],
+          "name": "Sketch1",
+          "consumed_by": [
+            "Boss-Extrude1"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 8,
+          "relation_count": 18,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch2",
+            "D2@Sketch2",
+            "D3@Sketch2",
+            "D4@Sketch2",
+            "D5@Sketch2",
+            "D6@Sketch2",
+            "D7@Sketch2",
+            "D8@Sketch2"
+          ],
+          "errors": [],
+          "name": "Sketch2",
+          "consumed_by": [
+            "M2Mounts_and_Two6mmCablePilots"
+          ],
+          "dangling": false
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT",
+      "source_transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sw_transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base2.SLDPRT",
+      "source_transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sw_transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base3.SLDPRT",
+      "source_transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sw_transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT",
+      "source_transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sw_transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\R3-Electronics-Body.SLDPRT",
+      "source_transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0.08660254,
+        0.05579538,
+        -0.028,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sw_transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0.08660254,
+        -0.028,
+        -0.05579538,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\R3-Electronics-Lid.SLDPRT",
+      "source_transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0.08660254,
+        0.05579538,
+        -0.002,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sw_transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0.08660254,
+        -0.002,
+        -0.05579538,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\PCB-Latest-OBJ-Reference.SLDPRT",
+      "source_transform": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0.12660254,
+        0.08379538,
+        -0.022,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sw_transform": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.12660254,
+        -0.022,
+        -0.08379538,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\R3-Removable-Rear-Panel.SLDPRT",
+      "source_transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0.08660254,
+        0.09079538,
+        -0.014,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sw_transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0.08660254,
+        -0.014,
+        -0.09079538,
+        1,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "interference": {
+    "status": "warn",
+    "interference_count": 8,
+    "items": [
+      {
+        "index": 0,
+        "name": null,
+        "volume_mm3": 1312.990187,
+        "components": [
+          {
+            "name": "Original-Base1-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT"
+          },
+          {
+            "name": "Original-Base4-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT"
+          }
+        ],
+        "volume": 1.312990187e-06
+      },
+      {
+        "index": 1,
+        "name": null,
+        "volume_mm3": 181.982363,
+        "components": [
+          {
+            "name": "Original-Base1-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT"
+          },
+          {
+            "name": "Original-Base4-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT"
+          }
+        ],
+        "volume": 1.81982363e-07
+      },
+      {
+        "index": 2,
+        "name": null,
+        "volume_mm3": 11.662689,
+        "components": [
+          {
+            "name": "Original-Base1-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT"
+          },
+          {
+            "name": "Original-Base4-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT"
+          }
+        ],
+        "volume": 1.1662689e-08
+      },
+      {
+        "index": 3,
+        "name": null,
+        "volume_mm3": 11.662544,
+        "components": [
+          {
+            "name": "Original-Base1-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT"
+          },
+          {
+            "name": "Original-Base4-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT"
+          }
+        ],
+        "volume": 1.1662544e-08
+      },
+      {
+        "index": 4,
+        "name": null,
+        "volume_mm3": 11.66254,
+        "components": [
+          {
+            "name": "Original-Base1-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT"
+          },
+          {
+            "name": "Original-Base4-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT"
+          }
+        ],
+        "volume": 1.166254e-08
+      },
+      {
+        "index": 5,
+        "name": null,
+        "volume_mm3": 11.662517,
+        "components": [
+          {
+            "name": "Original-Base1-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT"
+          },
+          {
+            "name": "Original-Base4-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT"
+          }
+        ],
+        "volume": 1.1662517e-08
+      },
+      {
+        "index": 6,
+        "name": null,
+        "volume_mm3": 11.66251,
+        "components": [
+          {
+            "name": "Original-Base1-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT"
+          },
+          {
+            "name": "Original-Base4-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT"
+          }
+        ],
+        "volume": 1.166251e-08
+      },
+      {
+        "index": 7,
+        "name": null,
+        "volume_mm3": 11.662489,
+        "components": [
+          {
+            "name": "Original-Base1-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT"
+          },
+          {
+            "name": "Original-Base4-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT"
+          }
+        ],
+        "volume": 1.1662489000000001e-08
+      }
+    ],
+    "severity": "major",
+    "manual_review_required": true,
+    "options": {
+      "treat_subassemblies_as_components": false,
+      "treat_coincidence_as_interference": false,
+      "ignore_hidden_bodies": false,
+      "show_ignored_interferences": true,
+      "include_multibody_part_interferences": false
+    },
+    "errors": [],
+    "max_volume_mm3": 1312.990187
+  },
+  "final_interference": {
+    "status": "warn",
+    "interference_count": 8,
+    "items": [
+      {
+        "index": 0,
+        "name": null,
+        "volume_mm3": 1312.990187,
+        "components": [
+          {
+            "name": "Original-Base1-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT"
+          },
+          {
+            "name": "Original-Base4-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT"
+          }
+        ],
+        "volume": 1.312990187e-06
+      },
+      {
+        "index": 1,
+        "name": null,
+        "volume_mm3": 181.982363,
+        "components": [
+          {
+            "name": "Original-Base1-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT"
+          },
+          {
+            "name": "Original-Base4-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT"
+          }
+        ],
+        "volume": 1.81982363e-07
+      },
+      {
+        "index": 2,
+        "name": null,
+        "volume_mm3": 11.662689,
+        "components": [
+          {
+            "name": "Original-Base1-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT"
+          },
+          {
+            "name": "Original-Base4-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT"
+          }
+        ],
+        "volume": 1.1662689e-08
+      },
+      {
+        "index": 3,
+        "name": null,
+        "volume_mm3": 11.662544,
+        "components": [
+          {
+            "name": "Original-Base1-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT"
+          },
+          {
+            "name": "Original-Base4-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT"
+          }
+        ],
+        "volume": 1.1662544e-08
+      },
+      {
+        "index": 4,
+        "name": null,
+        "volume_mm3": 11.66254,
+        "components": [
+          {
+            "name": "Original-Base1-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT"
+          },
+          {
+            "name": "Original-Base4-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT"
+          }
+        ],
+        "volume": 1.166254e-08
+      },
+      {
+        "index": 5,
+        "name": null,
+        "volume_mm3": 11.662517,
+        "components": [
+          {
+            "name": "Original-Base1-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT"
+          },
+          {
+            "name": "Original-Base4-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT"
+          }
+        ],
+        "volume": 1.1662517e-08
+      },
+      {
+        "index": 6,
+        "name": null,
+        "volume_mm3": 11.66251,
+        "components": [
+          {
+            "name": "Original-Base1-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT"
+          },
+          {
+            "name": "Original-Base4-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT"
+          }
+        ],
+        "volume": 1.166251e-08
+      },
+      {
+        "index": 7,
+        "name": null,
+        "volume_mm3": 11.662489,
+        "components": [
+          {
+            "name": "Original-Base1-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT"
+          },
+          {
+            "name": "Original-Base4-1",
+            "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT"
+          }
+        ],
+        "volume": 1.1662489000000001e-08
+      }
+    ],
+    "severity": "major",
+    "manual_review_required": true,
+    "options": {
+      "treat_subassemblies_as_components": false,
+      "treat_coincidence_as_interference": false,
+      "ignore_hidden_bodies": false,
+      "show_ignored_interferences": true,
+      "include_multibody_part_interferences": false
+    },
+    "errors": [],
+    "max_volume_mm3": 1312.990187
+  },
+  "reopened_components": [
+    {
+      "name": "Original-Base1-1",
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base1.SLDPRT",
+      "loaded": true
+    },
+    {
+      "name": "Original-Base3-1",
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base3.SLDPRT",
+      "loaded": true
+    },
+    {
+      "name": "R3-Electronics-Body-1",
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\R3-Electronics-Body.SLDPRT",
+      "loaded": true
+    },
+    {
+      "name": "Original-Base2-1",
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base2.SLDPRT",
+      "loaded": true
+    },
+    {
+      "name": "Original-Base4-1",
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\Original-Base4.SLDPRT",
+      "loaded": true
+    },
+    {
+      "name": "PCB-Latest-OBJ-Reference-1",
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\PCB-Latest-OBJ-Reference.SLDPRT",
+      "loaded": true
+    },
+    {
+      "name": "R3-Removable-Rear-Panel-1",
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\R3-Removable-Rear-Panel.SLDPRT",
+      "loaded": true
+    },
+    {
+      "name": "R3-Electronics-Lid-1",
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\R3-Electronics-Lid.SLDPRT",
+      "loaded": true
+    },
+    {
+      "name": "R3-PCB-Carrier-TRIAL-1",
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\Base-R3\\R3-PCB-Carrier-TRIAL.SLDPRT",
+      "loaded": true
+    }
+  ],
+  "final_sketch_checks": {
+    "R3-Electronics-Body-1": {
+      "status": "pass",
+      "sketches": [
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 4,
+          "relation_count": 11,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch1",
+            "D2@Sketch1",
+            "D3@Sketch1",
+            "D4@Sketch1"
+          ],
+          "errors": [],
+          "name": "Sketch1",
+          "consumed_by": [
+            "Floor_2mm"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 2,
+          "relation_count": 35,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch2",
+            "D2@Sketch2"
+          ],
+          "errors": [],
+          "name": "Sketch2",
+          "consumed_by": [
+            "Walls_2mm_H26"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 5,
+          "relation_count": 12,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch3",
+            "D2@Sketch3",
+            "D3@Sketch3",
+            "D4@Sketch3",
+            "D5@Sketch3"
+          ],
+          "errors": [],
+          "name": "Sketch3",
+          "consumed_by": [
+            "Boss-Extrude3"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 5,
+          "relation_count": 12,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch4",
+            "D2@Sketch4",
+            "D3@Sketch4",
+            "D4@Sketch4",
+            "D5@Sketch4"
+          ],
+          "errors": [],
+          "name": "Sketch4",
+          "consumed_by": [
+            "Cut-Extrude1"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 5,
+          "relation_count": 40,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch5",
+            "D2@Sketch5",
+            "D3@Sketch5",
+            "D4@Sketch5",
+            "D5@Sketch5"
+          ],
+          "errors": [],
+          "name": "Sketch5",
+          "consumed_by": [
+            "Boss-Extrude4"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 5,
+          "relation_count": 40,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch6",
+            "D2@Sketch6",
+            "D3@Sketch6",
+            "D4@Sketch6",
+            "D5@Sketch6"
+          ],
+          "errors": [],
+          "name": "Sketch6",
+          "consumed_by": [
+            "CableTieBridges_8x2"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 8,
+          "relation_count": 27,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch7",
+            "D2@Sketch7",
+            "D3@Sketch7",
+            "D4@Sketch7",
+            "D5@Sketch7",
+            "D6@Sketch7",
+            "D7@Sketch7",
+            "D8@Sketch7"
+          ],
+          "errors": [],
+          "name": "Sketch7",
+          "consumed_by": [
+            "RearPanel_Window52x12_M2Clearance"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 5,
+          "relation_count": 12,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch8",
+            "D2@Sketch8",
+            "D3@Sketch8",
+            "D4@Sketch8",
+            "D5@Sketch8"
+          ],
+          "errors": [],
+          "name": "Sketch8",
+          "consumed_by": [
+            "Feet_3mmBelowFloor"
+          ],
+          "dangling": false
+        }
+      ]
+    },
+    "R3-Removable-Rear-Panel-1": {
+      "status": "pass",
+      "sketches": [
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 2,
+          "relation_count": 14,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch1",
+            "D2@Sketch1"
+          ],
+          "errors": [],
+          "name": "Sketch1",
+          "consumed_by": [
+            "Boss-Extrude1"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 8,
+          "relation_count": 18,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch2",
+            "D2@Sketch2",
+            "D3@Sketch2",
+            "D4@Sketch2",
+            "D5@Sketch2",
+            "D6@Sketch2",
+            "D7@Sketch2",
+            "D8@Sketch2"
+          ],
+          "errors": [],
+          "name": "Sketch2",
+          "consumed_by": [
+            "M2Mounts_and_Two6mmCablePilots"
+          ],
+          "dangling": false
+        }
+      ]
+    },
+    "R3-Electronics-Lid-1": {
+      "status": "pass",
+      "sketches": [
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 4,
+          "relation_count": 11,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch1",
+            "D2@Sketch1",
+            "D3@Sketch1",
+            "D4@Sketch1"
+          ],
+          "errors": [],
+          "name": "Sketch1",
+          "consumed_by": [
+            "Lid_2mm"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 5,
+          "relation_count": 12,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch2",
+            "D2@Sketch2",
+            "D3@Sketch2",
+            "D4@Sketch2",
+            "D5@Sketch2"
+          ],
+          "errors": [],
+          "name": "Sketch2",
+          "consumed_by": [
+            "Cut-Extrude1"
+          ],
+          "dangling": false
+        }
+      ]
+    },
+    "R3-PCB-Carrier-TRIAL-1": {
+      "status": "pass",
+      "sketches": [
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 3,
+          "relation_count": 45,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch1",
+            "D2@Sketch1",
+            "D3@Sketch1"
+          ],
+          "errors": [],
+          "name": "Sketch1",
+          "consumed_by": [
+            "Boss-Extrude1"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 5,
+          "relation_count": 12,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch2",
+            "D2@Sketch2",
+            "D3@Sketch2",
+            "D4@Sketch2",
+            "D5@Sketch2"
+          ],
+          "errors": [],
+          "name": "Sketch2",
+          "consumed_by": [
+            "Boss-Extrude2"
+          ],
+          "dangling": false
+        }
+      ]
+    }
+  }
+}
