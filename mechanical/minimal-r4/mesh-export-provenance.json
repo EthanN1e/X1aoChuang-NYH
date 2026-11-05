@@ -1,0 +1,48 @@
+{
+  "solidworks_STL_export_rejected": {
+    "file": "C:\\Users\\32561\\Documents\\ChatGPT\\\u5c0f\u521b\\outputs\\R4-Minimal\\R4-Base1.STL",
+    "declared_units": "mm",
+    "encoding": "binary-float32",
+    "triangles": 1214,
+    "bounds_min": [
+      -6.938893903907228e-15,
+      25.885271072387695,
+      0.0
+    ],
+    "bounds_max": [
+      173.205078125,
+      53.48527145385742,
+      150.0
+    ],
+    "dimensions": [
+      173.205078125,
+      27.600000381469727,
+      150.0
+    ],
+    "connected_components": 6,
+    "boundary_edges": 28,
+    "edges_with_more_than_two_faces": 0,
+    "inconsistent_winding_edges": 0,
+    "zero_area_triangles": 0,
+    "serialized_normal_mismatches": 0,
+    "zero_serialized_normals": 0,
+    "signed_volume": 50009.25393302925,
+    "minimum_edge": 0.17740310600757578,
+    "minimum_altitude": 0.0009777332922195497,
+    "maximum_aspect_ratio": 1015.6523229900574,
+    "float32_degenerate_triangles": 0,
+    "float32_ulp_near_max_coordinate": 1.52587890625e-05,
+    "float32_overflow_triangles": 0,
+    "exact_coordinate_topology_checks_passed": false,
+    "not_established": [
+      "vertex-manifoldness",
+      "absence of self intersections",
+      "global minimum wall thickness",
+      "physical fit",
+      "printability",
+      "strength"
+    ]
+  },
+  "delivered_base1_STL": "Exact verified Boolean source mesh imported to create R4-Base1.SLDPRT; not an automatic repair of the rejected SolidWorks re-export.",
+  "new_fixture_STL_coordinates": "SolidWorks export translates all-positive for printing; use native assembly transforms for installation."
+}

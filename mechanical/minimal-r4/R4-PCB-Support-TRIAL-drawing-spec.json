@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.0",
+  "documentType": "part",
+  "standard": "GB_T",
+  "projection": "first_angle",
+  "paperSize": "A3",
+  "views": {
+    "front": {},
+    "top": {},
+    "right": {}
+  },
+  "insertModelDimensions": true,
+  "templateCandidates": [
+    "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\lang\\english\\sheetformat\\a3 - gb.slddrt"
+  ],
+  "outputs": {
+    "slddrw": true,
+    "pdf": true,
+    "bmp": true,
+    "report": true
+  },
+  "sourceModel": "C:\\Users\\32561\\Documents\\ChatGPT\\\u5c0f\u521b\\outputs\\R4-Minimal\\R4-PCB-Support-TRIAL.SLDPRT",
+  "modelSizeMm": [
+    80,
+    56,
+    12.7
+  ],
+  "notes": [
+    "TRIAL: verify PCB pad and solder-pin clearances.",
+    "Outer 80x56; opening 78.8x54.8; lip 2.",
+    "Four support pads R1.7 at (+/-38,+/-26), total height12.7.",
+    "No holes drilled in PCB. Materials and fit tolerance TBD."
+  ],
+  "scale": "1:1"
+}

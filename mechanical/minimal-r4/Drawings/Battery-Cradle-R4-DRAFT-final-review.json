@@ -1,0 +1,3454 @@
+{
+  "status": "pass",
+  "sheet_properties_before": [
+    8.0,
+    12.0,
+    2.0,
+    1.0,
+    1.0,
+    0.42,
+    0.297,
+    1.0
+  ],
+  "sheet_properties_reopened": [
+    8.0,
+    12.0,
+    1.0,
+    1.0,
+    1.0,
+    0.42,
+    0.297,
+    1.0
+  ],
+  "structure": {
+    "status": "pass",
+    "stage": "review",
+    "sheets": [
+      "Sheet1"
+    ],
+    "views": [
+      {
+        "sheet": "Sheet1",
+        "name": "Drawing View1",
+        "type": 7,
+        "orientation": "*Front",
+        "semantic_view": "front",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "box": {
+          "left": 0.18295999999999998,
+          "bottom": 0.17795999999999998,
+          "right": 0.27384,
+          "top": 0.22883999999999996
+        }
+      },
+      {
+        "sheet": "Sheet1",
+        "name": "Drawing View2",
+        "type": 7,
+        "orientation": "*Top",
+        "semantic_view": "",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "box": {
+          "left": 0.18295999999999998,
+          "bottom": 0.12927999999999984,
+          "right": 0.27384,
+          "top": 0.15996
+        }
+      },
+      {
+        "sheet": "Sheet1",
+        "name": "Drawing View3",
+        "type": 7,
+        "orientation": "*Right",
+        "semantic_view": "",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "box": {
+          "left": 0.13427999999999973,
+          "bottom": 0.17795999999999998,
+          "right": 0.16496,
+          "top": 0.22883999999999996
+        }
+      }
+    ],
+    "dimensions": [
+      {
+        "sheet": "Sheet1",
+        "view": "Drawing View1",
+        "semantic_view": "front",
+        "name": "D1@Sketch1@R4-Battery-Cradle-TRIAL-1@Drawing View1",
+        "type": 11,
+        "text": "",
+        "box": {
+          "left": 0.2377986003189445,
+          "bottom": 0.23432860031894454,
+          "right": 0.25850139968105545,
+          "top": 0.2550313996810555
+        },
+        "box_source": "estimated",
+        "box_confidence": "low",
+        "box_evidence": {
+          "box": {
+            "left": 0.2377986003189445,
+            "bottom": 0.23432860031894454,
+            "right": 0.25850139968105545,
+            "top": 0.2550313996810555
+          },
+          "source": "estimated",
+          "confidence": "low",
+          "method": "annotation_position_text_format_arbitrary_rotation_envelope",
+          "native_bounding_box_available": false,
+          "position_m": [
+            0.24814999999999998,
+            0.24468
+          ],
+          "text_evidence": {
+            "parts": [],
+            "estimation_lines": [
+              "0000.000"
+            ],
+            "source": "conservative_value_placeholder",
+            "rendered_value_available": false
+          },
+          "text_format": {
+            "source": "IAnnotation.GetTextFormat(0)",
+            "char_height_m": 0.0035,
+            "width_factor": 1.0,
+            "char_spacing_factor": 1.0,
+            "char_height_available": true,
+            "width_factor_available": true,
+            "char_spacing_factor_available": true
+          },
+          "estimated_unrotated_size_m": {
+            "width": 0.01736,
+            "height": 0.004375
+          },
+          "padding_m": 0.0014000000000000002,
+          "orientation_assumption": "unknown_angle_conservative_square_envelope",
+          "limitations": [
+            "SolidWorks 2026 IAnnotation \u4e0d\u63d0\u4f9b\u5c3a\u5bf8\u6587\u5b57\u539f\u751f\u5305\u56f4\u76d2",
+            "\u4e3b\u5c3a\u5bf8\u683c\u5f0f\u5316\u503c\u53ef\u80fd\u4e0d\u7531 GetText \u8fd4\u56de\uff0c\u7f3a\u5931\u65f6\u4f7f\u7528\u4fdd\u5b88\u5360\u4f4d\u5bbd\u5ea6",
+            "\u4f30\u7b97\u53ea\u80fd\u7528\u4e8e\u78b0\u649e\u98ce\u9669\u7b5b\u67e5\uff0c\u6700\u7ec8\u4ea4\u4ed8\u4ecd\u9700 PDF/BMP \u76ee\u89c6\u590d\u6838"
+          ]
+        },
+        "is_hole_callout": false,
+        "hole_callout_variables": [],
+        "value_mm": 39.5,
+        "value_degrees": null,
+        "basic": false,
+        "prefix": ""
+      },
+      {
+        "sheet": "Sheet1",
+        "view": "Drawing View1",
+        "semantic_view": "front",
+        "name": "D2@Sketch1@R4-Battery-Cradle-TRIAL-1@Drawing View1",
+        "type": 12,
+        "text": "",
+        "box": {
+          "left": 0.2765486003189445,
+          "bottom": 0.20279860031894448,
+          "right": 0.29725139968105546,
+          "top": 0.22350139968105542
+        },
+        "box_source": "estimated",
+        "box_confidence": "low",
+        "box_evidence": {
+          "box": {
+            "left": 0.2765486003189445,
+            "bottom": 0.20279860031894448,
+            "right": 0.29725139968105546,
+            "top": 0.22350139968105542
+          },
+          "source": "estimated",
+          "confidence": "low",
+          "method": "annotation_position_text_format_arbitrary_rotation_envelope",
+          "native_bounding_box_available": false,
+          "position_m": [
+            0.2869,
+            0.21314999999999995
+          ],
+          "text_evidence": {
+            "parts": [],
+            "estimation_lines": [
+              "0000.000"
+            ],
+            "source": "conservative_value_placeholder",
+            "rendered_value_available": false
+          },
+          "text_format": {
+            "source": "IAnnotation.GetTextFormat(0)",
+            "char_height_m": 0.0035,
+            "width_factor": 1.0,
+            "char_spacing_factor": 1.0,
+            "char_height_available": true,
+            "width_factor_available": true,
+            "char_spacing_factor_available": true
+          },
+          "estimated_unrotated_size_m": {
+            "width": 0.01736,
+            "height": 0.004375
+          },
+          "padding_m": 0.0014000000000000002,
+          "orientation_assumption": "unknown_angle_conservative_square_envelope",
+          "limitations": [
+            "SolidWorks 2026 IAnnotation \u4e0d\u63d0\u4f9b\u5c3a\u5bf8\u6587\u5b57\u539f\u751f\u5305\u56f4\u76d2",
+            "\u4e3b\u5c3a\u5bf8\u683c\u5f0f\u5316\u503c\u53ef\u80fd\u4e0d\u7531 GetText \u8fd4\u56de\uff0c\u7f3a\u5931\u65f6\u4f7f\u7528\u4fdd\u5b88\u5360\u4f4d\u5bbd\u5ea6",
+            "\u4f30\u7b97\u53ea\u80fd\u7528\u4e8e\u78b0\u649e\u98ce\u9669\u7b5b\u67e5\uff0c\u6700\u7ec8\u4ea4\u4ed8\u4ecd\u9700 PDF/BMP \u76ee\u89c6\u590d\u6838"
+          ]
+        },
+        "is_hole_callout": false,
+        "hole_callout_variables": [],
+        "value_mm": 19.5,
+        "value_degrees": null,
+        "basic": false,
+        "prefix": ""
+      },
+      {
+        "sheet": "Sheet1",
+        "view": "Drawing View1",
+        "semantic_view": "front",
+        "name": "D1@Sketch2@R4-Battery-Cradle-TRIAL-1@Drawing View1",
+        "type": 11,
+        "text": "",
+        "box": {
+          "left": 0.2372986003189445,
+          "bottom": 0.22532860031894453,
+          "right": 0.25800139968105545,
+          "top": 0.24603139968105547
+        },
+        "box_source": "estimated",
+        "box_confidence": "low",
+        "box_evidence": {
+          "box": {
+            "left": 0.2372986003189445,
+            "bottom": 0.22532860031894453,
+            "right": 0.25800139968105545,
+            "top": 0.24603139968105547
+          },
+          "source": "estimated",
+          "confidence": "low",
+          "method": "annotation_position_text_format_arbitrary_rotation_envelope",
+          "native_bounding_box_available": false,
+          "position_m": [
+            0.24764999999999998,
+            0.23568
+          ],
+          "text_evidence": {
+            "parts": [],
+            "estimation_lines": [
+              "0000.000"
+            ],
+            "source": "conservative_value_placeholder",
+            "rendered_value_available": false
+          },
+          "text_format": {
+            "source": "IAnnotation.GetTextFormat(0)",
+            "char_height_m": 0.0035,
+            "width_factor": 1.0,
+            "char_spacing_factor": 1.0,
+            "char_height_available": true,
+            "width_factor_available": true,
+            "char_spacing_factor_available": true
+          },
+          "estimated_unrotated_size_m": {
+            "width": 0.01736,
+            "height": 0.004375
+          },
+          "padding_m": 0.0014000000000000002,
+          "orientation_assumption": "unknown_angle_conservative_square_envelope",
+          "limitations": [
+            "SolidWorks 2026 IAnnotation \u4e0d\u63d0\u4f9b\u5c3a\u5bf8\u6587\u5b57\u539f\u751f\u5305\u56f4\u76d2",
+            "\u4e3b\u5c3a\u5bf8\u683c\u5f0f\u5316\u503c\u53ef\u80fd\u4e0d\u7531 GetText \u8fd4\u56de\uff0c\u7f3a\u5931\u65f6\u4f7f\u7528\u4fdd\u5b88\u5360\u4f4d\u5bbd\u5ea6",
+            "\u4f30\u7b97\u53ea\u80fd\u7528\u4e8e\u78b0\u649e\u98ce\u9669\u7b5b\u67e5\uff0c\u6700\u7ec8\u4ea4\u4ed8\u4ecd\u9700 PDF/BMP \u76ee\u89c6\u590d\u6838"
+          ]
+        },
+        "is_hole_callout": false,
+        "hole_callout_variables": [],
+        "value_mm": 38.5,
+        "value_degrees": null,
+        "basic": false,
+        "prefix": ""
+      },
+      {
+        "sheet": "Sheet1",
+        "view": "Drawing View1",
+        "semantic_view": "front",
+        "name": "D2@Sketch2@R4-Battery-Cradle-TRIAL-1@Drawing View1",
+        "type": 12,
+        "text": "",
+        "box": {
+          "left": 0.2675486003189445,
+          "bottom": 0.20229860031894448,
+          "right": 0.28825139968105545,
+          "top": 0.22300139968105542
+        },
+        "box_source": "estimated",
+        "box_confidence": "low",
+        "box_evidence": {
+          "box": {
+            "left": 0.2675486003189445,
+            "bottom": 0.20229860031894448,
+            "right": 0.28825139968105545,
+            "top": 0.22300139968105542
+          },
+          "source": "estimated",
+          "confidence": "low",
+          "method": "annotation_position_text_format_arbitrary_rotation_envelope",
+          "native_bounding_box_available": false,
+          "position_m": [
+            0.2779,
+            0.21264999999999995
+          ],
+          "text_evidence": {
+            "parts": [],
+            "estimation_lines": [
+              "0000.000"
+            ],
+            "source": "conservative_value_placeholder",
+            "rendered_value_available": false
+          },
+          "text_format": {
+            "source": "IAnnotation.GetTextFormat(0)",
+            "char_height_m": 0.0035,
+            "width_factor": 1.0,
+            "char_spacing_factor": 1.0,
+            "char_height_available": true,
+            "width_factor_available": true,
+            "char_spacing_factor_available": true
+          },
+          "estimated_unrotated_size_m": {
+            "width": 0.01736,
+            "height": 0.004375
+          },
+          "padding_m": 0.0014000000000000002,
+          "orientation_assumption": "unknown_angle_conservative_square_envelope",
+          "limitations": [
+            "SolidWorks 2026 IAnnotation \u4e0d\u63d0\u4f9b\u5c3a\u5bf8\u6587\u5b57\u539f\u751f\u5305\u56f4\u76d2",
+            "\u4e3b\u5c3a\u5bf8\u683c\u5f0f\u5316\u503c\u53ef\u80fd\u4e0d\u7531 GetText \u8fd4\u56de\uff0c\u7f3a\u5931\u65f6\u4f7f\u7528\u4fdd\u5b88\u5360\u4f4d\u5bbd\u5ea6",
+            "\u4f30\u7b97\u53ea\u80fd\u7528\u4e8e\u78b0\u649e\u98ce\u9669\u7b5b\u67e5\uff0c\u6700\u7ec8\u4ea4\u4ed8\u4ecd\u9700 PDF/BMP \u76ee\u89c6\u590d\u6838"
+          ]
+        },
+        "is_hole_callout": false,
+        "hole_callout_variables": [],
+        "value_mm": 18.5,
+        "value_degrees": null,
+        "basic": false,
+        "prefix": ""
+      },
+      {
+        "sheet": "Sheet1",
+        "view": "Drawing View2",
+        "semantic_view": "",
+        "name": "D1@Sketch1@R4-Battery-Cradle-TRIAL-2@Drawing View2",
+        "type": 11,
+        "text": "",
+        "box": {
+          "left": 0.2377986003189445,
+          "bottom": 0.10864860031894454,
+          "right": 0.25850139968105545,
+          "top": 0.12935139968105547
+        },
+        "box_source": "estimated",
+        "box_confidence": "low",
+        "box_evidence": {
+          "box": {
+            "left": 0.2377986003189445,
+            "bottom": 0.10864860031894454,
+            "right": 0.25850139968105545,
+            "top": 0.12935139968105547
+          },
+          "source": "estimated",
+          "confidence": "low",
+          "method": "annotation_position_text_format_arbitrary_rotation_envelope",
+          "native_bounding_box_available": false,
+          "position_m": [
+            0.24814999999999998,
+            0.11900000000000001
+          ],
+          "text_evidence": {
+            "parts": [],
+            "estimation_lines": [
+              "0000.000"
+            ],
+            "source": "conservative_value_placeholder",
+            "rendered_value_available": false
+          },
+          "text_format": {
+            "source": "IAnnotation.GetTextFormat(0)",
+            "char_height_m": 0.0035,
+            "width_factor": 1.0,
+            "char_spacing_factor": 1.0,
+            "char_height_available": true,
+            "width_factor_available": true,
+            "char_spacing_factor_available": true
+          },
+          "estimated_unrotated_size_m": {
+            "width": 0.01736,
+            "height": 0.004375
+          },
+          "padding_m": 0.0014000000000000002,
+          "orientation_assumption": "unknown_angle_conservative_square_envelope",
+          "limitations": [
+            "SolidWorks 2026 IAnnotation \u4e0d\u63d0\u4f9b\u5c3a\u5bf8\u6587\u5b57\u539f\u751f\u5305\u56f4\u76d2",
+            "\u4e3b\u5c3a\u5bf8\u683c\u5f0f\u5316\u503c\u53ef\u80fd\u4e0d\u7531 GetText \u8fd4\u56de\uff0c\u7f3a\u5931\u65f6\u4f7f\u7528\u4fdd\u5b88\u5360\u4f4d\u5bbd\u5ea6",
+            "\u4f30\u7b97\u53ea\u80fd\u7528\u4e8e\u78b0\u649e\u98ce\u9669\u7b5b\u67e5\uff0c\u6700\u7ec8\u4ea4\u4ed8\u4ecd\u9700 PDF/BMP \u76ee\u89c6\u590d\u6838"
+          ]
+        },
+        "is_hole_callout": false,
+        "hole_callout_variables": [],
+        "value_mm": 39.5,
+        "value_degrees": null,
+        "basic": false,
+        "prefix": ""
+      },
+      {
+        "sheet": "Sheet1",
+        "view": "Drawing View2",
+        "semantic_view": "",
+        "name": "D1@Boss-Extrude1@R4-Battery-Cradle-TRIAL-2@Drawing View2",
+        "type": 2,
+        "text": "",
+        "box": {
+          "left": 0.2735486003189445,
+          "bottom": 0.13426860031894433,
+          "right": 0.29425139968105546,
+          "top": 0.15497139968105528
+        },
+        "box_source": "estimated",
+        "box_confidence": "low",
+        "box_evidence": {
+          "box": {
+            "left": 0.2735486003189445,
+            "bottom": 0.13426860031894433,
+            "right": 0.29425139968105546,
+            "top": 0.15497139968105528
+          },
+          "source": "estimated",
+          "confidence": "low",
+          "method": "annotation_position_text_format_arbitrary_rotation_envelope",
+          "native_bounding_box_available": false,
+          "position_m": [
+            0.2839,
+            0.1446199999999998
+          ],
+          "text_evidence": {
+            "parts": [],
+            "estimation_lines": [
+              "0000.000"
+            ],
+            "source": "conservative_value_placeholder",
+            "rendered_value_available": false
+          },
+          "text_format": {
+            "source": "IAnnotation.GetTextFormat(0)",
+            "char_height_m": 0.0035,
+            "width_factor": 1.0,
+            "char_spacing_factor": 1.0,
+            "char_height_available": true,
+            "width_factor_available": true,
+            "char_spacing_factor_available": true
+          },
+          "estimated_unrotated_size_m": {
+            "width": 0.01736,
+            "height": 0.004375
+          },
+          "padding_m": 0.0014000000000000002,
+          "orientation_assumption": "unknown_angle_conservative_square_envelope",
+          "limitations": [
+            "SolidWorks 2026 IAnnotation \u4e0d\u63d0\u4f9b\u5c3a\u5bf8\u6587\u5b57\u539f\u751f\u5305\u56f4\u76d2",
+            "\u4e3b\u5c3a\u5bf8\u683c\u5f0f\u5316\u503c\u53ef\u80fd\u4e0d\u7531 GetText \u8fd4\u56de\uff0c\u7f3a\u5931\u65f6\u4f7f\u7528\u4fdd\u5b88\u5360\u4f4d\u5bbd\u5ea6",
+            "\u4f30\u7b97\u53ea\u80fd\u7528\u4e8e\u78b0\u649e\u98ce\u9669\u7b5b\u67e5\uff0c\u6700\u7ec8\u4ea4\u4ed8\u4ecd\u9700 PDF/BMP \u76ee\u89c6\u590d\u6838"
+          ]
+        },
+        "is_hole_callout": false,
+        "hole_callout_variables": [],
+        "value_mm": 18.8,
+        "value_degrees": null,
+        "basic": false,
+        "prefix": ""
+      },
+      {
+        "sheet": "Sheet1",
+        "view": "Drawing View2",
+        "semantic_view": "",
+        "name": "D1@Sketch3@R4-Battery-Cradle-TRIAL-2@Drawing View2",
+        "type": 11,
+        "text": "",
+        "box": {
+          "left": 0.2342173505625785,
+          "bottom": 0.11764860031894453,
+          "right": 0.2549201499246894,
+          "top": 0.13835139968105548
+        },
+        "box_source": "estimated",
+        "box_confidence": "low",
+        "box_evidence": {
+          "box": {
+            "left": 0.2342173505625785,
+            "bottom": 0.11764860031894453,
+            "right": 0.2549201499246894,
+            "top": 0.13835139968105548
+          },
+          "source": "estimated",
+          "confidence": "low",
+          "method": "annotation_position_text_format_arbitrary_rotation_envelope",
+          "native_bounding_box_available": false,
+          "position_m": [
+            0.24456875024363398,
+            0.128
+          ],
+          "text_evidence": {
+            "parts": [],
+            "estimation_lines": [
+              "0000.000"
+            ],
+            "source": "conservative_value_placeholder",
+            "rendered_value_available": false
+          },
+          "text_format": {
+            "source": "IAnnotation.GetTextFormat(0)",
+            "char_height_m": 0.0035,
+            "width_factor": 1.0,
+            "char_spacing_factor": 1.0,
+            "char_height_available": true,
+            "width_factor_available": true,
+            "char_spacing_factor_available": true
+          },
+          "estimated_unrotated_size_m": {
+            "width": 0.01736,
+            "height": 0.004375
+          },
+          "padding_m": 0.0014000000000000002,
+          "orientation_assumption": "unknown_angle_conservative_square_envelope",
+          "limitations": [
+            "SolidWorks 2026 IAnnotation \u4e0d\u63d0\u4f9b\u5c3a\u5bf8\u6587\u5b57\u539f\u751f\u5305\u56f4\u76d2",
+            "\u4e3b\u5c3a\u5bf8\u683c\u5f0f\u5316\u503c\u53ef\u80fd\u4e0d\u7531 GetText \u8fd4\u56de\uff0c\u7f3a\u5931\u65f6\u4f7f\u7528\u4fdd\u5b88\u5360\u4f4d\u5bbd\u5ea6",
+            "\u4f30\u7b97\u53ea\u80fd\u7528\u4e8e\u78b0\u649e\u98ce\u9669\u7b5b\u67e5\uff0c\u6700\u7ec8\u4ea4\u4ed8\u4ecd\u9700 PDF/BMP \u76ee\u89c6\u590d\u6838"
+          ]
+        },
+        "is_hole_callout": false,
+        "hole_callout_variables": [],
+        "value_mm": 4.0,
+        "value_degrees": null,
+        "basic": false,
+        "prefix": ""
+      },
+      {
+        "sheet": "Sheet1",
+        "view": "Drawing View2",
+        "semantic_view": "",
+        "name": "D1@Cut-Extrude2@R4-Battery-Cradle-TRIAL-2@Drawing View2",
+        "type": 2,
+        "text": "",
+        "box": {
+          "left": 0.2675486003189445,
+          "bottom": 0.15583735056257847,
+          "right": 0.28825139968105545,
+          "top": 0.17654014992468942
+        },
+        "box_source": "estimated",
+        "box_confidence": "low",
+        "box_evidence": {
+          "box": {
+            "left": 0.2675486003189445,
+            "bottom": 0.15583735056257847,
+            "right": 0.28825139968105545,
+            "top": 0.17654014992468942
+          },
+          "source": "estimated",
+          "confidence": "low",
+          "method": "annotation_position_text_format_arbitrary_rotation_envelope",
+          "native_bounding_box_available": false,
+          "position_m": [
+            0.2779,
+            0.16618875024363394
+          ],
+          "text_evidence": {
+            "parts": [],
+            "estimation_lines": [
+              "0000.000"
+            ],
+            "source": "conservative_value_placeholder",
+            "rendered_value_available": false
+          },
+          "text_format": {
+            "source": "IAnnotation.GetTextFormat(0)",
+            "char_height_m": 0.0035,
+            "width_factor": 1.0,
+            "char_spacing_factor": 1.0,
+            "char_height_available": true,
+            "width_factor_available": true,
+            "char_spacing_factor_available": true
+          },
+          "estimated_unrotated_size_m": {
+            "width": 0.01736,
+            "height": 0.004375
+          },
+          "padding_m": 0.0014000000000000002,
+          "orientation_assumption": "unknown_angle_conservative_square_envelope",
+          "limitations": [
+            "SolidWorks 2026 IAnnotation \u4e0d\u63d0\u4f9b\u5c3a\u5bf8\u6587\u5b57\u539f\u751f\u5305\u56f4\u76d2",
+            "\u4e3b\u5c3a\u5bf8\u683c\u5f0f\u5316\u503c\u53ef\u80fd\u4e0d\u7531 GetText \u8fd4\u56de\uff0c\u7f3a\u5931\u65f6\u4f7f\u7528\u4fdd\u5b88\u5360\u4f4d\u5bbd\u5ea6",
+            "\u4f30\u7b97\u53ea\u80fd\u7528\u4e8e\u78b0\u649e\u98ce\u9669\u7b5b\u67e5\uff0c\u6700\u7ec8\u4ea4\u4ed8\u4ecd\u9700 PDF/BMP \u76ee\u89c6\u590d\u6838"
+          ]
+        },
+        "is_hole_callout": false,
+        "hole_callout_variables": [],
+        "value_mm": 3.0,
+        "value_degrees": null,
+        "basic": false,
+        "prefix": ""
+      },
+      {
+        "sheet": "Sheet1",
+        "view": "Drawing View3",
+        "semantic_view": "",
+        "name": "D2@Sketch1@R4-Battery-Cradle-TRIAL-3@Drawing View3",
+        "type": 12,
+        "text": "",
+        "box": {
+          "left": 0.15866860031894453,
+          "bottom": 0.20279860031894448,
+          "right": 0.17937139968105548,
+          "top": 0.22350139968105542
+        },
+        "box_source": "estimated",
+        "box_confidence": "low",
+        "box_evidence": {
+          "box": {
+            "left": 0.15866860031894453,
+            "bottom": 0.20279860031894448,
+            "right": 0.17937139968105548,
+            "top": 0.22350139968105542
+          },
+          "source": "estimated",
+          "confidence": "low",
+          "method": "annotation_position_text_format_arbitrary_rotation_envelope",
+          "native_bounding_box_available": false,
+          "position_m": [
+            0.16902,
+            0.21314999999999995
+          ],
+          "text_evidence": {
+            "parts": [],
+            "estimation_lines": [
+              "0000.000"
+            ],
+            "source": "conservative_value_placeholder",
+            "rendered_value_available": false
+          },
+          "text_format": {
+            "source": "IAnnotation.GetTextFormat(0)",
+            "char_height_m": 0.0035,
+            "width_factor": 1.0,
+            "char_spacing_factor": 1.0,
+            "char_height_available": true,
+            "width_factor_available": true,
+            "char_spacing_factor_available": true
+          },
+          "estimated_unrotated_size_m": {
+            "width": 0.01736,
+            "height": 0.004375
+          },
+          "padding_m": 0.0014000000000000002,
+          "orientation_assumption": "unknown_angle_conservative_square_envelope",
+          "limitations": [
+            "SolidWorks 2026 IAnnotation \u4e0d\u63d0\u4f9b\u5c3a\u5bf8\u6587\u5b57\u539f\u751f\u5305\u56f4\u76d2",
+            "\u4e3b\u5c3a\u5bf8\u683c\u5f0f\u5316\u503c\u53ef\u80fd\u4e0d\u7531 GetText \u8fd4\u56de\uff0c\u7f3a\u5931\u65f6\u4f7f\u7528\u4fdd\u5b88\u5360\u4f4d\u5bbd\u5ea6",
+            "\u4f30\u7b97\u53ea\u80fd\u7528\u4e8e\u78b0\u649e\u98ce\u9669\u7b5b\u67e5\uff0c\u6700\u7ec8\u4ea4\u4ed8\u4ecd\u9700 PDF/BMP \u76ee\u89c6\u590d\u6838"
+          ]
+        },
+        "is_hole_callout": false,
+        "hole_callout_variables": [],
+        "value_mm": 19.5,
+        "value_degrees": null,
+        "basic": false,
+        "prefix": ""
+      },
+      {
+        "sheet": "Sheet1",
+        "view": "Drawing View3",
+        "semantic_view": "",
+        "name": "D1@Boss-Extrude1@R4-Battery-Cradle-TRIAL-3@Drawing View3",
+        "type": 2,
+        "text": "",
+        "box": {
+          "left": 0.13926860031894422,
+          "bottom": 0.22532672531447415,
+          "right": 0.15997139968105517,
+          "top": 0.2460295246765851
+        },
+        "box_source": "estimated",
+        "box_confidence": "low",
+        "box_evidence": {
+          "box": {
+            "left": 0.13926860031894422,
+            "bottom": 0.22532672531447415,
+            "right": 0.15997139968105517,
+            "top": 0.2460295246765851
+          },
+          "source": "estimated",
+          "confidence": "low",
+          "method": "annotation_position_text_format_arbitrary_rotation_envelope",
+          "native_bounding_box_available": false,
+          "position_m": [
+            0.1496199999999997,
+            0.23567812499552962
+          ],
+          "text_evidence": {
+            "parts": [],
+            "estimation_lines": [
+              "0000.000"
+            ],
+            "source": "conservative_value_placeholder",
+            "rendered_value_available": false
+          },
+          "text_format": {
+            "source": "IAnnotation.GetTextFormat(0)",
+            "char_height_m": 0.0035,
+            "width_factor": 1.0,
+            "char_spacing_factor": 1.0,
+            "char_height_available": true,
+            "width_factor_available": true,
+            "char_spacing_factor_available": true
+          },
+          "estimated_unrotated_size_m": {
+            "width": 0.01736,
+            "height": 0.004375
+          },
+          "padding_m": 0.0014000000000000002,
+          "orientation_assumption": "unknown_angle_conservative_square_envelope",
+          "limitations": [
+            "SolidWorks 2026 IAnnotation \u4e0d\u63d0\u4f9b\u5c3a\u5bf8\u6587\u5b57\u539f\u751f\u5305\u56f4\u76d2",
+            "\u4e3b\u5c3a\u5bf8\u683c\u5f0f\u5316\u503c\u53ef\u80fd\u4e0d\u7531 GetText \u8fd4\u56de\uff0c\u7f3a\u5931\u65f6\u4f7f\u7528\u4fdd\u5b88\u5360\u4f4d\u5bbd\u5ea6",
+            "\u4f30\u7b97\u53ea\u80fd\u7528\u4e8e\u78b0\u649e\u98ce\u9669\u7b5b\u67e5\uff0c\u6700\u7ec8\u4ea4\u4ed8\u4ecd\u9700 PDF/BMP \u76ee\u89c6\u590d\u6838"
+          ]
+        },
+        "is_hole_callout": false,
+        "hole_callout_variables": [],
+        "value_mm": 18.8,
+        "value_degrees": null,
+        "basic": false,
+        "prefix": ""
+      }
+    ],
+    "notes": [
+      {
+        "sheet": "Sheet1",
+        "owner_view": "Drawing View1",
+        "owner_view_type": 7,
+        "note_kind": "note",
+        "text": "TRIAL: battery user nominal 76x36x18; connector not included.",
+        "position_m": [
+          0.01999999999999999,
+          0.02,
+          6.162975822039155e-33
+        ],
+        "box": {
+          "left": 0.019793171428571454,
+          "bottom": 0.015728885714285767,
+          "right": 0.15943408571428574,
+          "top": 0.020056600000000036
+        }
+      },
+      {
+        "sheet": "Sheet1",
+        "owner_view": "Drawing View1",
+        "owner_view_type": 7,
+        "note_kind": "note",
+        "text": "Outer79x39; opening77x37; depth18.8, wall1 nominal.",
+        "position_m": [
+          0.01999999999999999,
+          0.026000000000000002,
+          -6.162975822039155e-33
+        ],
+        "box": {
+          "left": 0.019793171428571454,
+          "bottom": 0.02149917142857144,
+          "right": 0.1398151142857143,
+          "top": 0.026115400000000066
+        }
+      },
+      {
+        "sheet": "Sheet1",
+        "owner_view": "Drawing View1",
+        "owner_view_type": 7,
+        "note_kind": "note",
+        "text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth3, keep frame connected.",
+        "position_m": [
+          0.01999999999999999,
+          0.032,
+          -6.162975822039155e-33
+        ],
+        "box": {
+          "left": 0.019793171428571454,
+          "bottom": 0.02755797142857147,
+          "right": 0.1963639142857143,
+          "top": 0.03217420000000004
+        }
+      },
+      {
+        "sheet": "Sheet1",
+        "owner_view": "Drawing View1",
+        "owner_view_type": 7,
+        "note_kind": "note",
+        "text": "Use insulation foam on original bay floor; fit and retaining cover TBD.",
+        "position_m": [
+          0.01999999999999999,
+          0.038000000000000006,
+          0.0
+        ],
+        "box": {
+          "left": 0.019793171428571454,
+          "bottom": 0.033616771428571446,
+          "right": 0.17299425714285716,
+          "top": 0.03823300000000002
+        }
+      }
+    ],
+    "tables": [],
+    "professional_annotations": {
+      "center_marks": [],
+      "center_lines": [],
+      "hole_callouts": [],
+      "datum_tags": [],
+      "geometric_tolerances": [],
+      "surface_finish_symbols": [],
+      "weld_symbols": []
+    },
+    "template_path": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\lang\\english\\sheetformat\\a3 - gb.slddrt",
+    "paper_size": "A3",
+    "sheet_size": {
+      "width_m": 0.42,
+      "height_m": 0.297
+    },
+    "title_block": {
+      "candidate": true,
+      "gbt_candidate": true,
+      "content_verified": false,
+      "fields": {},
+      "box": {
+        "left": 0.22799999999999998,
+        "bottom": 0.012,
+        "right": 0.408,
+        "top": 0.067
+      }
+    },
+    "view_count": 3,
+    "dimension_count": 10,
+    "table_count": 0,
+    "view_outline_count": 3,
+    "dimension_box_count": 10,
+    "native_dimension_box_count": 0,
+    "estimated_dimension_box_count": 10,
+    "low_confidence_dimension_box_count": 10,
+    "manual_review_required": true,
+    "retryable": false,
+    "error_code": null,
+    "checks": [
+      {
+        "id": "drawing-views",
+        "status": "pass",
+        "message": "\u5de5\u7a0b\u56fe\u5305\u542b\u89c6\u56fe"
+      },
+      {
+        "id": "drawing-template",
+        "status": "pass",
+        "message": "\u5df2\u8bfb\u53d6\u56fe\u6846\u6a21\u677f"
+      },
+      {
+        "id": "drawing-a3-sheet",
+        "status": "pass",
+        "message": "\u5f53\u524d\u56fe\u5e45\u8bc6\u522b\u4e3a A3"
+      },
+      {
+        "id": "drawing-gbt-template",
+        "status": "pass",
+        "message": "\u6a21\u677f\u540d\u79f0\u662f GB/T \u5019\u9009\uff0c\u5185\u5bb9\u4ecd\u9700\u76ee\u89c6\u590d\u6838"
+      },
+      {
+        "id": "drawing-dimensions",
+        "status": "pass",
+        "message": "\u5df2\u8bfb\u53d6\u771f\u5b9e\u5c3a\u5bf8\u5b9e\u4f53"
+      },
+      {
+        "id": "drawing-view-outlines",
+        "status": "pass",
+        "message": "\u5df2\u8bfb\u53d6\u5168\u90e8\u89c6\u56fe\u8fb9\u754c"
+      },
+      {
+        "id": "drawing-dimension-boxes",
+        "status": "warning",
+        "message": "\u539f\u751f\u8fb9\u754c 0/10\uff0c\u4fdd\u5b88\u4f30\u7b97 10/10\uff1b\u4f30\u7b97\u4e0d\u7b49\u4e8e\u539f\u751f\u8bc1\u636e"
+      }
+    ]
+  },
+  "review": {
+    "status": "pass",
+    "stage": "review",
+    "standard": "GB_T",
+    "projection": "first_angle",
+    "document_type": "part",
+    "checks": [
+      {
+        "id": "drawing-view-count",
+        "status": "pass",
+        "message": "\u8bfb\u53d6\u5230 3 \u4e2a\u5de5\u7a0b\u56fe\u89c6\u56fe"
+      },
+      {
+        "id": "drawing-view-boxes",
+        "status": "pass",
+        "message": "\u89c6\u56fe\u8fb9\u754c\u5b8c\u6574"
+      },
+      {
+        "id": "drawing-dimension-boxes",
+        "status": "pass",
+        "message": "\u5c3a\u5bf8\u6587\u5b57\u8fb9\u754c\u5b8c\u6574\uff08SolidWorks \u539f\u751f\u6216\u6700\u7ec8 PDF \u77e2\u91cf\u6587\u5b57\uff09"
+      },
+      {
+        "id": "drawing-dimension-estimate-provenance",
+        "status": "pass",
+        "message": "\u6ca1\u6709\u4f7f\u7528\u4f30\u7b97\u5c3a\u5bf8\u8fb9\u754c"
+      },
+      {
+        "id": "drawing-title-block-box",
+        "status": "pass",
+        "message": "\u6807\u9898\u680f\u533a\u57df\u53ef\u7528\u4e8e\u78b0\u649e\u68c0\u67e5"
+      },
+      {
+        "id": "drawing-note-boxes",
+        "status": "pass",
+        "message": "\u6ce8\u91ca\u8fb9\u754c\u5b8c\u6574\uff08PDF \u56de\u586b 0 \u9879\uff09"
+      },
+      {
+        "id": "drawing-layout-collisions",
+        "status": "pass",
+        "message": "\u672a\u53d1\u73b0\u7ed3\u6784\u5316\u5e03\u5c40\u78b0\u649e\u98ce\u9669"
+      },
+      {
+        "id": "drawing-pixel-preview",
+        "status": "pass",
+        "message": "BMP \u9884\u89c8\u5b58\u5728\u4e14\u975e\u7a7a\uff0c\u53ef\u8f85\u52a9\u76ee\u89c6\u786e\u8ba4"
+      },
+      {
+        "id": "drawing-required-views",
+        "status": "pass",
+        "message": "\u5fc5\u9700\u89c6\u56fe 3 \u9879\uff0c\u7f3a\u5931 0 \u9879",
+        "missing": []
+      },
+      {
+        "id": "drawing-required-dimensions",
+        "status": "pass",
+        "message": "\u5fc5\u9700\u5c3a\u5bf8 0 \u9879\uff0c\u7f3a\u5931 0 \u9879",
+        "missing": []
+      },
+      {
+        "id": "drawing-hole-requirements",
+        "status": "pass",
+        "message": "\u5b54\u69fd\u8981\u6c42 0 \u9879\uff0c\u7f3a\u5931 0 \u9879",
+        "missing": []
+      },
+      {
+        "id": "drawing-professional-annotations",
+        "status": "pass",
+        "message": "\u4e13\u4e1a\u6807\u6ce8 0 \u9879\uff0c\u7f3a\u5931 0 \u9879",
+        "missing": []
+      },
+      {
+        "id": "drawing-model-dimensions",
+        "status": "pass",
+        "message": "\u5df2\u8bfb\u53d6\u6a21\u578b\u5c3a\u5bf8\u5b9e\u4f53"
+      },
+      {
+        "id": "drawing-notes",
+        "status": "pass",
+        "message": "\u5fc5\u9700\u6ce8\u91ca 4 \u9879\uff0cCOM \u7f3a\u5931 0 \u9879\uff0cPDF \u7f3a\u5931 0 \u9879",
+        "missing_structure": [],
+        "missing_position": [],
+        "missing_pdf": []
+      },
+      {
+        "id": "drawing-bom",
+        "status": "pass",
+        "message": "BOM\u8981\u6c42=False\uff0cBOM\u8868=0\uff0c\u53ef\u9a8c\u8bc1=0",
+        "reason": null
+      },
+      {
+        "id": "drawing-title-block",
+        "status": "pass",
+        "message": "\u6807\u9898\u680f\u5b57\u6bb5\u5df2\u7ed3\u6784\u5316\u6838\u9a8c",
+        "mismatches": [],
+        "content_verified": null
+      },
+      {
+        "id": "drawing-pdf-text-layout",
+        "status": "pass",
+        "message": "PDF \u77e2\u91cf\u6587\u5b57\u8fb9\u754c\u5df2\u8bfb\u53d6\u3002"
+      },
+      {
+        "id": "drawing-pdf-rendered-dimension-boxes",
+        "status": "pass",
+        "message": "\u6700\u7ec8 PDF \u5c3a\u5bf8\u6587\u5b57\u6846\u5339\u914d 10/10",
+        "unmatched_dimension_indexes": []
+      }
+    ],
+    "findings": [],
+    "layout": {
+      "status": "pass",
+      "stage": "review",
+      "checks": [
+        {
+          "id": "drawing-view-count",
+          "status": "pass",
+          "message": "\u8bfb\u53d6\u5230 3 \u4e2a\u5de5\u7a0b\u56fe\u89c6\u56fe"
+        },
+        {
+          "id": "drawing-view-boxes",
+          "status": "pass",
+          "message": "\u89c6\u56fe\u8fb9\u754c\u5b8c\u6574"
+        },
+        {
+          "id": "drawing-dimension-boxes",
+          "status": "pass",
+          "message": "\u5c3a\u5bf8\u6587\u5b57\u8fb9\u754c\u5b8c\u6574\uff08SolidWorks \u539f\u751f\u6216\u6700\u7ec8 PDF \u77e2\u91cf\u6587\u5b57\uff09"
+        },
+        {
+          "id": "drawing-dimension-estimate-provenance",
+          "status": "pass",
+          "message": "\u6ca1\u6709\u4f7f\u7528\u4f30\u7b97\u5c3a\u5bf8\u8fb9\u754c"
+        },
+        {
+          "id": "drawing-title-block-box",
+          "status": "pass",
+          "message": "\u6807\u9898\u680f\u533a\u57df\u53ef\u7528\u4e8e\u78b0\u649e\u68c0\u67e5"
+        },
+        {
+          "id": "drawing-note-boxes",
+          "status": "pass",
+          "message": "\u6ce8\u91ca\u8fb9\u754c\u5b8c\u6574\uff08PDF \u56de\u586b 0 \u9879\uff09"
+        },
+        {
+          "id": "drawing-layout-collisions",
+          "status": "pass",
+          "message": "\u672a\u53d1\u73b0\u7ed3\u6784\u5316\u5e03\u5c40\u78b0\u649e\u98ce\u9669"
+        },
+        {
+          "id": "drawing-pixel-preview",
+          "status": "pass",
+          "message": "BMP \u9884\u89c8\u5b58\u5728\u4e14\u975e\u7a7a\uff0c\u53ef\u8f85\u52a9\u76ee\u89c6\u786e\u8ba4"
+        }
+      ],
+      "findings": [],
+      "evidence_summary": {
+        "dimension_count": 10,
+        "native_dimension_box_count": 0,
+        "rendered_dimension_box_count": 10,
+        "estimated_dimension_box_count": 0,
+        "confirmed_collision_count": 0,
+        "estimated_collision_risk_count": 0,
+        "pixel_preview_available": true,
+        "estimated_evidence_is_native": false
+      },
+      "manual_review_required": false,
+      "retryable": false,
+      "error_code": null
+    },
+    "view_evidence": {
+      "required_count": 3,
+      "matched_count": 3,
+      "missing": [],
+      "checks": [
+        {
+          "id": "front",
+          "kind": "standard",
+          "passed": true,
+          "matched_view_index": 0
+        },
+        {
+          "id": "top",
+          "kind": "standard",
+          "passed": true,
+          "matched_view_index": 1
+        },
+        {
+          "id": "right",
+          "kind": "standard",
+          "passed": true,
+          "matched_view_index": 2
+        }
+      ],
+      "status": "pass"
+    },
+    "dimension_evidence": {
+      "required_count": 0,
+      "matched_count": 0,
+      "missing": [],
+      "checks": [],
+      "status": "pass",
+      "match_policy": "exact structured id/view/kind/value/text/tolerance/datum"
+    },
+    "hole_evidence": {
+      "required_count": 0,
+      "missing": [],
+      "checks": [],
+      "status": "pass"
+    },
+    "professional_annotation_evidence": {
+      "required_count": 0,
+      "missing": [],
+      "checks": [],
+      "status": "pass"
+    },
+    "bom_evidence": {
+      "required": false,
+      "status": "pass",
+      "tables": []
+    },
+    "title_block_evidence": {
+      "required": false,
+      "status": "pass",
+      "mismatches": []
+    },
+    "note_evidence": {
+      "required_count": 4,
+      "missing_structure": [],
+      "missing_position": [],
+      "missing_pdf": [],
+      "pdf_matches": [
+        {
+          "text": "TRIAL: battery user nominal 76x36x18; connector not included.",
+          "page": 1,
+          "bbox_pt": [
+            56.69292068481445,
+            784.1649169921875,
+            452.0964050292969,
+            799.9465942382812
+          ],
+          "span_text": "TRIAL: battery user nominal 76x36x18; connector not included.",
+          "evidence_source": "pdf_vector_text_bbox"
+        },
+        {
+          "text": "Outer79x39; opening77x37; depth18.8, wall1 nominal.",
+          "page": 1,
+          "bbox_pt": [
+            56.69292068481445,
+            767.1571044921875,
+            396.9923095703125,
+            782.9387817382812
+          ],
+          "span_text": "Outer79x39; opening77x37; depth18.8, wall1 nominal.",
+          "evidence_source": "pdf_vector_text_bbox"
+        },
+        {
+          "text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth3, keep frame connected.",
+          "page": 1,
+          "bbox_pt": [
+            56.69292068481445,
+            750.149169921875,
+            557.2617797851562,
+            765.9308471679688
+          ],
+          "span_text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth3, keep frame connected.",
+          "evidence_source": "pdf_vector_text_bbox"
+        },
+        {
+          "text": "Use insulation foam on original bay floor; fit and retaining cover TBD.",
+          "page": 1,
+          "bbox_pt": [
+            56.69292068481445,
+            733.141357421875,
+            491.0787048339844,
+            748.9230346679688
+          ],
+          "span_text": "Use insulation foam on original bay floor; fit and retaining cover TBD.",
+          "evidence_source": "pdf_vector_text_bbox"
+        }
+      ],
+      "pdf": {
+        "status": "review_required",
+        "stage": "pdf_text_layout",
+        "path": "C:\\Users\\32561\\Documents\\ChatGPT\\\u5c0f\u521b\\outputs\\R4-Minimal\\Drawings\\Battery-Cradle-R4-DRAFT.pdf",
+        "source": "solidworks_pdf_vector_text",
+        "native_com_bounding_box_available": false,
+        "pages": [
+          {
+            "page": 1,
+            "widthPt": 1190.550048828125,
+            "heightPt": 841.8900146484375,
+            "textSpans": [
+              {
+                "page": 1,
+                "text": "39.50",
+                "bboxPt": [
+                  683.2578735351562,
+                  142.322998046875,
+                  723.57666015625,
+                  158.1046600341797
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35976505279541,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "19.50",
+                "bboxPt": [
+                  807.27392578125,
+                  217.5259246826172,
+                  823.0556030273438,
+                  257.8447265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35976505279541,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "38.50",
+                "bboxPt": [
+                  681.840576171875,
+                  167.8348388671875,
+                  722.1593627929688,
+                  183.6165008544922
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35976505279541,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "18.50",
+                "bboxPt": [
+                  781.7621459960938,
+                  218.9432830810547,
+                  797.5438232421875,
+                  259.2620849609375
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35976505279541,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "TRIAL: battery user nominal 76x36x18; connector not included.",
+                "bboxPt": [
+                  56.69292068481445,
+                  784.1649169921875,
+                  452.0964050292969,
+                  799.9465942382812
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.357827186584473,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "Outer79x39; opening77x37; depth18.8, wall1 nominal.",
+                "bboxPt": [
+                  56.69292068481445,
+                  767.1571044921875,
+                  396.9923095703125,
+                  782.9387817382812
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.358145713806152,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth3, keep frame connected.",
+                "bboxPt": [
+                  56.69292068481445,
+                  750.149169921875,
+                  557.2617797851562,
+                  765.9308471679688
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.357844352722168,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "Use insulation foam on original bay floor; fit and retaining cover TBD.",
+                "bboxPt": [
+                  56.69292068481445,
+                  733.141357421875,
+                  491.0787048339844,
+                  748.9230346679688
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.357810974121094,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "39.50",
+                "bboxPt": [
+                  683.2579345703125,
+                  498.5812072753906,
+                  723.5767211914062,
+                  514.3628540039062
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35976505279541,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "18.80",
+                "bboxPt": [
+                  798.77001953125,
+                  411.7840881347656,
+                  814.5516967773438,
+                  452.1029968261719
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35976505279541,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "4.00",
+                "bboxPt": [
+                  676.7716674804688,
+                  473.0694580078125,
+                  709.759765625,
+                  488.85113525390625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.359764099121094,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "3.00",
+                "bboxPt": [
+                  781.7621459960938,
+                  354.3096923828125,
+                  797.5438232421875,
+                  387.2978820800781
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.359764099121094,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "19.50",
+                "bboxPt": [
+                  473.1258850097656,
+                  217.5259246826172,
+                  488.90753173828125,
+                  257.8447265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35976505279541,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "18.80",
+                "bboxPt": [
+                  403.9602355957031,
+                  167.84014892578125,
+                  444.2791442871094,
+                  183.62181091308594
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35976505279541,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "A",
+                "bboxPt": [
+                  8.621139526367188,
+                  749.9019165039062,
+                  19.725299835205078,
+                  770.4069213867188
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.00281047821045,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "A",
+                "bboxPt": [
+                  1170.825927734375,
+                  749.9019165039062,
+                  1181.9300537109375,
+                  770.4069213867188
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.00281047821045,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "B",
+                "bboxPt": [
+                  9.87109375,
+                  624.4688720703125,
+                  18.475261688232422,
+                  644.973876953125
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 14.994917869567871,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "B",
+                "bboxPt": [
+                  1172.075927734375,
+                  624.4688720703125,
+                  1180.6800537109375,
+                  644.973876953125
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 14.994917869567871,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "C",
+                "bboxPt": [
+                  8.0794677734375,
+                  482.73663330078125,
+                  20.26696014404297,
+                  503.24163818359375
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 14.995381355285645,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "C",
+                "bboxPt": [
+                  1170.2840576171875,
+                  482.73663330078125,
+                  1182.4715576171875,
+                  503.24163818359375
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 14.995381355285645,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "D",
+                "bboxPt": [
+                  8.58984375,
+                  341.00433349609375,
+                  19.75650978088379,
+                  361.50933837890625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.004478454589844,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "D",
+                "bboxPt": [
+                  1170.794677734375,
+                  341.00433349609375,
+                  1181.9613037109375,
+                  361.50933837890625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.004478454589844,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "E",
+                "bboxPt": [
+                  10.15234375,
+                  199.27200317382812,
+                  18.19401741027832,
+                  219.77699279785156
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.001561164855957,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "E",
+                "bboxPt": [
+                  1172.357177734375,
+                  199.27200317382812,
+                  1180.3988037109375,
+                  219.77699279785156
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.001561164855957,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "F",
+                "bboxPt": [
+                  10.537841796875,
+                  73.8390121459961,
+                  17.80868148803711,
+                  94.3440170288086
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 14.995710372924805,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "F",
+                "bboxPt": [
+                  1172.742431640625,
+                  73.8390121459961,
+                  1180.0133056640625,
+                  94.3440170288086
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 14.995710372924805,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "8",
+                "bboxPt": [
+                  95.0562744140625,
+                  818.64208984375,
+                  103.3687744140625,
+                  839.1470947265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "8",
+                "bboxPt": [
+                  95.0562744140625,
+                  5.098779678344727,
+                  103.3687744140625,
+                  25.603778839111328
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "7",
+                "bboxPt": [
+                  236.78857421875,
+                  818.64208984375,
+                  245.10107421875,
+                  839.1470947265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "7",
+                "bboxPt": [
+                  236.78857421875,
+                  5.098779678344727,
+                  245.10107421875,
+                  25.603778839111328
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "6",
+                "bboxPt": [
+                  378.5207214355469,
+                  818.64208984375,
+                  386.8332214355469,
+                  839.1470947265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "6",
+                "bboxPt": [
+                  378.5207214355469,
+                  5.098779678344727,
+                  386.8332214355469,
+                  25.603778839111328
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "5",
+                "bboxPt": [
+                  520.2530517578125,
+                  818.64208984375,
+                  528.5655517578125,
+                  839.1470947265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "5",
+                "bboxPt": [
+                  520.2530517578125,
+                  5.098779678344727,
+                  528.5655517578125,
+                  25.603778839111328
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "4",
+                "bboxPt": [
+                  661.9853515625,
+                  818.64208984375,
+                  670.2978515625,
+                  839.1470947265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "4",
+                "bboxPt": [
+                  661.9853515625,
+                  5.098779678344727,
+                  670.2978515625,
+                  25.603778839111328
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "3",
+                "bboxPt": [
+                  803.7176513671875,
+                  818.64208984375,
+                  812.0301513671875,
+                  839.1470947265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "3",
+                "bboxPt": [
+                  803.7176513671875,
+                  5.098779678344727,
+                  812.0301513671875,
+                  25.603778839111328
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "2",
+                "bboxPt": [
+                  945.449951171875,
+                  818.64208984375,
+                  953.762451171875,
+                  839.1470947265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "2",
+                "bboxPt": [
+                  945.449951171875,
+                  5.098779678344727,
+                  953.762451171875,
+                  25.603778839111328
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "1",
+                "bboxPt": [
+                  1087.1822509765625,
+                  818.64208984375,
+                  1095.4947509765625,
+                  839.1470947265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "1",
+                "bboxPt": [
+                  1087.1822509765625,
+                  5.098779678344727,
+                  1095.4947509765625,
+                  25.603778839111328
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "Sheet1",
+                "bboxPt": [
+                  1070.1014404296875,
+                  731.9080200195312,
+                  1113.7550048828125,
+                  747.689697265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.356035232543945,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "1",
+                "bboxPt": [
+                  1092.896484375,
+                  782.3900756835938,
+                  1100.2271728515625,
+                  798.1717529296875
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.359766960144043,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "SIGNED",
+                "bboxPt": [
+                  687.09228515625,
+                  738.6275634765625,
+                  719.4797973632812,
+                  752.9437866210938
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 9.685111999511719,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "DATE",
+                "bboxPt": [
+                  727.14208984375,
+                  738.53173828125,
+                  759.4964599609375,
+                  754.3134155273438
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.357484817504883,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "NAME",
+                "bboxPt": [
+                  653.0286254882812,
+                  738.6275634765625,
+                  684.6661376953125,
+                  752.9437866210938
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 10.624950408935547,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "WEIGHT:",
+                "bboxPt": [
+                  991.0048217773438,
+                  738.4097900390625,
+                  1015.9243774414062,
+                  745.56787109375
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 5.536468982696533,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "SCALE:",
+                "bboxPt": [
+                  959.7101440429688,
+                  742.0980834960938,
+                  979.1874389648438,
+                  749.2561645507812
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 5.537562370300293,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "1:1",
+                "bboxPt": [
+                  965.62890625,
+                  749.4327392578125,
+                  973.268798828125,
+                  756.5908203125
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 5.374429702758789,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "A3",
+                "bboxPt": [
+                  657.643798828125,
+                  717.8201904296875,
+                  674.7579956054688,
+                  733.6018676757812
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35671329498291,
+                "dimensionCandidate": false
+              }
+            ]
+          }
+        ],
+        "text_span_count": 51,
+        "numeric_text_span_count": 28,
+        "overlaps": [],
+        "manual_review_required": true,
+        "retryable": false,
+        "error_code": null,
+        "limitations": [
+          "PDF \u6587\u5b57\u6846\u5c5e\u4e8e\u5bfc\u51fa\u4ea7\u7269\u8bc1\u636e\uff0c\u4e0d\u662f IAnnotation/IDisplayDimension \u539f\u751f\u5305\u56f4\u76d2\u3002",
+          "\u53ea\u80fd\u68c0\u67e5\u53ef\u63d0\u53d6\u77e2\u91cf\u6587\u5b57\u4e4b\u95f4\u7684\u91cd\u53e0\uff0c\u4e0d\u80fd\u8bc1\u660e\u6587\u5b57\u4e0e\u5c3a\u5bf8\u7ebf\u3001\u51e0\u4f55\u7ebf\u6216\u6807\u9898\u680f\u8fb9\u6846\u65e0\u78b0\u649e\u3002"
+        ],
+        "message": "PDF \u77e2\u91cf\u6587\u5b57\u8fb9\u754c\u5df2\u8bfb\u53d6\u3002"
+      },
+      "status": "pass",
+      "error_code": null
+    },
+    "pdf_evidence": {
+      "status": "review_required",
+      "stage": "pdf_text_layout",
+      "path": "C:\\Users\\32561\\Documents\\ChatGPT\\\u5c0f\u521b\\outputs\\R4-Minimal\\Drawings\\Battery-Cradle-R4-DRAFT.pdf",
+      "source": "solidworks_pdf_vector_text",
+      "native_com_bounding_box_available": false,
+      "pages": [
+        {
+          "page": 1,
+          "widthPt": 1190.550048828125,
+          "heightPt": 841.8900146484375,
+          "textSpans": [
+            {
+              "page": 1,
+              "text": "39.50",
+              "bboxPt": [
+                683.2578735351562,
+                142.322998046875,
+                723.57666015625,
+                158.1046600341797
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.35976505279541,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "19.50",
+              "bboxPt": [
+                807.27392578125,
+                217.5259246826172,
+                823.0556030273438,
+                257.8447265625
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.35976505279541,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "38.50",
+              "bboxPt": [
+                681.840576171875,
+                167.8348388671875,
+                722.1593627929688,
+                183.6165008544922
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.35976505279541,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "18.50",
+              "bboxPt": [
+                781.7621459960938,
+                218.9432830810547,
+                797.5438232421875,
+                259.2620849609375
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.35976505279541,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "TRIAL: battery user nominal 76x36x18; connector not included.",
+              "bboxPt": [
+                56.69292068481445,
+                784.1649169921875,
+                452.0964050292969,
+                799.9465942382812
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.357827186584473,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "Outer79x39; opening77x37; depth18.8, wall1 nominal.",
+              "bboxPt": [
+                56.69292068481445,
+                767.1571044921875,
+                396.9923095703125,
+                782.9387817382812
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.358145713806152,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth3, keep frame connected.",
+              "bboxPt": [
+                56.69292068481445,
+                750.149169921875,
+                557.2617797851562,
+                765.9308471679688
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.357844352722168,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "Use insulation foam on original bay floor; fit and retaining cover TBD.",
+              "bboxPt": [
+                56.69292068481445,
+                733.141357421875,
+                491.0787048339844,
+                748.9230346679688
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.357810974121094,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "39.50",
+              "bboxPt": [
+                683.2579345703125,
+                498.5812072753906,
+                723.5767211914062,
+                514.3628540039062
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.35976505279541,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "18.80",
+              "bboxPt": [
+                798.77001953125,
+                411.7840881347656,
+                814.5516967773438,
+                452.1029968261719
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.35976505279541,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "4.00",
+              "bboxPt": [
+                676.7716674804688,
+                473.0694580078125,
+                709.759765625,
+                488.85113525390625
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.359764099121094,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "3.00",
+              "bboxPt": [
+                781.7621459960938,
+                354.3096923828125,
+                797.5438232421875,
+                387.2978820800781
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.359764099121094,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "19.50",
+              "bboxPt": [
+                473.1258850097656,
+                217.5259246826172,
+                488.90753173828125,
+                257.8447265625
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.35976505279541,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "18.80",
+              "bboxPt": [
+                403.9602355957031,
+                167.84014892578125,
+                444.2791442871094,
+                183.62181091308594
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.35976505279541,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "A",
+              "bboxPt": [
+                8.621139526367188,
+                749.9019165039062,
+                19.725299835205078,
+                770.4069213867188
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.00281047821045,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "A",
+              "bboxPt": [
+                1170.825927734375,
+                749.9019165039062,
+                1181.9300537109375,
+                770.4069213867188
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.00281047821045,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "B",
+              "bboxPt": [
+                9.87109375,
+                624.4688720703125,
+                18.475261688232422,
+                644.973876953125
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 14.994917869567871,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "B",
+              "bboxPt": [
+                1172.075927734375,
+                624.4688720703125,
+                1180.6800537109375,
+                644.973876953125
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 14.994917869567871,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "C",
+              "bboxPt": [
+                8.0794677734375,
+                482.73663330078125,
+                20.26696014404297,
+                503.24163818359375
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 14.995381355285645,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "C",
+              "bboxPt": [
+                1170.2840576171875,
+                482.73663330078125,
+                1182.4715576171875,
+                503.24163818359375
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 14.995381355285645,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "D",
+              "bboxPt": [
+                8.58984375,
+                341.00433349609375,
+                19.75650978088379,
+                361.50933837890625
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.004478454589844,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "D",
+              "bboxPt": [
+                1170.794677734375,
+                341.00433349609375,
+                1181.9613037109375,
+                361.50933837890625
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.004478454589844,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "E",
+              "bboxPt": [
+                10.15234375,
+                199.27200317382812,
+                18.19401741027832,
+                219.77699279785156
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.001561164855957,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "E",
+              "bboxPt": [
+                1172.357177734375,
+                199.27200317382812,
+                1180.3988037109375,
+                219.77699279785156
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.001561164855957,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "F",
+              "bboxPt": [
+                10.537841796875,
+                73.8390121459961,
+                17.80868148803711,
+                94.3440170288086
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 14.995710372924805,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "F",
+              "bboxPt": [
+                1172.742431640625,
+                73.8390121459961,
+                1180.0133056640625,
+                94.3440170288086
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 14.995710372924805,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "8",
+              "bboxPt": [
+                95.0562744140625,
+                818.64208984375,
+                103.3687744140625,
+                839.1470947265625
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.002259254455566,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "8",
+              "bboxPt": [
+                95.0562744140625,
+                5.098779678344727,
+                103.3687744140625,
+                25.603778839111328
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.002259254455566,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "7",
+              "bboxPt": [
+                236.78857421875,
+                818.64208984375,
+                245.10107421875,
+                839.1470947265625
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.002259254455566,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "7",
+              "bboxPt": [
+                236.78857421875,
+                5.098779678344727,
+                245.10107421875,
+                25.603778839111328
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.002259254455566,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "6",
+              "bboxPt": [
+                378.5207214355469,
+                818.64208984375,
+                386.8332214355469,
+                839.1470947265625
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.002259254455566,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "6",
+              "bboxPt": [
+                378.5207214355469,
+                5.098779678344727,
+                386.8332214355469,
+                25.603778839111328
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.002259254455566,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "5",
+              "bboxPt": [
+                520.2530517578125,
+                818.64208984375,
+                528.5655517578125,
+                839.1470947265625
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.002259254455566,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "5",
+              "bboxPt": [
+                520.2530517578125,
+                5.098779678344727,
+                528.5655517578125,
+                25.603778839111328
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.002259254455566,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "4",
+              "bboxPt": [
+                661.9853515625,
+                818.64208984375,
+                670.2978515625,
+                839.1470947265625
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.002259254455566,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "4",
+              "bboxPt": [
+                661.9853515625,
+                5.098779678344727,
+                670.2978515625,
+                25.603778839111328
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.002259254455566,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "3",
+              "bboxPt": [
+                803.7176513671875,
+                818.64208984375,
+                812.0301513671875,
+                839.1470947265625
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.002259254455566,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "3",
+              "bboxPt": [
+                803.7176513671875,
+                5.098779678344727,
+                812.0301513671875,
+                25.603778839111328
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.002259254455566,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "2",
+              "bboxPt": [
+                945.449951171875,
+                818.64208984375,
+                953.762451171875,
+                839.1470947265625
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.002259254455566,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "2",
+              "bboxPt": [
+                945.449951171875,
+                5.098779678344727,
+                953.762451171875,
+                25.603778839111328
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.002259254455566,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "1",
+              "bboxPt": [
+                1087.1822509765625,
+                818.64208984375,
+                1095.4947509765625,
+                839.1470947265625
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.002259254455566,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "1",
+              "bboxPt": [
+                1087.1822509765625,
+                5.098779678344727,
+                1095.4947509765625,
+                25.603778839111328
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 15.002259254455566,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "Sheet1",
+              "bboxPt": [
+                1070.1014404296875,
+                731.9080200195312,
+                1113.7550048828125,
+                747.689697265625
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.356035232543945,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "1",
+              "bboxPt": [
+                1092.896484375,
+                782.3900756835938,
+                1100.2271728515625,
+                798.1717529296875
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.359766960144043,
+              "dimensionCandidate": true
+            },
+            {
+              "page": 1,
+              "text": "SIGNED",
+              "bboxPt": [
+                687.09228515625,
+                738.6275634765625,
+                719.4797973632812,
+                752.9437866210938
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 9.685111999511719,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "DATE",
+              "bboxPt": [
+                727.14208984375,
+                738.53173828125,
+                759.4964599609375,
+                754.3134155273438
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.357484817504883,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "NAME",
+              "bboxPt": [
+                653.0286254882812,
+                738.6275634765625,
+                684.6661376953125,
+                752.9437866210938
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 10.624950408935547,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "WEIGHT:",
+              "bboxPt": [
+                991.0048217773438,
+                738.4097900390625,
+                1015.9243774414062,
+                745.56787109375
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 5.536468982696533,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "SCALE:",
+              "bboxPt": [
+                959.7101440429688,
+                742.0980834960938,
+                979.1874389648438,
+                749.2561645507812
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 5.537562370300293,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "1:1",
+              "bboxPt": [
+                965.62890625,
+                749.4327392578125,
+                973.268798828125,
+                756.5908203125
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 5.374429702758789,
+              "dimensionCandidate": false
+            },
+            {
+              "page": 1,
+              "text": "A3",
+              "bboxPt": [
+                657.643798828125,
+                717.8201904296875,
+                674.7579956054688,
+                733.6018676757812
+              ],
+              "font": "CenturyGothic",
+              "fontSizePt": 12.35671329498291,
+              "dimensionCandidate": false
+            }
+          ]
+        }
+      ],
+      "text_span_count": 51,
+      "numeric_text_span_count": 28,
+      "overlaps": [],
+      "manual_review_required": true,
+      "retryable": false,
+      "error_code": null,
+      "limitations": [
+        "PDF \u6587\u5b57\u6846\u5c5e\u4e8e\u5bfc\u51fa\u4ea7\u7269\u8bc1\u636e\uff0c\u4e0d\u662f IAnnotation/IDisplayDimension \u539f\u751f\u5305\u56f4\u76d2\u3002",
+        "\u53ea\u80fd\u68c0\u67e5\u53ef\u63d0\u53d6\u77e2\u91cf\u6587\u5b57\u4e4b\u95f4\u7684\u91cd\u53e0\uff0c\u4e0d\u80fd\u8bc1\u660e\u6587\u5b57\u4e0e\u5c3a\u5bf8\u7ebf\u3001\u51e0\u4f55\u7ebf\u6216\u6807\u9898\u680f\u8fb9\u6846\u65e0\u78b0\u649e\u3002"
+      ],
+      "message": "PDF \u77e2\u91cf\u6587\u5b57\u8fb9\u754c\u5df2\u8bfb\u53d6\u3002"
+    },
+    "pdf_dimension_rendering": {
+      "status": "pass",
+      "stage": "pdf_dimension_rendering",
+      "source": "solidworks_pdf_vector_text",
+      "matched": [
+        {
+          "dimension_index": 0,
+          "dimension_name": "D1@Sketch1@R4-Battery-Cradle-TRIAL-1@Drawing View1",
+          "page": 1,
+          "text": "39.50",
+          "bbox_pt": [
+            683.2578735351562,
+            142.322998046875,
+            723.57666015625,
+            158.1046600341797
+          ],
+          "box_m": {
+            "left": 0.2410384235146036,
+            "bottom": 0.24122420599707425,
+            "right": 0.25526200898883683,
+            "top": 0.24679162398359925
+          },
+          "distance_to_com_position_pt": 1.905124
+        },
+        {
+          "dimension_index": 1,
+          "dimension_name": "D2@Sketch1@R4-Battery-Cradle-TRIAL-1@Drawing View1",
+          "page": 1,
+          "text": "19.50",
+          "bbox_pt": [
+            807.27392578125,
+            217.5259246826172,
+            823.0556030273438,
+            257.8447265625
+          ],
+          "box_m": {
+            "left": 0.2847885724433522,
+            "bottom": 0.206038137456659,
+            "right": 0.2903560027667424,
+            "top": 0.22026171054812235
+          },
+          "distance_to_com_position_pt": 1.905695
+        },
+        {
+          "dimension_index": 2,
+          "dimension_name": "D1@Sketch2@R4-Battery-Cradle-TRIAL-1@Drawing View1",
+          "page": 1,
+          "text": "38.50",
+          "bbox_pt": [
+            681.840576171875,
+            167.8348388671875,
+            722.1593627929688,
+            183.6165008544922
+          ],
+          "box_m": {
+            "left": 0.2405384320248178,
+            "bottom": 0.23222419816731416,
+            "right": 0.25476201749905103,
+            "top": 0.2377916161538391
+          },
+          "distance_to_com_position_pt": 1.905146
+        },
+        {
+          "dimension_index": 3,
+          "dimension_name": "D2@Sketch2@R4-Battery-Cradle-TRIAL-1@Drawing View1",
+          "page": 1,
+          "text": "18.50",
+          "bbox_pt": [
+            781.7621459960938,
+            218.9432830810547,
+            797.5438232421875,
+            259.2620849609375
+          ],
+          "box_m": {
+            "left": 0.27578857490413705,
+            "bottom": 0.2055381250595388,
+            "right": 0.28135600522752724,
+            "top": 0.21976169815100213
+          },
+          "distance_to_com_position_pt": 1.905702
+        },
+        {
+          "dimension_index": 4,
+          "dimension_name": "D1@Sketch1@R4-Battery-Cradle-TRIAL-2@Drawing View2",
+          "page": 1,
+          "text": "39.50",
+          "bbox_pt": [
+            683.2579345703125,
+            498.5812072753906,
+            723.5767211914062,
+            514.3628540039062
+          ],
+          "box_m": {
+            "left": 0.24103844504647087,
+            "bottom": 0.11554426946380497,
+            "right": 0.2552620305207041,
+            "top": 0.12111168206736986
+          },
+          "distance_to_com_position_pt": 1.904951
+        },
+        {
+          "dimension_index": 5,
+          "dimension_name": "D1@Boss-Extrude1@R4-Battery-Cradle-TRIAL-2@Drawing View2",
+          "page": 1,
+          "text": "18.80",
+          "bbox_pt": [
+            798.77001953125,
+            411.7840881347656,
+            814.5516967773438,
+            452.1029968261719
+          ],
+          "box_m": {
+            "left": 0.2817885804409029,
+            "bottom": 0.13750815697886096,
+            "right": 0.2873560107642931,
+            "top": 0.15173176775104494
+          },
+          "distance_to_com_position_pt": 1.905718
+        },
+        {
+          "dimension_index": 6,
+          "dimension_name": "D1@Sketch3@R4-Battery-Cradle-TRIAL-2@Drawing View2",
+          "page": 1,
+          "text": "4.00",
+          "bbox_pt": [
+            676.7716674804688,
+            473.0694580078125,
+            709.759765625,
+            488.85113525390625
+          ],
+          "box_m": {
+            "left": 0.23875023198023662,
+            "bottom": 0.12454423422988437,
+            "right": 0.25038771100460927,
+            "top": 0.13011165759936943
+          },
+          "distance_to_com_position_pt": 1.905036
+        },
+        {
+          "dimension_index": 7,
+          "dimension_name": "D1@Cut-Extrude2@R4-Battery-Cradle-TRIAL-2@Drawing View2",
+          "page": 1,
+          "text": "3.00",
+          "bbox_pt": [
+            781.7621459960938,
+            354.3096923828125,
+            797.5438232421875,
+            387.2978820800781
+          ],
+          "box_m": {
+            "left": 0.27578857490413705,
+            "bottom": 0.16036995453519282,
+            "right": 0.28135600522752724,
+            "top": 0.17200745132172876
+          },
+          "distance_to_com_position_pt": 1.905702
+        },
+        {
+          "dimension_index": 8,
+          "dimension_name": "D2@Sketch1@R4-Battery-Cradle-TRIAL-3@Drawing View3",
+          "page": 1,
+          "text": "19.50",
+          "bbox_pt": [
+            473.1258850097656,
+            217.5259246826172,
+            488.90753173828125,
+            257.8447265625
+          ],
+          "box_m": {
+            "left": 0.16690845706125282,
+            "bottom": 0.206038137456659,
+            "right": 0.1724758766187094,
+            "top": 0.22026171054812235
+          },
+          "distance_to_com_position_pt": 1.905353
+        },
+        {
+          "dimension_index": 9,
+          "dimension_name": "D1@Boss-Extrude1@R4-Battery-Cradle-TRIAL-3@Drawing View3",
+          "page": 1,
+          "text": "18.80",
+          "bbox_pt": [
+            403.9602355957031,
+            167.84014892578125,
+            444.2791442871094,
+            183.62181091308594
+          ],
+          "box_m": {
+            "left": 0.14250832975665093,
+            "bottom": 0.23222232489720177,
+            "right": 0.1567319582946187,
+            "top": 0.23778974288372673
+          },
+          "distance_to_com_position_pt": 1.905141
+        }
+      ],
+      "unmatched_dimension_indexes": [],
+      "collisions": [],
+      "error_code": null,
+      "manual_review_required": false,
+      "pdf": {
+        "status": "review_required",
+        "stage": "pdf_text_layout",
+        "path": "C:\\Users\\32561\\Documents\\ChatGPT\\\u5c0f\u521b\\outputs\\R4-Minimal\\Drawings\\Battery-Cradle-R4-DRAFT.pdf",
+        "source": "solidworks_pdf_vector_text",
+        "native_com_bounding_box_available": false,
+        "pages": [
+          {
+            "page": 1,
+            "widthPt": 1190.550048828125,
+            "heightPt": 841.8900146484375,
+            "textSpans": [
+              {
+                "page": 1,
+                "text": "39.50",
+                "bboxPt": [
+                  683.2578735351562,
+                  142.322998046875,
+                  723.57666015625,
+                  158.1046600341797
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35976505279541,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "19.50",
+                "bboxPt": [
+                  807.27392578125,
+                  217.5259246826172,
+                  823.0556030273438,
+                  257.8447265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35976505279541,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "38.50",
+                "bboxPt": [
+                  681.840576171875,
+                  167.8348388671875,
+                  722.1593627929688,
+                  183.6165008544922
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35976505279541,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "18.50",
+                "bboxPt": [
+                  781.7621459960938,
+                  218.9432830810547,
+                  797.5438232421875,
+                  259.2620849609375
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35976505279541,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "TRIAL: battery user nominal 76x36x18; connector not included.",
+                "bboxPt": [
+                  56.69292068481445,
+                  784.1649169921875,
+                  452.0964050292969,
+                  799.9465942382812
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.357827186584473,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "Outer79x39; opening77x37; depth18.8, wall1 nominal.",
+                "bboxPt": [
+                  56.69292068481445,
+                  767.1571044921875,
+                  396.9923095703125,
+                  782.9387817382812
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.358145713806152,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "Two 8x3 notch sketches at (0,+/-19); blind cut depth3, keep frame connected.",
+                "bboxPt": [
+                  56.69292068481445,
+                  750.149169921875,
+                  557.2617797851562,
+                  765.9308471679688
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.357844352722168,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "Use insulation foam on original bay floor; fit and retaining cover TBD.",
+                "bboxPt": [
+                  56.69292068481445,
+                  733.141357421875,
+                  491.0787048339844,
+                  748.9230346679688
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.357810974121094,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "39.50",
+                "bboxPt": [
+                  683.2579345703125,
+                  498.5812072753906,
+                  723.5767211914062,
+                  514.3628540039062
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35976505279541,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "18.80",
+                "bboxPt": [
+                  798.77001953125,
+                  411.7840881347656,
+                  814.5516967773438,
+                  452.1029968261719
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35976505279541,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "4.00",
+                "bboxPt": [
+                  676.7716674804688,
+                  473.0694580078125,
+                  709.759765625,
+                  488.85113525390625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.359764099121094,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "3.00",
+                "bboxPt": [
+                  781.7621459960938,
+                  354.3096923828125,
+                  797.5438232421875,
+                  387.2978820800781
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.359764099121094,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "19.50",
+                "bboxPt": [
+                  473.1258850097656,
+                  217.5259246826172,
+                  488.90753173828125,
+                  257.8447265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35976505279541,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "18.80",
+                "bboxPt": [
+                  403.9602355957031,
+                  167.84014892578125,
+                  444.2791442871094,
+                  183.62181091308594
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35976505279541,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "A",
+                "bboxPt": [
+                  8.621139526367188,
+                  749.9019165039062,
+                  19.725299835205078,
+                  770.4069213867188
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.00281047821045,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "A",
+                "bboxPt": [
+                  1170.825927734375,
+                  749.9019165039062,
+                  1181.9300537109375,
+                  770.4069213867188
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.00281047821045,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "B",
+                "bboxPt": [
+                  9.87109375,
+                  624.4688720703125,
+                  18.475261688232422,
+                  644.973876953125
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 14.994917869567871,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "B",
+                "bboxPt": [
+                  1172.075927734375,
+                  624.4688720703125,
+                  1180.6800537109375,
+                  644.973876953125
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 14.994917869567871,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "C",
+                "bboxPt": [
+                  8.0794677734375,
+                  482.73663330078125,
+                  20.26696014404297,
+                  503.24163818359375
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 14.995381355285645,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "C",
+                "bboxPt": [
+                  1170.2840576171875,
+                  482.73663330078125,
+                  1182.4715576171875,
+                  503.24163818359375
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 14.995381355285645,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "D",
+                "bboxPt": [
+                  8.58984375,
+                  341.00433349609375,
+                  19.75650978088379,
+                  361.50933837890625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.004478454589844,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "D",
+                "bboxPt": [
+                  1170.794677734375,
+                  341.00433349609375,
+                  1181.9613037109375,
+                  361.50933837890625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.004478454589844,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "E",
+                "bboxPt": [
+                  10.15234375,
+                  199.27200317382812,
+                  18.19401741027832,
+                  219.77699279785156
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.001561164855957,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "E",
+                "bboxPt": [
+                  1172.357177734375,
+                  199.27200317382812,
+                  1180.3988037109375,
+                  219.77699279785156
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.001561164855957,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "F",
+                "bboxPt": [
+                  10.537841796875,
+                  73.8390121459961,
+                  17.80868148803711,
+                  94.3440170288086
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 14.995710372924805,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "F",
+                "bboxPt": [
+                  1172.742431640625,
+                  73.8390121459961,
+                  1180.0133056640625,
+                  94.3440170288086
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 14.995710372924805,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "8",
+                "bboxPt": [
+                  95.0562744140625,
+                  818.64208984375,
+                  103.3687744140625,
+                  839.1470947265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "8",
+                "bboxPt": [
+                  95.0562744140625,
+                  5.098779678344727,
+                  103.3687744140625,
+                  25.603778839111328
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "7",
+                "bboxPt": [
+                  236.78857421875,
+                  818.64208984375,
+                  245.10107421875,
+                  839.1470947265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "7",
+                "bboxPt": [
+                  236.78857421875,
+                  5.098779678344727,
+                  245.10107421875,
+                  25.603778839111328
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "6",
+                "bboxPt": [
+                  378.5207214355469,
+                  818.64208984375,
+                  386.8332214355469,
+                  839.1470947265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "6",
+                "bboxPt": [
+                  378.5207214355469,
+                  5.098779678344727,
+                  386.8332214355469,
+                  25.603778839111328
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "5",
+                "bboxPt": [
+                  520.2530517578125,
+                  818.64208984375,
+                  528.5655517578125,
+                  839.1470947265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "5",
+                "bboxPt": [
+                  520.2530517578125,
+                  5.098779678344727,
+                  528.5655517578125,
+                  25.603778839111328
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "4",
+                "bboxPt": [
+                  661.9853515625,
+                  818.64208984375,
+                  670.2978515625,
+                  839.1470947265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "4",
+                "bboxPt": [
+                  661.9853515625,
+                  5.098779678344727,
+                  670.2978515625,
+                  25.603778839111328
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "3",
+                "bboxPt": [
+                  803.7176513671875,
+                  818.64208984375,
+                  812.0301513671875,
+                  839.1470947265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "3",
+                "bboxPt": [
+                  803.7176513671875,
+                  5.098779678344727,
+                  812.0301513671875,
+                  25.603778839111328
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "2",
+                "bboxPt": [
+                  945.449951171875,
+                  818.64208984375,
+                  953.762451171875,
+                  839.1470947265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "2",
+                "bboxPt": [
+                  945.449951171875,
+                  5.098779678344727,
+                  953.762451171875,
+                  25.603778839111328
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "1",
+                "bboxPt": [
+                  1087.1822509765625,
+                  818.64208984375,
+                  1095.4947509765625,
+                  839.1470947265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "1",
+                "bboxPt": [
+                  1087.1822509765625,
+                  5.098779678344727,
+                  1095.4947509765625,
+                  25.603778839111328
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 15.002259254455566,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "Sheet1",
+                "bboxPt": [
+                  1070.1014404296875,
+                  731.9080200195312,
+                  1113.7550048828125,
+                  747.689697265625
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.356035232543945,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "1",
+                "bboxPt": [
+                  1092.896484375,
+                  782.3900756835938,
+                  1100.2271728515625,
+                  798.1717529296875
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.359766960144043,
+                "dimensionCandidate": true
+              },
+              {
+                "page": 1,
+                "text": "SIGNED",
+                "bboxPt": [
+                  687.09228515625,
+                  738.6275634765625,
+                  719.4797973632812,
+                  752.9437866210938
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 9.685111999511719,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "DATE",
+                "bboxPt": [
+                  727.14208984375,
+                  738.53173828125,
+                  759.4964599609375,
+                  754.3134155273438
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.357484817504883,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "NAME",
+                "bboxPt": [
+                  653.0286254882812,
+                  738.6275634765625,
+                  684.6661376953125,
+                  752.9437866210938
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 10.624950408935547,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "WEIGHT:",
+                "bboxPt": [
+                  991.0048217773438,
+                  738.4097900390625,
+                  1015.9243774414062,
+                  745.56787109375
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 5.536468982696533,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "SCALE:",
+                "bboxPt": [
+                  959.7101440429688,
+                  742.0980834960938,
+                  979.1874389648438,
+                  749.2561645507812
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 5.537562370300293,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "1:1",
+                "bboxPt": [
+                  965.62890625,
+                  749.4327392578125,
+                  973.268798828125,
+                  756.5908203125
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 5.374429702758789,
+                "dimensionCandidate": false
+              },
+              {
+                "page": 1,
+                "text": "A3",
+                "bboxPt": [
+                  657.643798828125,
+                  717.8201904296875,
+                  674.7579956054688,
+                  733.6018676757812
+                ],
+                "font": "CenturyGothic",
+                "fontSizePt": 12.35671329498291,
+                "dimensionCandidate": false
+              }
+            ]
+          }
+        ],
+        "text_span_count": 51,
+        "numeric_text_span_count": 28,
+        "overlaps": [],
+        "manual_review_required": true,
+        "retryable": false,
+        "error_code": null,
+        "limitations": [
+          "PDF \u6587\u5b57\u6846\u5c5e\u4e8e\u5bfc\u51fa\u4ea7\u7269\u8bc1\u636e\uff0c\u4e0d\u662f IAnnotation/IDisplayDimension \u539f\u751f\u5305\u56f4\u76d2\u3002",
+          "\u53ea\u80fd\u68c0\u67e5\u53ef\u63d0\u53d6\u77e2\u91cf\u6587\u5b57\u4e4b\u95f4\u7684\u91cd\u53e0\uff0c\u4e0d\u80fd\u8bc1\u660e\u6587\u5b57\u4e0e\u5c3a\u5bf8\u7ebf\u3001\u51e0\u4f55\u7ebf\u6216\u6807\u9898\u680f\u8fb9\u6846\u65e0\u78b0\u649e\u3002"
+        ],
+        "message": "PDF \u77e2\u91cf\u6587\u5b57\u8fb9\u754c\u5df2\u8bfb\u53d6\u3002"
+      }
+    },
+    "manual_review_required": false,
+    "error_code": null,
+    "capability_level": "pilot"
+  }
+}

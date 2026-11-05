@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.0",
+  "documentType": "part",
+  "standard": "GB_T",
+  "projection": "first_angle",
+  "paperSize": "A3",
+  "views": {
+    "front": {},
+    "top": {},
+    "right": {}
+  },
+  "insertModelDimensions": true,
+  "templateCandidates": [
+    "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\lang\\english\\sheetformat\\a3 - gb.slddrt"
+  ],
+  "outputs": {
+    "slddrw": true,
+    "pdf": true,
+    "bmp": true,
+    "report": true
+  },
+  "sourceModel": "C:\\Users\\32561\\Documents\\ChatGPT\\\u5c0f\u521b\\outputs\\R4-Minimal\\R4-Battery-Cradle-TRIAL.SLDPRT",
+  "modelSizeMm": [
+    79,
+    39,
+    18.8
+  ],
+  "notes": [
+    "TRIAL: battery user nominal 76x36x18; connector not included.",
+    "Outer79x39; opening77x37; depth18.8, wall1 nominal.",
+    "Two 8x3 notch sketches at (0,+/-19); blind cut depth3, keep frame connected.",
+    "Use insulation foam on original bay floor; fit and retaining cover TBD."
+  ],
+  "scale": "1:1"
+}

@@ -1,0 +1,32 @@
+{
+  "archive": "R4-SolidWorks.zip",
+  "bytes": 19046828,
+  "sha256": "7dd005b20a79c3c10cc13db164d6f95163c0dc2113b51dc11d55c9924bccb024",
+  "parts": [
+    {
+      "name": "R4-SolidWorks.zip.001",
+      "bytes": 4194304,
+      "sha256": "242273bc1dd8dc52836e1594128e2f83f5ff71bcb35594fc9833fd7f29819b27"
+    },
+    {
+      "name": "R4-SolidWorks.zip.002",
+      "bytes": 4194304,
+      "sha256": "1bd607d883cb35f69218506cc668dc7eb9758cf66a47d3803204d16d25389a4c"
+    },
+    {
+      "name": "R4-SolidWorks.zip.003",
+      "bytes": 4194304,
+      "sha256": "e37e8df1c1a9eb027530e07c6b452432450ff085f3b070c075dd4b48b2faec77"
+    },
+    {
+      "name": "R4-SolidWorks.zip.004",
+      "bytes": 4194304,
+      "sha256": "b90a1ff047a11dea2ed1c8c48591a9d6b3e750b22b4a5b5c6024f19e3a35f1dd"
+    },
+    {
+      "name": "R4-SolidWorks.zip.005",
+      "bytes": 2269612,
+      "sha256": "5370cfad5ed74feac689a3b6b3e5875f2c867d27db8d01ae2735fafbc8034007"
+    }
+  ]
+}

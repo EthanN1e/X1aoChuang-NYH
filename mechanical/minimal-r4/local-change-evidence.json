@@ -1,0 +1,78 @@
+{
+  "source_sha256": "7091880f12ae6fbd610fc09571ed972f52733c3f79cc91534dc31b6f6380e9eb",
+  "source_untouched": true,
+  "method": "exact duplicate vertex indexing, manifold difference of three recorded boxes, no exterior additions",
+  "cuts_mm": [
+    {
+      "bounds": [
+        [
+          46.102540000000005,
+          27.485270999999997,
+          13.299999999999997
+        ],
+        [
+          127.10254,
+          53.486271,
+          70.3
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        [
+          82.60254,
+          32.0,
+          69.0
+        ],
+        [
+          90.60254,
+          44.0,
+          83.0
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        [
+          42.5,
+          31.0,
+          50.0
+        ],
+        [
+          48.5,
+          37.0,
+          62.0
+        ]
+      ]
+    }
+  ],
+  "original_volume_mm3": 51958.8263019518,
+  "result_volume_mm3": 50009.26488517908,
+  "removed_volume_mm3": 1949.561416772718,
+  "source_bounds": [
+    [
+      0.0,
+      25.885271072387695,
+      0.0
+    ],
+    [
+      173.205078125,
+      53.48527145385742,
+      150.0
+    ]
+  ],
+  "result_bounds": [
+    [
+      0.0,
+      25.885271072387695,
+      0.0
+    ],
+    [
+      173.205078125,
+      53.48527145385742,
+      150.0
+    ]
+  ],
+  "watertight": true,
+  "orientation_consistent": true
+}
