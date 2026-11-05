@@ -1,0 +1,20 @@
+# Preserve artifact bytes when checking out on Windows (including core.autocrlf=true).
+*.pdf binary
+*.PDF binary
+*.png binary
+*.PNG binary
+*.zip binary
+*.zip.* binary
+*.stl binary
+*.STL binary
+*.sldprt binary
+*.SLDPRT binary
+*.sldasm binary
+*.SLDASM binary
+*.slddrw binary
+*.SLDDRW binary
+# Keep STEP inspectable as text while preserving the exported byte stream.
+*.step -text
+*.STEP -text
+*.stp -text
+*.STP -text
