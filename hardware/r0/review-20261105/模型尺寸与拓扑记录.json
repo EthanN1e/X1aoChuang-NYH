@@ -1,0 +1,353 @@
+[
+  {
+    "file": "Pitch轴1.STL",
+    "unit": "mm (project assumption, STL has no unit)",
+    "source": "original GitHub blob matched",
+    "git_blob": "4fd90507ae6811711260f7b47f94bf299db86ca4",
+    "bounds": [
+      [
+        0.017590820789337158,
+        0.4733777642250061,
+        -5.204170427930421e-15
+      ],
+      [
+        35.4824104309082,
+        10.773378372192383,
+        5.0
+      ]
+    ],
+    "size": [
+      35.464819610118866,
+      10.300000607967377,
+      5.000000000000005
+    ],
+    "triangles": 1360,
+    "edges_used_not_twice": 496,
+    "self_intersection": "not_checked",
+    "global_wall_thickness": "not_checked"
+  },
+  {
+    "file": "Pitch轴2.STL",
+    "unit": "mm (project assumption, STL has no unit)",
+    "source": "original GitHub blob matched",
+    "git_blob": "635d27955c95b256878d1d1e397f3b6609d3733b",
+    "bounds": [
+      [
+        0.01741945743560791,
+        0.0,
+        0.0
+      ],
+      [
+        35.3825798034668,
+        26.0,
+        10.200000762939453
+      ]
+    ],
+    "size": [
+      35.36516034603119,
+      26.0,
+      10.200000762939453
+    ],
+    "triangles": 310,
+    "edges_used_not_twice": 0,
+    "self_intersection": "not_checked",
+    "global_wall_thickness": "not_checked"
+  },
+  {
+    "file": "Yaw底座1.STL",
+    "unit": "mm (project assumption, STL has no unit)",
+    "source": "original GitHub blob matched",
+    "git_blob": "0d33d928d9f86dc5badbb9dcb71174419dd06168",
+    "bounds": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        120.0,
+        116.0,
+        50.0
+      ]
+    ],
+    "size": [
+      120.0,
+      116.0,
+      50.0
+    ],
+    "triangles": 540,
+    "edges_used_not_twice": 0,
+    "self_intersection": "not_checked",
+    "global_wall_thickness": "not_checked"
+  },
+  {
+    "file": "Yaw底座2.STL",
+    "unit": "mm (project assumption, STL has no unit)",
+    "source": "original GitHub blob matched",
+    "git_blob": "4e88566b1c502388e9e18bd1ba863e34349c23de",
+    "bounds": [
+      [
+        0.0,
+        6.099999904632568,
+        0.0
+      ],
+      [
+        32.999996185302734,
+        116.0,
+        50.0
+      ]
+    ],
+    "size": [
+      32.999996185302734,
+      109.90000009536743,
+      50.0
+    ],
+    "triangles": 182,
+    "edges_used_not_twice": 0,
+    "self_intersection": "not_checked",
+    "global_wall_thickness": "not_checked"
+  },
+  {
+    "file": "底座1.STL",
+    "unit": "mm (project assumption, STL has no unit)",
+    "source": "original GitHub blob matched",
+    "git_blob": "203e3d8663f665d139d57358b19782da51489636",
+    "bounds": [
+      [
+        0.0,
+        25.885271072387695,
+        0.0
+      ],
+      [
+        173.205078125,
+        53.48527145385742,
+        150.0
+      ]
+    ],
+    "size": [
+      173.205078125,
+      27.600000381469727,
+      150.0
+    ],
+    "triangles": 1464,
+    "edges_used_not_twice": 0,
+    "self_intersection": "not_checked",
+    "global_wall_thickness": "not_checked"
+  },
+  {
+    "file": "底座2.STL",
+    "unit": "mm (project assumption, STL has no unit)",
+    "source": "original GitHub blob matched",
+    "git_blob": "8e50e688b39eadc4282f95493c433a10760b4e53",
+    "bounds": [
+      [
+        44.75253677368164,
+        53.48527145385742,
+        11.700004577636719
+      ],
+      [
+        128.45254516601562,
+        79.08527374267578,
+        71.9000015258789
+      ]
+    ],
+    "size": [
+      83.70000839233398,
+      25.60000228881836,
+      60.19999694824219
+    ],
+    "triangles": 544,
+    "edges_used_not_twice": 0,
+    "self_intersection": "not_checked",
+    "global_wall_thickness": "not_checked"
+  },
+  {
+    "file": "底座3.STL",
+    "unit": "mm (project assumption, STL has no unit)",
+    "source": "original GitHub blob matched",
+    "git_blob": "63a44ac82ef9d0003cb747791b2e7ca82e75ed72",
+    "bounds": [
+      [
+        44.45254135131836,
+        41.48527145385742,
+        79.85000610351562
+      ],
+      [
+        128.75253295898438,
+        47.98527145385742,
+        130.14999389648438
+      ]
+    ],
+    "size": [
+      84.29999160766602,
+      6.5,
+      50.29998779296875
+    ],
+    "triangles": 348,
+    "edges_used_not_twice": 0,
+    "self_intersection": "not_checked",
+    "global_wall_thickness": "not_checked"
+  },
+  {
+    "file": "底座4.STL",
+    "unit": "mm (project assumption, STL has no unit)",
+    "source": "original GitHub blob matched",
+    "git_blob": "20610063daa9d841d066472fa424cbd246e111d1",
+    "bounds": [
+      [
+        0.0,
+        25.79538345336914,
+        0.0
+      ],
+      [
+        173.205078125,
+        85.7953872680664,
+        150.0
+      ]
+    ],
+    "size": [
+      173.205078125,
+      60.000003814697266,
+      150.0
+    ],
+    "triangles": 1232,
+    "edges_used_not_twice": 0,
+    "self_intersection": "not_checked",
+    "global_wall_thickness": "not_checked"
+  },
+  {
+    "file": "枪体壳1.STL",
+    "unit": "mm (project assumption, STL has no unit)",
+    "source": "original GitHub blob matched",
+    "git_blob": "4f76469fd8a74cba1ed50ee2b39dfd373ee6e1c3",
+    "bounds": [
+      [
+        0.0,
+        0.0,
+        80.0
+      ],
+      [
+        15.0,
+        58.0,
+        243.28990173339844
+      ]
+    ],
+    "size": [
+      15.0,
+      58.0,
+      163.28990173339844
+    ],
+    "triangles": 594,
+    "edges_used_not_twice": 10,
+    "self_intersection": "not_checked",
+    "global_wall_thickness": "not_checked"
+  },
+  {
+    "file": "枪体壳2.STL",
+    "unit": "mm (project assumption, STL has no unit)",
+    "source": "original GitHub blob matched",
+    "git_blob": "51619d71775eacdfe6867fe9535bba54ffe4e734",
+    "bounds": [
+      [
+        15.0,
+        0.0,
+        80.0
+      ],
+      [
+        30.0,
+        58.0,
+        243.28990173339844
+      ]
+    ],
+    "size": [
+      15.0,
+      58.0,
+      163.28990173339844
+    ],
+    "triangles": 594,
+    "edges_used_not_twice": 6,
+    "self_intersection": "not_checked",
+    "global_wall_thickness": "not_checked"
+  },
+  {
+    "file": "枪体壳3.STL",
+    "unit": "mm (project assumption, STL has no unit)",
+    "source": "original GitHub blob matched",
+    "git_blob": "474da27e37be155daa86ffffb91d219e224650f2",
+    "bounds": [
+      [
+        0.0,
+        1.9949319973733282e-14,
+        0.0
+      ],
+      [
+        30.0,
+        28.0,
+        80.0
+      ]
+    ],
+    "size": [
+      30.0,
+      27.99999999999998,
+      80.0
+    ],
+    "triangles": 2892,
+    "edges_used_not_twice": 14,
+    "self_intersection": "not_checked",
+    "global_wall_thickness": "not_checked"
+  },
+  {
+    "file": "水单仓1.STL",
+    "unit": "mm (project assumption, STL has no unit)",
+    "source": "original GitHub blob matched",
+    "git_blob": "4e11d2de97796c1b50390ede0b7f061750424e13",
+    "bounds": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        28.0,
+        46.0,
+        90.0
+      ]
+    ],
+    "size": [
+      28.0,
+      46.0,
+      90.0
+    ],
+    "triangles": 1572,
+    "edges_used_not_twice": 0,
+    "self_intersection": "not_checked",
+    "global_wall_thickness": "not_checked"
+  },
+  {
+    "file": "水单仓2.STL",
+    "unit": "mm (project assumption, STL has no unit)",
+    "source": "original GitHub blob matched",
+    "git_blob": "8dc52f58f8d19bcdf8dbd42a00505563c94d7ec8",
+    "bounds": [
+      [
+        6.100000858306885,
+        43.79999923706055,
+        8.09999942779541
+      ],
+      [
+        21.899999618530273,
+        46.0,
+        72.0999984741211
+      ]
+    ],
+    "size": [
+      15.799998760223389,
+      2.200000762939453,
+      63.999999046325684
+    ],
+    "triangles": 224,
+    "edges_used_not_twice": 0,
+    "self_intersection": "not_checked",
+    "global_wall_thickness": "not_checked"
+  }
+]

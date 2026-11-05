@@ -1,0 +1,298 @@
+{
+  "method": "triangle-box SAT, 13 separating axes; rectangular bare PCB envelope 56x80x1.6 mm",
+  "units": "mm assumed for original STL",
+  "confidence": "candidate placement scan only",
+  "tested_candidates": [
+    {
+      "bare_board_candidate_bounds_mm": [
+        [
+          13.4,
+          1,
+          90
+        ],
+        [
+          15,
+          57,
+          170
+        ]
+      ],
+      "intersecting_shell_triangles": {
+        "枪体壳1.STL": 39,
+        "枪体壳2.STL": 30
+      },
+      "total": 69
+    },
+    {
+      "bare_board_candidate_bounds_mm": [
+        [
+          13.4,
+          1,
+          95
+        ],
+        [
+          15,
+          57,
+          175
+        ]
+      ],
+      "intersecting_shell_triangles": {
+        "枪体壳1.STL": 28,
+        "枪体壳2.STL": 24
+      },
+      "total": 52
+    },
+    {
+      "bare_board_candidate_bounds_mm": [
+        [
+          13.4,
+          1,
+          100
+        ],
+        [
+          15,
+          57,
+          180
+        ]
+      ],
+      "intersecting_shell_triangles": {
+        "枪体壳1.STL": 28,
+        "枪体壳2.STL": 24
+      },
+      "total": 52
+    },
+    {
+      "bare_board_candidate_bounds_mm": [
+        [
+          13.4,
+          1,
+          105
+        ],
+        [
+          15,
+          57,
+          185
+        ]
+      ],
+      "intersecting_shell_triangles": {
+        "枪体壳1.STL": 28,
+        "枪体壳2.STL": 25
+      },
+      "total": 53
+    },
+    {
+      "bare_board_candidate_bounds_mm": [
+        [
+          13.4,
+          1,
+          110
+        ],
+        [
+          15,
+          57,
+          190
+        ]
+      ],
+      "intersecting_shell_triangles": {
+        "枪体壳1.STL": 18,
+        "枪体壳2.STL": 18
+      },
+      "total": 36
+    },
+    {
+      "bare_board_candidate_bounds_mm": [
+        [
+          13.4,
+          1,
+          115
+        ],
+        [
+          15,
+          57,
+          195
+        ]
+      ],
+      "intersecting_shell_triangles": {
+        "枪体壳1.STL": 13,
+        "枪体壳2.STL": 11
+      },
+      "total": 24
+    },
+    {
+      "bare_board_candidate_bounds_mm": [
+        [
+          13.4,
+          1,
+          120
+        ],
+        [
+          15,
+          57,
+          200
+        ]
+      ],
+      "intersecting_shell_triangles": {
+        "枪体壳1.STL": 11,
+        "枪体壳2.STL": 11
+      },
+      "total": 22
+    },
+    {
+      "bare_board_candidate_bounds_mm": [
+        [
+          13.4,
+          1,
+          125
+        ],
+        [
+          15,
+          57,
+          205
+        ]
+      ],
+      "intersecting_shell_triangles": {
+        "枪体壳1.STL": 15,
+        "枪体壳2.STL": 15
+      },
+      "total": 30
+    },
+    {
+      "bare_board_candidate_bounds_mm": [
+        [
+          13.4,
+          1,
+          130
+        ],
+        [
+          15,
+          57,
+          210
+        ]
+      ],
+      "intersecting_shell_triangles": {
+        "枪体壳1.STL": 18,
+        "枪体壳2.STL": 16
+      },
+      "total": 34
+    },
+    {
+      "bare_board_candidate_bounds_mm": [
+        [
+          13.4,
+          1,
+          135
+        ],
+        [
+          15,
+          57,
+          215
+        ]
+      ],
+      "intersecting_shell_triangles": {
+        "枪体壳1.STL": 17,
+        "枪体壳2.STL": 16
+      },
+      "total": 33
+    },
+    {
+      "bare_board_candidate_bounds_mm": [
+        [
+          13.4,
+          1,
+          140
+        ],
+        [
+          15,
+          57,
+          220
+        ]
+      ],
+      "intersecting_shell_triangles": {
+        "枪体壳1.STL": 17,
+        "枪体壳2.STL": 16
+      },
+      "total": 33
+    },
+    {
+      "bare_board_candidate_bounds_mm": [
+        [
+          13.4,
+          1,
+          145
+        ],
+        [
+          15,
+          57,
+          225
+        ]
+      ],
+      "intersecting_shell_triangles": {
+        "枪体壳1.STL": 17,
+        "枪体壳2.STL": 16
+      },
+      "total": 33
+    },
+    {
+      "bare_board_candidate_bounds_mm": [
+        [
+          13.4,
+          1,
+          150
+        ],
+        [
+          15,
+          57,
+          230
+        ]
+      ],
+      "intersecting_shell_triangles": {
+        "枪体壳1.STL": 17,
+        "枪体壳2.STL": 16
+      },
+      "total": 33
+    },
+    {
+      "bare_board_candidate_bounds_mm": [
+        [
+          13.4,
+          1,
+          155
+        ],
+        [
+          15,
+          57,
+          235
+        ]
+      ],
+      "intersecting_shell_triangles": {
+        "枪体壳1.STL": 25,
+        "枪体壳2.STL": 23
+      },
+      "total": 48
+    },
+    {
+      "bare_board_candidate_bounds_mm": [
+        [
+          13.4,
+          1,
+          160
+        ],
+        [
+          15,
+          57,
+          240
+        ]
+      ],
+      "intersecting_shell_triangles": {
+        "枪体壳1.STL": 54,
+        "枪体壳2.STL": 27
+      },
+      "total": 81
+    }
+  ],
+  "complete_fit_validation": false,
+  "limitations": [
+    "Does not model rounded PCB corners or exact mounted parts",
+    "Does not prove cavity containment or evaluate arbitrary rotations",
+    "No full mesh-to-mesh collision, wall-thickness or assembly path test"
+  ]
+}
