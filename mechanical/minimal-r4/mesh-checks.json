@@ -1,0 +1,178 @@
+{
+  "Base1-local-edit-source.stl": {
+    "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\Base1-local-edit-source.stl",
+    "declared_units": "mm",
+    "encoding": "binary-float32",
+    "triangles": 1214,
+    "bounds_min": [
+      0.0,
+      25.885271072387695,
+      0.0
+    ],
+    "bounds_max": [
+      173.205078125,
+      53.48527145385742,
+      150.0
+    ],
+    "dimensions": [
+      173.205078125,
+      27.600000381469727,
+      150.0
+    ],
+    "connected_components": 1,
+    "boundary_edges": 0,
+    "edges_with_more_than_two_faces": 0,
+    "inconsistent_winding_edges": 0,
+    "zero_area_triangles": 0,
+    "serialized_normal_mismatches": 0,
+    "zero_serialized_normals": 0,
+    "signed_volume": 50009.264885179175,
+    "minimum_edge": 0.1774006446353749,
+    "minimum_altitude": 0.0009793222667036638,
+    "maximum_aspect_ratio": 1015.6523229900574,
+    "float32_degenerate_triangles": 0,
+    "float32_ulp_near_max_coordinate": 1.52587890625e-05,
+    "float32_overflow_triangles": 0,
+    "exact_coordinate_topology_checks_passed": true,
+    "not_established": [
+      "vertex-manifoldness",
+      "absence of self intersections",
+      "global minimum wall thickness",
+      "physical fit",
+      "printability",
+      "strength"
+    ]
+  },
+  "R4-Base1.STL": {
+    "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base1.STL",
+    "declared_units": "mm",
+    "encoding": "binary-float32",
+    "triangles": 1214,
+    "bounds_min": [
+      0.0,
+      25.885271072387695,
+      0.0
+    ],
+    "bounds_max": [
+      173.205078125,
+      53.48527145385742,
+      150.0
+    ],
+    "dimensions": [
+      173.205078125,
+      27.600000381469727,
+      150.0
+    ],
+    "connected_components": 1,
+    "boundary_edges": 0,
+    "edges_with_more_than_two_faces": 0,
+    "inconsistent_winding_edges": 0,
+    "zero_area_triangles": 0,
+    "serialized_normal_mismatches": 0,
+    "zero_serialized_normals": 0,
+    "signed_volume": 50009.264885179175,
+    "minimum_edge": 0.1774006446353749,
+    "minimum_altitude": 0.0009793222667036638,
+    "maximum_aspect_ratio": 1015.6523229900574,
+    "float32_degenerate_triangles": 0,
+    "float32_ulp_near_max_coordinate": 1.52587890625e-05,
+    "float32_overflow_triangles": 0,
+    "exact_coordinate_topology_checks_passed": true,
+    "not_established": [
+      "vertex-manifoldness",
+      "absence of self intersections",
+      "global minimum wall thickness",
+      "physical fit",
+      "printability",
+      "strength"
+    ]
+  },
+  "R4-Battery-Cradle-TRIAL.STL": {
+    "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Battery-Cradle-TRIAL.STL",
+    "declared_units": "mm",
+    "encoding": "binary-float32",
+    "triangles": 64,
+    "bounds_min": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds_max": [
+      79.0,
+      39.0,
+      18.799999237060547
+    ],
+    "dimensions": [
+      79.0,
+      39.0,
+      18.799999237060547
+    ],
+    "connected_components": 1,
+    "boundary_edges": 0,
+    "edges_with_more_than_two_faces": 0,
+    "inconsistent_winding_edges": 0,
+    "zero_area_triangles": 0,
+    "serialized_normal_mismatches": 0,
+    "zero_serialized_normals": 0,
+    "signed_volume": 4265.601353740619,
+    "minimum_edge": 1.0,
+    "minimum_altitude": 0.9714455874467077,
+    "maximum_aspect_ratio": 79.02597200009973,
+    "float32_degenerate_triangles": 0,
+    "float32_ulp_near_max_coordinate": 7.62939453125e-06,
+    "float32_overflow_triangles": 0,
+    "exact_coordinate_topology_checks_passed": true,
+    "not_established": [
+      "vertex-manifoldness",
+      "absence of self intersections",
+      "global minimum wall thickness",
+      "physical fit",
+      "printability",
+      "strength"
+    ]
+  },
+  "R4-PCB-Support-TRIAL.STL": {
+    "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-PCB-Support-TRIAL.STL",
+    "declared_units": "mm",
+    "encoding": "binary-float32",
+    "triangles": 736,
+    "bounds_min": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds_max": [
+      80.0,
+      56.0,
+      12.699999809265137
+    ],
+    "dimensions": [
+      80.0,
+      56.0,
+      12.699999809265137
+    ],
+    "connected_components": 1,
+    "boundary_edges": 0,
+    "edges_with_more_than_two_faces": 0,
+    "inconsistent_winding_edges": 0,
+    "zero_area_triangles": 0,
+    "serialized_normal_mismatches": 0,
+    "zero_serialized_normals": 0,
+    "signed_volume": 776.4610200841533,
+    "minimum_edge": 0.015021747800334273,
+    "minimum_altitude": 0.004339529795753194,
+    "maximum_aspect_ratio": 5936.774587581762,
+    "float32_degenerate_triangles": 0,
+    "float32_ulp_near_max_coordinate": 7.62939453125e-06,
+    "float32_overflow_triangles": 0,
+    "exact_coordinate_topology_checks_passed": true,
+    "not_established": [
+      "vertex-manifoldness",
+      "absence of self intersections",
+      "global minimum wall thickness",
+      "physical fit",
+      "printability",
+      "strength"
+    ]
+  }
+}

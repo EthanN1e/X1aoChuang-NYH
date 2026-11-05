@@ -1,0 +1,217 @@
+{
+  "objective": "按原视频和开源件最小改动：PCB下仓、电池76x36x18上仓；只改Base1内侧0.25mm局部清让及8x12过线槽，保留外轮廓。",
+  "project_type": "complex_mechanical_system",
+  "phases": [
+    {
+      "id": "requirements",
+      "name": "需求澄清与工程约束",
+      "depends_on": [],
+      "routes": [
+        {
+          "capability_id": "requirements_planning",
+          "level": "verified",
+          "skills": [
+            "solidworks-vibecad",
+            "solidworks-automation"
+          ],
+          "mcp_tools": [],
+          "execution_mode": "skill",
+          "reason": "VibeCAD 可把自然语言转换为参数化设计计划；正式执行前仍需确认关键尺寸、载荷和制造约束。"
+        }
+      ],
+      "artifacts": [
+        "requirements.json",
+        "design_plan.json",
+        "assumptions.json"
+      ],
+      "acceptance": [
+        "零件数量、功能、接口和运动目标明确",
+        "关键尺寸、材料、载荷、公差和制造方式有来源或显式假设",
+        "交付格式和验收门禁完整"
+      ],
+      "risks": [
+        "自然语言缺少尺寸或载荷时可能产生不可制造方案",
+        "GB/T 版本和企业模板未指定时不能猜测"
+      ],
+      "retry_policy": {
+        "max_attempts": 2,
+        "strategy": "补齐缺失约束后重新规划",
+        "retryable_failures": [
+          "missing_requirement",
+          "ambiguous_constraint"
+        ],
+        "fallback": "转人工确认关键工程参数"
+      },
+      "status": "planned",
+      "serial_required": false,
+      "execution_lane": "planning",
+      "human_gate": true
+    },
+    {
+      "id": "part-modeling",
+      "name": "参数化零件建模",
+      "depends_on": [
+        "requirements"
+      ],
+      "routes": [
+        {
+          "capability_id": "part_and_features",
+          "level": "verified",
+          "skills": [
+            "solidworks-automation",
+            "solidworks-vibecad"
+          ],
+          "mcp_tools": [
+            "solidworks_health_check",
+            "solidworks_new_document",
+            "solidworks_create_basic_part",
+            "solidworks_save_document"
+          ],
+          "execution_mode": "mcp_and_skill",
+          "reason": "参数化零件和基础特征已有真实 COM 封装；复杂轮廓需由技能脚本执行并复核。"
+        }
+      ],
+      "artifacts": [
+        "四个或需求指定数量的 SLDPRT 文件",
+        "part_parameters.json",
+        "part_rebuild_report.json"
+      ],
+      "acceptance": [
+        "零件数量与需求一致且文件可原生打开",
+        "草图与关键特征可重建",
+        "质量属性和包围盒符合设计参数"
+      ],
+      "risks": [
+        "欠约束草图导致后续特征漂移",
+        "零件接口尺寸不一致导致装配失败"
+      ],
+      "retry_policy": {
+        "max_attempts": 2,
+        "strategy": "仅回滚并重试当前阶段",
+        "retryable_failures": [
+          "com_error",
+          "rebuild_error",
+          "selection_error"
+        ],
+        "fallback": "缩小特征批次并保留失败证据"
+      },
+      "status": "planned",
+      "serial_required": true,
+      "execution_lane": "solidworks-com",
+      "human_gate": false
+    },
+    {
+      "id": "holes-fillet-chamfer",
+      "name": "孔槽、圆角与倒角",
+      "depends_on": [
+        "part-modeling"
+      ],
+      "routes": [
+        {
+          "capability_id": "holes_and_finishing",
+          "level": "verified",
+          "skills": [
+            "solidworks-automation",
+            "solidworks-fillet-chamfer-cnc"
+          ],
+          "mcp_tools": [
+            "solidworks_create_hole_feature",
+            "solidworks_inspect_hole_features",
+            "solidworks_save_document"
+          ],
+          "execution_mode": "mcp_and_skill",
+          "reason": "盲孔、沉孔、沉头孔、半圆槽及孔位验收已验证；圆角和倒角由专项技能稳定路由。"
+        }
+      ],
+      "artifacts": [
+        "feature_parameters.json",
+        "hole_geometry_evidence.json",
+        "updated SLDPRT files"
+      ],
+      "acceptance": [
+        "沉孔、盲孔或槽的规格、深度和位置满足参数",
+        "孔轴线位置和孔径公差通过几何验收",
+        "圆角倒角存在且模型无重建错误"
+      ],
+      "risks": [
+        "特征顺序不稳可能导致圆角求解失败",
+        "B-Rep 不能单独证明盲孔或通孔，需交叉检查创建参数"
+      ],
+      "retry_policy": {
+        "max_attempts": 2,
+        "strategy": "仅回滚并重试当前阶段",
+        "retryable_failures": [
+          "com_error",
+          "rebuild_error",
+          "selection_error"
+        ],
+        "fallback": "缩小特征批次并保留失败证据"
+      },
+      "status": "planned",
+      "serial_required": true,
+      "execution_lane": "solidworks-com",
+      "human_gate": false
+    },
+    {
+      "id": "final-review",
+      "name": "综合复核与交付门禁",
+      "depends_on": [
+        "holes-fillet-chamfer"
+      ],
+      "routes": [
+        {
+          "capability_id": "geometry_and_delivery_review",
+          "level": "verified",
+          "skills": [
+            "solidworks-automation"
+          ],
+          "mcp_tools": [
+            "solidworks_review_active",
+            "solidworks_inspect_hole_features",
+            "solidworks_inspect_motion_studies",
+            "solidworks_validate_motion_study"
+          ],
+          "execution_mode": "mcp_and_skill",
+          "reason": "多视图、孔槽和 Motion 证据可自动收集；GB/T 图纸仍保留人工终审。"
+        }
+      ],
+      "artifacts": [
+        "isometric/front/top/right previews",
+        "review_report.json",
+        "review_gate.json"
+      ],
+      "acceptance": [
+        "多视图目视检查通过",
+        "零件、孔槽、Mate、Motion、图纸、BOM 和导出证据逐项通过",
+        "任何 Pilot 项均有人类签署，失败项未被标记完成"
+      ],
+      "risks": [
+        "仅检查文件存在会漏掉几何和装配错误",
+        "局部修改可能使下游图纸或 Motion 结果过期"
+      ],
+      "retry_policy": {
+        "max_attempts": 1,
+        "strategy": "返回首个失败阶段局部返工",
+        "retryable_failures": [
+          "acceptance_failed",
+          "artifact_missing"
+        ],
+        "fallback": "停止交付并请求人工复核"
+      },
+      "status": "planned",
+      "serial_required": true,
+      "execution_lane": "solidworks-com",
+      "human_gate": true
+    }
+  ],
+  "assumptions": [
+    "未提供的尺寸、材料、载荷、公差和标准版本只记录为待确认项，不自动写成事实。",
+    "所有 SolidWorks COM 写操作进入 solidworks-com 单并发通道。",
+    "本计划描述待执行工作；阶段路由成功不等于模型或交付物已经完成。"
+  ],
+  "warnings": [],
+  "revision": 1,
+  "change_request": null,
+  "critical_cad_serial": true,
+  "schema_version": "1.0"
+}

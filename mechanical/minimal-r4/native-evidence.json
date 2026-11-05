@@ -1,0 +1,881 @@
+{
+  "source": "Downloads/开源模型 and BV1of8y6vEQ5, assembly frames 70-85 s",
+  "battery_user_mm": [
+    76,
+    36,
+    18
+  ],
+  "parts": {
+    "R4-Base1.SLDPRT": {
+      "status": "review_required",
+      "sketches": []
+    },
+    "R4-PCB-Support-TRIAL.SLDPRT": {
+      "status": "pass",
+      "sketches": [
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 2,
+          "relation_count": 14,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch1",
+            "D2@Sketch1"
+          ],
+          "errors": [],
+          "name": "Sketch1",
+          "consumed_by": [
+            "Boss-Extrude1"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 2,
+          "relation_count": 14,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch2",
+            "D2@Sketch2"
+          ],
+          "errors": [],
+          "name": "Sketch2",
+          "consumed_by": [
+            "Cut-Extrude1"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 5,
+          "relation_count": 12,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch3",
+            "D2@Sketch3",
+            "D3@Sketch3",
+            "D4@Sketch3",
+            "D5@Sketch3"
+          ],
+          "errors": [],
+          "name": "Sketch3",
+          "consumed_by": [
+            "Boss-Extrude2"
+          ],
+          "dangling": false
+        }
+      ]
+    },
+    "R4-Battery-Cradle-TRIAL.SLDPRT": {
+      "status": "pass",
+      "sketches": [
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 2,
+          "relation_count": 14,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch1",
+            "D2@Sketch1"
+          ],
+          "errors": [],
+          "name": "Sketch1",
+          "consumed_by": [
+            "Boss-Extrude1"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 2,
+          "relation_count": 14,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch2",
+            "D2@Sketch2"
+          ],
+          "errors": [],
+          "name": "Sketch2",
+          "consumed_by": [
+            "Cut-Extrude1"
+          ],
+          "dangling": false
+        },
+        {
+          "status": "pass",
+          "constrained_status": 3,
+          "dimension_count": 4,
+          "relation_count": 41,
+          "fix_count": 0,
+          "dimension_names": [
+            "D1@Sketch3",
+            "D2@Sketch3",
+            "D3@Sketch3",
+            "D4@Sketch3"
+          ],
+          "errors": [],
+          "name": "Sketch3",
+          "consumed_by": [
+            "Cut-Extrude2"
+          ],
+          "dangling": false
+        }
+      ]
+    }
+  },
+  "source_hashes": {
+    "底座1.STL": "7091880f12ae6fbd610fc09571ed972f52733c3f79cc91534dc31b6f6380e9eb",
+    "底座2.STL": "b1ca0e79400dc5319aacc34efc6e8e1bd6c78de19a10854b173d409176a0b68c",
+    "底座3.STL": "ff8ac6eeb211558432ad01a270ffbab40b61c5997cbc0616bb314a1aa61c3570",
+    "底座4.STL": "9f0599303cc9ef9b1bca5741d549ec4950a383bc60ef2fe250d2565c1108b4c9"
+  },
+  "base1_geometry_method": "Derived STL local booleans imported into SolidWorks. Cut parameters and untouched source hash are in local-change-evidence.json; original mesh is not claimed to have a recovered parameter tree.",
+  "base1_bounds_before": [
+    [
+      -1.3877787807814457e-17,
+      0.02588527090847492,
+      -1.3877787807814457e-17,
+      0.17320507764816284,
+      0.05348527058959008,
+      0.15000000596046448
+    ]
+  ],
+  "base1_bounds_after": [
+    [
+      -1.3877787807814457e-17,
+      0.02588527090847492,
+      -1.3877787807814457e-17,
+      0.17320507764816284,
+      0.05348527058959008,
+      0.15000000596046448
+    ]
+  ],
+  "components": [
+    {
+      "file": "R4-Base1.SLDPRT",
+      "source_transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sw_transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "R4-Base2.SLDPRT",
+      "source_transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sw_transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "R4-Base3.SLDPRT",
+      "source_transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.001,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sw_transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -0.001,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "R4-Base4.SLDPRT",
+      "source_transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sw_transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "R4-PCB-OBJ.SLDPRT",
+      "source_transform": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.12660254,
+        0.042,
+        0.0138,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sw_transform": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0.12660254,
+        0.0138,
+        -0.042,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "R4-PCB-Support-TRIAL.SLDPRT",
+      "source_transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0.08660254,
+        0.0401853,
+        0.0418,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sw_transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.08660254,
+        0.0418,
+        -0.0401853,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "file": "R4-Battery-Cradle-TRIAL.SLDPRT",
+      "source_transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0.08660254,
+        0.0465,
+        0.105,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sw_transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0.08660254,
+        0.105,
+        -0.0465,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "R4-Battery76x36x18-TEMP.SLDPRT",
+      "source_transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0.08660254,
+        0.0285,
+        0.105,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sw_transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0.08660254,
+        0.105,
+        -0.0285,
+        1,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "interference": {
+    "status": "pass",
+    "interference_count": 0,
+    "items": [],
+    "severity": "none",
+    "manual_review_required": true,
+    "options": {
+      "treat_subassemblies_as_components": false,
+      "treat_coincidence_as_interference": false,
+      "ignore_hidden_bodies": false,
+      "show_ignored_interferences": true,
+      "include_multibody_part_interferences": false
+    },
+    "errors": [],
+    "max_volume_mm3": null
+  },
+  "battery_frame_body_count": 1,
+  "reopen_checks": {
+    "R4-Original-Layout.SLDASM": [
+      {
+        "name": "R4-PCB-OBJ-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-PCB-OBJ.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.12660254,
+          0.0138,
+          -0.042,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-Base3-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base3.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0010000000000000009,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-Base4-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base4.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-Base1-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base1.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-Base2-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base2.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-Battery-Cradle-TRIAL-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Battery-Cradle-TRIAL.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.08660254,
+          0.105,
+          -0.0465,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-PCB-Support-TRIAL-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-PCB-Support-TRIAL.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.08660254,
+          0.0418,
+          -0.0401853,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-Battery76x36x18-TEMP-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Battery76x36x18-TEMP.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.08660254,
+          0.105,
+          -0.028499999999999998,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "R4-Open-Review.SLDASM": [
+      {
+        "name": "R4-Base4-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base4.SLDPRT",
+        "suppressed": true,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-Base1-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base1.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-Base2-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base2.SLDPRT",
+        "suppressed": true,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-Base3-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Base3.SLDPRT",
+        "suppressed": true,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0010000000000000009,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-Battery76x36x18-TEMP-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Battery76x36x18-TEMP.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.08660254,
+          0.105,
+          -0.028499999999999998,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-PCB-Support-TRIAL-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-PCB-Support-TRIAL.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.08660254,
+          0.0418,
+          -0.0401853,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-PCB-OBJ-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-PCB-OBJ.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.12660254,
+          0.0138,
+          -0.042,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R4-Battery-Cradle-TRIAL-1",
+        "file": "C:\\Users\\32561\\Documents\\ChatGPT\\小创\\outputs\\R4-Minimal\\R4-Battery-Cradle-TRIAL.SLDPRT",
+        "suppressed": false,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.08660254,
+          0.105,
+          -0.0465,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "wire_relief": {
+    "blind_cut_depth_mm": 6,
+    "channel_source_Y_mm": [
+      32,
+      44
+    ],
+    "notch_source_Y_mm": [
+      40.5,
+      46.5
+    ],
+    "depth_overlap_mm": 3.5,
+    "not_established": [
+      "actual wire bundle size",
+      "plug insertion envelope",
+      "bend radius",
+      "strain relief"
+    ]
+  }
+}
