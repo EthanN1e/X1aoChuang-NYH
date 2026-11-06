@@ -1,0 +1,1490 @@
+{
+  "archive_sha256": "19f6c3e26a93f2a0c503b157a3876dfa02bf76a99e5857cc5ba8c4aae2a1cd67",
+  "source_archive_sha256": "e2a2c8970a7e586bf56ce1de1584cf0af709550e22f8924fe90b6a59a9b41cbc",
+  "resistor_count": 27,
+  "moved_resistors": [
+    "R5",
+    "R6",
+    "R7",
+    "R11",
+    "R12",
+    "R13",
+    "R16",
+    "R17",
+    "R18",
+    "R23",
+    "R2"
+  ],
+  "resistor_checks": {
+    "R5": {
+      "neighbor_copper_gap_before_mm": 1.539,
+      "orientation_deg": 0,
+      "changed": true,
+      "neighbor_copper_gap_after_mm": 1.828,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "GND",
+          "gerber_center_mm": [
+            33.51936,
+            -10.16
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "RF_CE",
+          "gerber_center_mm": [
+            32.01264,
+            -10.16
+          ]
+        }
+      ],
+      "nearest_part_after": "R17"
+    },
+    "R6": {
+      "neighbor_copper_gap_before_mm": 1.84,
+      "orientation_deg": 0,
+      "changed": true,
+      "neighbor_copper_gap_after_mm": 2.565,
+      "orientation_after_deg": 180,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "RF_CSN",
+          "gerber_center_mm": [
+            32.77464,
+            -13.589
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "V3V3",
+          "gerber_center_mm": [
+            34.28136,
+            -13.589
+          ]
+        }
+      ],
+      "nearest_part_after": "R5"
+    },
+    "R7": {
+      "neighbor_copper_gap_before_mm": 3.844,
+      "orientation_deg": 0,
+      "changed": true,
+      "neighbor_copper_gap_after_mm": 3.595,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "TFT_BL",
+          "gerber_center_mm": [
+            47.75336,
+            -42.746
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "V3V3",
+          "gerber_center_mm": [
+            46.24664,
+            -42.746
+          ]
+        }
+      ],
+      "nearest_part_after": "J5"
+    },
+    "R8": {
+      "neighbor_copper_gap_before_mm": 3.59,
+      "orientation_deg": 0,
+      "changed": false,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "TFT_CS",
+          "gerber_center_mm": [
+            47.75336,
+            -38.0
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "V3V3",
+          "gerber_center_mm": [
+            46.24664,
+            -38.0
+          ]
+        }
+      ],
+      "neighbor_copper_gap_after_mm": 3.59,
+      "nearest_part_after": "J5"
+    },
+    "R9": {
+      "neighbor_copper_gap_before_mm": 3.59,
+      "orientation_deg": 0,
+      "changed": false,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "TFT_RST",
+          "gerber_center_mm": [
+            47.75336,
+            -33.0
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "V3V3",
+          "gerber_center_mm": [
+            46.24664,
+            -33.0
+          ]
+        }
+      ],
+      "neighbor_copper_gap_after_mm": 3.59,
+      "nearest_part_after": "J5"
+    },
+    "R10": {
+      "neighbor_copper_gap_before_mm": 3.137,
+      "orientation_deg": 0,
+      "changed": false,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "ENC_A",
+          "gerber_center_mm": [
+            47.75336,
+            -56.0
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "V3V3",
+          "gerber_center_mm": [
+            46.24664,
+            -56.0
+          ]
+        }
+      ],
+      "neighbor_copper_gap_after_mm": 3.137,
+      "nearest_part_after": "R11"
+    },
+    "R11": {
+      "neighbor_copper_gap_before_mm": 3.134,
+      "orientation_deg": 0,
+      "changed": true,
+      "neighbor_copper_gap_after_mm": 3.134,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "ENC_B",
+          "gerber_center_mm": [
+            47.75336,
+            -52.0
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "V3V3",
+          "gerber_center_mm": [
+            46.24664,
+            -52.0
+          ]
+        }
+      ],
+      "nearest_part_after": "R12"
+    },
+    "R12": {
+      "neighbor_copper_gap_before_mm": 3.134,
+      "orientation_deg": 0,
+      "changed": true,
+      "neighbor_copper_gap_after_mm": 3.134,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "ENC_SW",
+          "gerber_center_mm": [
+            47.75336,
+            -48.0
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "V3V3",
+          "gerber_center_mm": [
+            46.24664,
+            -48.0
+          ]
+        }
+      ],
+      "nearest_part_after": "R11"
+    },
+    "R13": {
+      "neighbor_copper_gap_before_mm": 1.712,
+      "orientation_deg": 0,
+      "changed": true,
+      "neighbor_copper_gap_after_mm": 2.065,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "KEY_ZERO",
+          "gerber_center_mm": [
+            39.75336,
+            -64.762
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "V3V3",
+          "gerber_center_mm": [
+            38.24664,
+            -64.762
+          ]
+        }
+      ],
+      "nearest_part_after": "C22"
+    },
+    "R14": {
+      "neighbor_copper_gap_before_mm": 2.1,
+      "orientation_deg": 0,
+      "changed": false,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "KEY_FINE",
+          "gerber_center_mm": [
+            49.35336,
+            -60.0
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "V3V3",
+          "gerber_center_mm": [
+            47.84664,
+            -60.0
+          ]
+        }
+      ],
+      "neighbor_copper_gap_after_mm": 2.1,
+      "nearest_part_after": "J6"
+    },
+    "R15": {
+      "neighbor_copper_gap_before_mm": 3.052,
+      "orientation_deg": 0,
+      "changed": false,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "PWM_PAN_OUT",
+          "gerber_center_mm": [
+            43.75336,
+            -13.0
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "PWM_PAN",
+          "gerber_center_mm": [
+            42.24664,
+            -13.0
+          ]
+        }
+      ],
+      "neighbor_copper_gap_after_mm": 3.052,
+      "nearest_part_after": "J7"
+    },
+    "R16": {
+      "neighbor_copper_gap_before_mm": 1.687,
+      "orientation_deg": 0,
+      "changed": true,
+      "neighbor_copper_gap_after_mm": 2.068,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "PWM_TILT_OUT",
+          "gerber_center_mm": [
+            44.51536,
+            -25.4
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "PWM_TILT",
+          "gerber_center_mm": [
+            43.00864,
+            -25.4
+          ]
+        }
+      ],
+      "nearest_part_after": "R18"
+    },
+    "R17": {
+      "neighbor_copper_gap_before_mm": 1.539,
+      "orientation_deg": 0,
+      "changed": true,
+      "neighbor_copper_gap_after_mm": 1.828,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "GND",
+          "gerber_center_mm": [
+            36.51537,
+            -7.6
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "PWM_PAN_OUT",
+          "gerber_center_mm": [
+            35.00864,
+            -7.6
+          ]
+        }
+      ],
+      "nearest_part_after": "R5"
+    },
+    "R18": {
+      "neighbor_copper_gap_before_mm": 1.687,
+      "orientation_deg": 0,
+      "changed": true,
+      "neighbor_copper_gap_after_mm": 2.068,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "GND",
+          "gerber_center_mm": [
+            40.13436,
+            -25.4
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "PWM_TILT_OUT",
+          "gerber_center_mm": [
+            38.62764,
+            -25.4
+          ]
+        }
+      ],
+      "nearest_part_after": "R16"
+    },
+    "R19": {
+      "neighbor_copper_gap_before_mm": 1.684,
+      "orientation_deg": 0,
+      "changed": false,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "VBAT_ADC",
+          "gerber_center_mm": [
+            12.15336,
+            -15.0
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "BAT_SENSE_SRC",
+          "gerber_center_mm": [
+            10.64664,
+            -15.0
+          ]
+        }
+      ],
+      "neighbor_copper_gap_after_mm": 1.684,
+      "nearest_part_after": "R20"
+    },
+    "R20": {
+      "neighbor_copper_gap_before_mm": 1.684,
+      "orientation_deg": 0,
+      "changed": false,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "GND",
+          "gerber_center_mm": [
+            16.15336,
+            -15.0
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "VBAT_ADC",
+          "gerber_center_mm": [
+            14.64664,
+            -15.0
+          ]
+        }
+      ],
+      "neighbor_copper_gap_after_mm": 1.684,
+      "nearest_part_after": "R19"
+    },
+    "R23": {
+      "neighbor_copper_gap_before_mm": 1.344,
+      "orientation_deg": 0,
+      "changed": true,
+      "neighbor_copper_gap_after_mm": 1.923,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "GND",
+          "gerber_center_mm": [
+            17.51537,
+            -58.0
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "CHG_ILIM",
+          "gerber_center_mm": [
+            16.00864,
+            -58.0
+          ]
+        }
+      ],
+      "nearest_part_after": "R26"
+    },
+    "R24": {
+      "neighbor_copper_gap_before_mm": 1.757,
+      "orientation_deg": 0,
+      "changed": false,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "GND",
+          "gerber_center_mm": [
+            4.55336,
+            -62.5
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "CHG_ISET",
+          "gerber_center_mm": [
+            3.04664,
+            -62.5
+          ]
+        }
+      ],
+      "neighbor_copper_gap_after_mm": 1.757,
+      "nearest_part_after": "SW1"
+    },
+    "R25": {
+      "neighbor_copper_gap_before_mm": 1.735,
+      "orientation_deg": 0,
+      "changed": false,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "CHG_N",
+          "gerber_center_mm": [
+            20.95336,
+            -61.2
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "V3V3",
+          "gerber_center_mm": [
+            19.44664,
+            -61.2
+          ]
+        }
+      ],
+      "neighbor_copper_gap_after_mm": 1.735,
+      "nearest_part_after": "R26"
+    },
+    "R26": {
+      "neighbor_copper_gap_before_mm": 1.735,
+      "orientation_deg": 0,
+      "changed": false,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "BAT_SENSE_SRC",
+          "gerber_center_mm": [
+            21.75337,
+            -58.6
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "BAT_1S",
+          "gerber_center_mm": [
+            20.24664,
+            -58.6
+          ]
+        }
+      ],
+      "neighbor_copper_gap_after_mm": 1.735,
+      "nearest_part_after": "R25"
+    },
+    "R27": {
+      "neighbor_copper_gap_before_mm": 1.242,
+      "orientation_deg": 0,
+      "changed": false,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "GND",
+          "gerber_center_mm": [
+            34.85336,
+            -70.0
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "REG_EN",
+          "gerber_center_mm": [
+            33.34664,
+            -70.0
+          ]
+        }
+      ],
+      "neighbor_copper_gap_after_mm": 1.242,
+      "nearest_part_after": "SW2"
+    },
+    "R1": {
+      "neighbor_copper_gap_before_mm": 1.741,
+      "orientation_deg": 0,
+      "changed": false,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "NRST",
+          "gerber_center_mm": [
+            36.95337,
+            -48.0
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "V3V3",
+          "gerber_center_mm": [
+            35.44664,
+            -48.0
+          ]
+        }
+      ],
+      "neighbor_copper_gap_after_mm": 1.741,
+      "nearest_part_after": "C2"
+    },
+    "R2": {
+      "neighbor_copper_gap_before_mm": 1.642,
+      "orientation_deg": 0,
+      "changed": true,
+      "neighbor_copper_gap_after_mm": 2.023,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "GND",
+          "gerber_center_mm": [
+            19.17236,
+            -48.0
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "BOOT0",
+          "gerber_center_mm": [
+            17.66564,
+            -48.0
+          ]
+        }
+      ],
+      "nearest_part_after": "C1"
+    },
+    "R3": {
+      "neighbor_copper_gap_before_mm": 1.84,
+      "orientation_deg": 0,
+      "changed": false,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "GND",
+          "gerber_center_mm": [
+            20.75336,
+            -34.0
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "BOOT1",
+          "gerber_center_mm": [
+            19.24664,
+            -34.0
+          ]
+        }
+      ],
+      "neighbor_copper_gap_after_mm": 1.84,
+      "nearest_part_after": "U1"
+    },
+    "R4": {
+      "neighbor_copper_gap_before_mm": 1.618,
+      "orientation_deg": 0,
+      "changed": false,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "V3V3_A",
+          "gerber_center_mm": [
+            41.15336,
+            -46.5
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "V3V3",
+          "gerber_center_mm": [
+            39.64664,
+            -46.5
+          ]
+        }
+      ],
+      "neighbor_copper_gap_after_mm": 1.618,
+      "nearest_part_after": "C9"
+    },
+    "R21": {
+      "neighbor_copper_gap_before_mm": 1.645,
+      "orientation_deg": 0,
+      "changed": false,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "IMU_SCL",
+          "gerber_center_mm": [
+            10.55336,
+            -30.0
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "V3V3",
+          "gerber_center_mm": [
+            9.04664,
+            -30.0
+          ]
+        }
+      ],
+      "neighbor_copper_gap_after_mm": 1.645,
+      "nearest_part_after": "J3"
+    },
+    "R22": {
+      "neighbor_copper_gap_before_mm": 1.774,
+      "orientation_deg": 0,
+      "changed": false,
+      "orientation_after_deg": 0,
+      "top_mask_openings": [
+        {
+          "pad": "2",
+          "net": "IMU_SDA",
+          "gerber_center_mm": [
+            13.75336,
+            -32.4
+          ]
+        },
+        {
+          "pad": "1",
+          "net": "V3V3",
+          "gerber_center_mm": [
+            12.24664,
+            -32.4
+          ]
+        }
+      ],
+      "neighbor_copper_gap_after_mm": 1.774,
+      "nearest_part_after": "R21"
+    }
+  },
+  "placement_and_trace_changes": [
+    {
+      "ref": "R5",
+      "center_before": [
+        1283.4646,
+        -393.7008,
+        0
+      ],
+      "center_after": [
+        1290,
+        -400,
+        0
+      ],
+      "neighbor_copper_gap_before_mm": 1.539,
+      "neighbor_copper_gap_after_mm": 1.625,
+      "lines": {
+        "8133f9d7abe1d24e": [
+          [
+            1260.3346,
+            -400.0
+          ],
+          [
+            1183.7346,
+            -323.4
+          ],
+          [
+            1089.6,
+            -323.4
+          ],
+          [
+            1013,
+            -246.8
+          ]
+        ],
+        "1df07e4ac45f5138": [
+          [
+            1260.3346,
+            -400.0
+          ],
+          [
+            1253.8,
+            -406.5346
+          ],
+          [
+            1253.8,
+            -813.7
+          ]
+        ],
+        "d9d97cdc245b97e3": [
+          [
+            1319.6654,
+            -400.0
+          ],
+          [
+            1319.6654,
+            -422.8626
+          ],
+          [
+            1319.464,
+            -423.064
+          ]
+        ],
+        "0c338cd535e10dd3": []
+      },
+      "placement": {
+        "b01cd50f47d63edc": {
+          "x": 1290,
+          "y": -400,
+          "angle": 0
+        }
+      },
+      "text": {}
+    },
+    {
+      "ref": "R6",
+      "center_before": [
+        1440.9449,
+        -456.6929,
+        0
+      ],
+      "center_after": [
+        1320,
+        -535,
+        180
+      ],
+      "neighbor_copper_gap_before_mm": 1.84,
+      "neighbor_copper_gap_after_mm": 2.565,
+      "lines": {
+        "3634621d06035de1": [
+          [
+            1290.3346,
+            -535
+          ],
+          [
+            1290.3346,
+            -373.9873
+          ],
+          [
+            1253.0395,
+            -336.6922
+          ],
+          [
+            1240.6078,
+            -336.6922
+          ]
+        ],
+        "6c9cb6e5db6ff32a": [],
+        "de17e26e7c0939a9": [
+          [
+            1290.3346,
+            -535.0
+          ],
+          [
+            1281.6,
+            -543.7346
+          ],
+          [
+            1281.6,
+            -835.7
+          ]
+        ],
+        "0b530c4fe7be58fe": [],
+        "eadfe286b9c2b160": [
+          [
+            1349.6654,
+            -535.0
+          ],
+          [
+            1349.6654,
+            -483.3346
+          ],
+          [
+            1376.3,
+            -456.7
+          ]
+        ]
+      },
+      "placement": {
+        "f171dd10f078b4bf": {
+          "x": 1320,
+          "y": -535,
+          "angle": 180
+        }
+      },
+      "text": {}
+    },
+    {
+      "ref": "R7",
+      "center_before": [
+        1830.7087,
+        -1692.9134,
+        0
+      ],
+      "center_after": [
+        1850.3937,
+        -1682.9134,
+        0
+      ],
+      "neighbor_copper_gap_before_mm": 3.844,
+      "neighbor_copper_gap_after_mm": 3.596,
+      "lines": {
+        "181dbd07801b890b": [
+          [
+            1880.0591,
+            -1682.9134
+          ],
+          [
+            1873.2329,
+            -1676.0872
+          ],
+          [
+            1860.3703,
+            -1676.0872
+          ]
+        ],
+        "49b4abcfecd9c870": [
+          [
+            1820.7283,
+            -1682.9134
+          ],
+          [
+            1801.0,
+            -1663.1851
+          ],
+          [
+            1801,
+            -1657.9
+          ]
+        ]
+      },
+      "placement": {
+        "777b2cad268227d3": {
+          "x": 1850.3937,
+          "y": -1682.9134,
+          "angle": 0
+        }
+      },
+      "text": {
+        "777b2cad268227d3e16": {
+          "x": 1905.6850000000002,
+          "y": -1778.0
+        },
+        "cc5b1548511c9be9": {
+          "x": 1905.6850000000002,
+          "y": -1838.0
+        }
+      }
+    },
+    {
+      "ref": "R11",
+      "center_before": [
+        1811.0236,
+        -2047.2441,
+        0
+      ],
+      "center_after": [
+        1850.3937,
+        -2047.2441,
+        0
+      ],
+      "neighbor_copper_gap_before_mm": 3.134,
+      "neighbor_copper_gap_after_mm": 3.135,
+      "lines": {
+        "f9fbeda5705aa817": [
+          [
+            1880.0591,
+            -2047.2441
+          ],
+          [
+            1848.681,
+            -2015.866
+          ],
+          [
+            1809.3074,
+            -2015.866
+          ]
+        ],
+        "3af939a6b600d7f0": [
+          [
+            1880.0591,
+            -2047.2441
+          ],
+          [
+            2038.1888,
+            -2047.2439
+          ]
+        ],
+        "cfa5ed75d0a8407c": [
+          [
+            1820.7283,
+            -2047.2441
+          ],
+          [
+            1820.6842,
+            -2047.2
+          ],
+          [
+            1746.4,
+            -2047.2
+          ]
+        ]
+      },
+      "placement": {
+        "cc84f0b922b1c2ea": {
+          "x": 1850.3937,
+          "y": -2047.2441,
+          "angle": 0
+        }
+      },
+      "text": {
+        "cc84f0b922b1c2eae16": {
+          "x": 1669.3701,
+          "y": -2044.0
+        },
+        "b4f630c05f8a5ce0": {
+          "x": 1669.3701,
+          "y": -2104.0
+        }
+      }
+    },
+    {
+      "ref": "R12",
+      "center_before": [
+        1811.0236,
+        -1889.7638000000002,
+        0
+      ],
+      "center_after": [
+        1850.3937,
+        -1889.7638000000002,
+        0
+      ],
+      "neighbor_copper_gap_before_mm": 3.134,
+      "neighbor_copper_gap_after_mm": 3.136,
+      "lines": {
+        "b5b189f024341e6d": [
+          [
+            1880.0591,
+            -1889.7638
+          ],
+          [
+            1850.517,
+            -1860.2217
+          ],
+          [
+            1811.1431,
+            -1860.2217
+          ]
+        ],
+        "d061a549c6dbebb3": [
+          [
+            1880.0591,
+            -1889.7638
+          ],
+          [
+            1980.7086,
+            -1889.7639
+          ]
+        ],
+        "f4687a7fdb2be861": [
+          [
+            1820.7283,
+            -1889.7638
+          ],
+          [
+            1820.6921,
+            -1889.8
+          ],
+          [
+            1746.4,
+            -1889.8
+          ]
+        ]
+      },
+      "placement": {
+        "d1b47e5fa75d485b": {
+          "x": 1850.3937,
+          "y": -1889.7638000000002,
+          "angle": 0
+        }
+      },
+      "text": {
+        "d1b47e5fa75d485be16": {
+          "x": 1925.3701,
+          "y": -1916.0
+        },
+        "c9f3a95e28c646e3": {
+          "x": 1925.3701,
+          "y": -1976.0
+        }
+      }
+    },
+    {
+      "ref": "R13",
+      "center_before": [
+        1535.4331,
+        -2519.685,
+        0
+      ],
+      "center_after": [
+        1535.4331,
+        -2549.685,
+        0
+      ],
+      "neighbor_copper_gap_before_mm": 1.712,
+      "neighbor_copper_gap_after_mm": 2.064,
+      "lines": {
+        "ac4f155cbf7b1c21": [
+          [
+            1565.0985,
+            -2549.685
+          ],
+          [
+            1560.6347,
+            -2545.2212
+          ],
+          [
+            1560.6347,
+            -2515.2233
+          ]
+        ],
+        "1b7e033a4a5e528f": [
+          [
+            1565.0985,
+            -2549.685
+          ],
+          [
+            1565.0953,
+            -2598.4239
+          ]
+        ],
+        "3f1a456090ad85a6": [
+          [
+            1505.7677,
+            -2549.685
+          ],
+          [
+            1505.7677,
+            -2484.7323
+          ],
+          [
+            1505.8,
+            -2484.7
+          ]
+        ]
+      },
+      "placement": {
+        "766a1043259c2e5a": {
+          "x": 1535.4331,
+          "y": -2549.685,
+          "angle": 0
+        }
+      },
+      "text": {
+        "766a1043259c2e5ae16": {
+          "x": 1614.0,
+          "y": -2570.0
+        },
+        "ae0ce297b063be61": {
+          "x": 1614.0,
+          "y": -2630.0
+        }
+      }
+    },
+    {
+      "ref": "R16",
+      "center_before": [
+        1692.9134,
+        -1000,
+        0
+      ],
+      "center_after": [
+        1722.9134,
+        -1000,
+        0
+      ],
+      "neighbor_copper_gap_before_mm": 1.687,
+      "neighbor_copper_gap_after_mm": 2.447,
+      "lines": {
+        "c6c5376a1587787a": [
+          [
+            1752.5788,
+            -1000.0
+          ],
+          [
+            1840.1538,
+            -1000.0019
+          ]
+        ],
+        "3f664d3e6d2af510": [
+          [
+            1752.5788,
+            -1000.0
+          ],
+          [
+            1722.5808,
+            -970.002
+          ],
+          [
+            1692.5754,
+            -970.002
+          ]
+        ],
+        "bbd1540e8d8f5699": [
+          [
+            1693.248,
+            -1000.0
+          ],
+          [
+            1558.3329,
+            -1134.9151
+          ],
+          [
+            1528.3395,
+            -1134.9151
+          ]
+        ]
+      },
+      "placement": {
+        "881e3f15ead6e9b5": {
+          "x": 1722.9134,
+          "y": -1000,
+          "angle": 0
+        }
+      },
+      "text": {
+        "881e3f15ead6e9b5e16": {
+          "x": 1660.0,
+          "y": -1100
+        },
+        "db5e58dc5626c470": {
+          "x": 1660.0,
+          "y": -1160
+        }
+      }
+    },
+    {
+      "ref": "R17",
+      "center_before": [
+        1377.9528,
+        -299.2126,
+        0
+      ],
+      "center_after": [
+        1407.9528,
+        -299.2126,
+        0
+      ],
+      "neighbor_copper_gap_before_mm": 1.539,
+      "neighbor_copper_gap_after_mm": 1.828,
+      "lines": {
+        "8a3b0a041a54cfac": [
+          [
+            1437.6182,
+            -299.2126
+          ],
+          [
+            1436.6,
+            -299.2
+          ]
+        ],
+        "5aa6f47bc8b4b0f9": [
+          [
+            1378.2874,
+            -299.2126
+          ],
+          [
+            1380.8909,
+            -301.8161
+          ],
+          [
+            1380.8909,
+            -331.8104
+          ]
+        ]
+      },
+      "placement": {
+        "7a548cf8320b7715": {
+          "x": 1407.9528,
+          "y": -299.2126,
+          "angle": 0
+        }
+      },
+      "text": {
+        "7a548cf8320b7715e16": {
+          "x": 1356.0,
+          "y": -60.0
+        },
+        "760aa5d3fe96d012": {
+          "x": 1356.0,
+          "y": -120.0
+        }
+      }
+    },
+    {
+      "ref": "R18",
+      "center_before": [
+        1535.4331,
+        -1000,
+        0
+      ],
+      "center_after": [
+        1550.4331,
+        -1000,
+        0
+      ],
+      "neighbor_copper_gap_before_mm": 1.687,
+      "neighbor_copper_gap_after_mm": 2.066,
+      "lines": {
+        "272830ec021a0f35": [
+          [
+            1580.0985,
+            -1000.0
+          ],
+          [
+            1594.1,
+            -1000
+          ]
+        ],
+        "93e6b72eebc6fa54": [
+          [
+            1520.7677,
+            -1000.0
+          ],
+          [
+            1535.7725,
+            -984.9952
+          ],
+          [
+            1535.7725,
+            -970.002
+          ]
+        ]
+      },
+      "placement": {
+        "77693a347fb408e3": {
+          "x": 1550.4331,
+          "y": -1000,
+          "angle": 0
+        }
+      },
+      "text": {
+        "77693a347fb408e3e16": {
+          "x": 1501.0,
+          "y": -1100
+        },
+        "17e439bc24759297": {
+          "x": 1501.0,
+          "y": -1160
+        }
+      }
+    },
+    {
+      "ref": "R23",
+      "center_before": [
+        629.9213,
+        -2283.4646,
+        0
+      ],
+      "center_after": [
+        659.9213,
+        -2283.4646,
+        0
+      ],
+      "neighbor_copper_gap_before_mm": 1.344,
+      "neighbor_copper_gap_after_mm": 1.923,
+      "lines": {
+        "6f1f72d761b0ae5e": [
+          [
+            689.5867,
+            -2283.4646
+          ],
+          [
+            689.6221,
+            -2283.5
+          ],
+          [
+            694.6,
+            -2283.5
+          ]
+        ],
+        "ed9c39c50e0e5d35": [
+          [
+            630.2559,
+            -2283.4646
+          ],
+          [
+            600.258,
+            -2283.4646
+          ],
+          [
+            574.8335,
+            -2308.8891
+          ]
+        ]
+      },
+      "placement": {
+        "e988f73211a92d31": {
+          "x": 659.9213,
+          "y": -2283.4646,
+          "angle": 0
+        }
+      },
+      "text": {
+        "e988f73211a92d31e16": {
+          "x": 348.0,
+          "y": -2076.0
+        },
+        "80e01b2e5266d665": {
+          "x": 348.0,
+          "y": -2136.0
+        }
+      }
+    },
+    {
+      "ref": "R2",
+      "center_before": [
+        740.1575,
+        -1889.7638000000002,
+        0
+      ],
+      "center_after": [
+        725.1575,
+        -1889.7638000000002,
+        0
+      ],
+      "neighbor_copper_gap_before_mm": 1.642,
+      "neighbor_copper_gap_after_mm": 2.023,
+      "lines": {
+        "ad86af25b0f7d0ca": [
+          [
+            754.8229,
+            -1889.7638
+          ],
+          [
+            769.8,
+            -1904.7409
+          ],
+          [
+            769.8,
+            -1924.8
+          ]
+        ],
+        "06135dfb9804032c": [
+          [
+            695.4921,
+            -1889.7638
+          ],
+          [
+            755.6089,
+            -1829.647
+          ],
+          [
+            770.6116,
+            -1829.647
+          ]
+        ]
+      },
+      "placement": {
+        "6e82a8447331ad51": {
+          "x": 725.1575,
+          "y": -1889.7638000000002,
+          "angle": 0
+        }
+      },
+      "text": {
+        "6e82a8447331ad51e16": {
+          "x": 431.0,
+          "y": -1820.0
+        },
+        "736f15aa41b1bb6b": {
+          "x": 431.0,
+          "y": -1880.0
+        }
+      }
+    }
+  ],
+  "top_layer_rf_before": {
+    "RF_CE": {
+      "segment_count": 2,
+      "diagonal_length_mm": 7.165,
+      "max_diagonal_mm": 7.165
+    },
+    "RF_CSN": {
+      "segment_count": 9,
+      "diagonal_length_mm": 16.841,
+      "max_diagonal_mm": 6.789
+    }
+  },
+  "top_layer_rf_after": {
+    "RF_CE": {
+      "segment_count": 5,
+      "diagonal_length_mm": 5.738,
+      "max_diagonal_mm": 2.752
+    },
+    "RF_CSN": {
+      "segment_count": 10,
+      "diagonal_length_mm": 7.395,
+      "max_diagonal_mm": 2.874
+    }
+  },
+  "rf_csn_trace_and_via_connected_components": 1,
+  "component_pinmaps_unchanged": 74,
+  "native_strict_drc_after_save_and_reopen": [],
+  "pours_rebuilt": 4,
+  "top_mask_openings_verified": 54,
+  "native_collinear_normalization_record_changes": 0,
+  "dfm_and_physical_solder_trial": "not run"
+}
